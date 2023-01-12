@@ -34,7 +34,7 @@ div{
 .nav-link li a:hover{
    color:#0088a9
 }
-button{
+/* button{
     padding: 10px 25px;
     background-color: rgba(0,136,169,1);
     border:none;
@@ -45,4 +45,4 @@ button{
 button:hover{
     border: 1px solid #07274e;
     background:rgba(0,136,169,0,8);
-} 
+}  */
