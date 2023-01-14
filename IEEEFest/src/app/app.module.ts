@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
