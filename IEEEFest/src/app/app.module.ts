@@ -6,12 +6,9 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
-<<<<<<< HEAD
 import { EventsComponent } from './MyComponent/events/events.component';
-=======
 import { TimelineComponent } from './timeline/timeline.component';
 import { FooterComponent } from './footer/footer.component';
->>>>>>> 5b90fe0a30e3b2126d56fb751005f153dab9cb41
 
 
 @NgModule({
@@ -20,12 +17,9 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     HomeComponent,
     SponsorComponent,
-<<<<<<< HEAD
-    EventsComponent
-=======
+    EventsComponent,
     TimelineComponent,
     FooterComponent
->>>>>>> 5b90fe0a30e3b2126d56fb751005f153dab9cb41
   ],
   imports: [
     BrowserModule,
