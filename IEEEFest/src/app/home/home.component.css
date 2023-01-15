@@ -140,12 +140,13 @@ till */
 body{
     /* padding: -5vmin; */
     /* box-sizing: border-box; */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
     background-image: url(../../assets/background.png);
     height: 85vh;
     /* background-position: center; */
     background-size: cover; 
+    text-align: center;
 }
 .ieeelogo {
     margin-left: 25%;
@@ -163,7 +164,8 @@ body{
   text-align: center;
   -webkit-text-fill-color: transparent; 
   animation: animate 10s linear infinite;
-  line-height: 250%;
+  line-height: 230%;
+
   
 }
 @keyframes animate {
@@ -178,5 +180,9 @@ body{
     size: 70px;
 }
 
+/* wenstoa */
+.wenstoa{
+    margin-top: -4%;
+}
 
   
