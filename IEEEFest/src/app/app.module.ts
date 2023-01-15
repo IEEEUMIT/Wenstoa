@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
+import { TimelineComponent } from './timeline/timeline.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -13,7 +15,9 @@ import { SponsorComponent } from './sponsor/sponsor.component';
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    SponsorComponent
+    SponsorComponent,
+    TimelineComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
