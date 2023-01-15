@@ -78,20 +78,23 @@
     float:left;
     
 } */
-.container {
+
+/* basic layout */
+/* .container {
     display: grid;
     align-items: center; 
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
     margin:3%;
-   }
+    comments background-image: url(../../assets/bagground.png);
+}
    
    img {
      max-width: 50%;
      max-height:50%;
    }
    
-   .text {
+ .text {
      font-size: 20px;
    }
    .text-box2 p{
@@ -99,13 +102,16 @@
     font-family:papyrus;
     text-align: center;
     
-}
-.text-box2 p{
+} 
+ .text-box2 p{
     margin: 10px 0 40px;
     font-size: 80px;
     color: rgb(13, 13, 13);
-}
-.text-box3{
+} 
+till */
+
+
+/* .text-box3{
     width: 90%;
     color: rgb(8, 8, 8);
     position: absolute;
@@ -116,4 +122,61 @@
 }
 .text-box3 p{
     font-size: 20px;
+}  */
+
+
+
+
+  
+ 
+/* gradient text */
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); */
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: serif;
 }
+body{
+    /* padding: -5vmin; */
+    /* box-sizing: border-box; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url(../../assets/background.png);
+    height: 85vh;
+    /* background-position: center; */
+    background-size: cover; 
+}
+.ieeelogo {
+    margin-left: 25%;
+     max-width: 40%;
+     max-height:50%;
+   }
+
+.text {
+  font-size: 25px;
+ text-transform: uppercase;
+  background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  -webkit-text-fill-color: transparent; 
+  animation: animate 10s linear infinite;
+  line-height: 250%;
+  
+}
+@keyframes animate {
+  to{
+    background-position: 500%;
+  }
+}
+
+
+/* wenstoa effesct */
+.ul{
+    size: 70px;
+}
+
+
+  
