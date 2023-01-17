@@ -21,6 +21,10 @@ html {
     max-width: 60rem;
     margin-left: auto;
     margin-right: auto;
+    row-gap: 20px;
+    column-gap:20px;
+    /* justify-content: space-between; */
+    
   
     display: flex;
     -webkit-box-orient: horizontal;
@@ -30,9 +34,13 @@ html {
   }
   
   .grid-block {
-    width: 50%;
+    display: inline-block;
+    width: 48%;
     min-height: 11.25rem;
-    padding: 1rem;
+    
+    /* padding: 1rem; */
+   
+  
   }
   
   .image-grid {
@@ -40,6 +48,7 @@ html {
     transform: rotateX(25deg) rotateZ(0deg);
     -webkit-perspective: 1000px;
     perspective: 1000px;
+    
   }
   
   .image-grid .tile-link:hover .tile-img {
@@ -82,6 +91,7 @@ html {
     transition-duration: 0.125s;
     -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
+    margin:0 0 0 0;
   }
   .tile-link:hover .tile-img1 {
     box-shadow: 5px 5px rgba(244, 170, 200, 0.4),
