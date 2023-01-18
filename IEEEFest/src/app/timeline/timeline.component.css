@@ -4,7 +4,7 @@
   
   /* Set a background color */
   body {
-    background-color: #474e5d;
+    background-color: rgba(0, 145, 255, 0.722);
     font-family: Helvetica, sans-serif;
   }
   
@@ -51,7 +51,7 @@
   
   /* Place the container to the left */
   .left {
-    left: 0;
+    left: -10%;
   }
   
   /* Place the container to the right */
