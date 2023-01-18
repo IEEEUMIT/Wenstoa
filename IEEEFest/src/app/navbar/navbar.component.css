@@ -53,6 +53,7 @@ button:hover{
     margin: 0px;
     padding: 0;
     text-decoration: none;
+    text-align: right;
 }
 
 /* .container{
@@ -68,6 +69,7 @@ button:hover{
     height: 10vh;
     align-items: flex-left; */
     width:100%;
+
   
    
 }
@@ -76,9 +78,13 @@ nav{
     padding: 0% 6%;
     justify-content: space-between;
     align-items: center;
+    
 }
 nav img{
     width:150px;
+   margin-right: -80px;
+   margin-left: -80px;
+    
 }
 
 /* .logo1{
