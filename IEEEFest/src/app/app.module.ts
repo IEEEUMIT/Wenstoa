@@ -11,6 +11,7 @@ import { TimelineComponent } from './timeline/timeline.component';
 import { FooterComponent } from './footer/footer.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
