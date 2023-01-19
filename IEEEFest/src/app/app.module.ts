@@ -9,6 +9,8 @@ import { SponsorComponent } from './sponsor/sponsor.component';
 import { EventsComponent } from './MyComponent/events/events.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { FooterComponent } from './footer/footer.component';
+import { EventpageComponent } from './eventpage/eventpage.component';
+
 
 
 @NgModule({
@@ -20,6 +22,7 @@ import { FooterComponent } from './footer/footer.component';
     EventsComponent,
     TimelineComponent,
     FooterComponent,
+    EventpageComponent
   ],
   imports: [
     BrowserModule,
