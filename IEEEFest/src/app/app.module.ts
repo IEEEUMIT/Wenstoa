@@ -19,7 +19,7 @@ import { FooterComponent } from './footer/footer.component';
     SponsorComponent,
     EventsComponent,
     TimelineComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
