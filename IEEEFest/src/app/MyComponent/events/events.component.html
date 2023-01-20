@@ -1,23 +1,19 @@
-<div class="events" id="events">
 <h1 id="text">EVENTS</h1>
 
   <section>
-    <div class="card" >
+    <div class="card" *ngFor="let x of eventdel">
         <div class="box" >
             <div class="imgBx">
                 <img src={{x.img}} alt="image" style="width:300px;height:300px">
             </div>
-            <div class="contentBx" *ngFor="let x of eventdel">{{x.name}}</div>
-                <!-- <div>
-                 <h2>MAHEFIL-E-TAXI</h2> 
-                <<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam.</p>
-                </div> -->
+            <div class="contentBx">
+                <div>
+                <h2>{{x.name}}</h2>
+                <p>{{x.detail}}</p>
+                </div>
+            </div>
         </div>
     </div>
-       
-    
 
 <!--       <div class="box">
             <div class="imgBx">
