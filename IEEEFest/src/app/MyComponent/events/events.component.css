@@ -6,6 +6,7 @@
   }
   
   #text{
+    margin: 2vh;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -19,6 +20,7 @@
     margin-right: auto;
     text-align: center;
     min-height: 100vh;
+    overflow:hidden;
   }
   
   section {

@@ -1,37 +1,47 @@
 export let events=[
     {
         "name":"events",
-        "img":"../assets/images/img 1.webp"
+        "img":"../assets/images/img 1.webp",
+        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        
+
     },
     {
         "name":"events1",
-        "img":"../assets/images/img 2.jpeg"
+        "img":"../assets/images/img 2.jpeg",
+        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
 
     {
         "name":"events2",
-        "img":""
+        "img":"",
+        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
 
     {
         "name":"events3",
-        "img":""
+        "img":"",
+        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
 
     {
         "name":"events4",
-        "img":""
+        "img":"",
+        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "name":"events5",
-        "img":""
+        "img":"",
+        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "name":"events6",
-        "img":""
+        "img":"",
+        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "name":"events7",
-        "img":""
+        "img":"",
+        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
 ]
