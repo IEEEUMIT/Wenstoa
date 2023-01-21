@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { sponsors } from '../JSONDATA/sponsor';
+import { sponsors } from '../JSONdata/sponsor';
 
 @Component({
   selector: 'app-sponsor',

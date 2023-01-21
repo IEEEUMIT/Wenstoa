@@ -1,18 +1,19 @@
+
 <body>
   <h1 id="text">
     TIMELINE
   </h1>
-<div class="timeline" id="timeline">
+<div class="timeline" id="timeline"> 
 <div class="photo">
     <img src="../../assets/timelinetrain.png">
 </div>
-  <div class="box-container">
+  <div class="box-container" *ngFor="let x of timelinedel">
     <div class="empty-box1">
-    <h3>Fest name</h3>
-    <h4>12:30</h4>
-    <h5>Foyer</h5>
+    <h3>{{x.name}}</h3>
+    <h4>{{x.time}}</h4>
+    <h5>{{x.Venue}}</h5>
     </div>
-    <div class="empty-box2">
+    <!-- <div class="empty-box2">
     <h3>Fest name</h3>
     <h4>12:30</h4>
     <h5>Foyer</h5>
@@ -46,5 +47,65 @@
     <h3>Fest name</h3>
     <h4>12:30</h4>
     <h5>Foyer</h5>
+    </div> -->
     </div>
     </div>
+
+<!-- animation dot bg -->
+ <div class="container">
+  <div class="bubbles">
+    <span style="--i:11" ></span>
+    <span style="--i:12" ></span>
+    <span style="--i:24" ></span>
+    <span style="--i:10" ></span>
+    <span style="--i:14" ></span>
+    <span style="--i:23" ></span>
+    <span style="--i:18" ></span>
+    <span style="--i:16" ></span>
+    <span style="--i:19" ></span>
+    <span style="--i:22" ></span>
+    <span style="--i:25" ></span>
+    <span style="--i:30" ></span>
+    <span style="--i:13" ></span>
+    <span style="--i:15" ></span>
+    <span style="--i:10" ></span>
+    <span style="--i:27" ></span>
+    <span style="--i:23" ></span>
+    <span style="--i:28" ></span>
+    <span style="--i:17" ></span>
+    <span style="--i:21" ></span>
+    <span style="--i:26" ></span>
+    <span style="--i:31" ></span>
+    <span style="--i:11" ></span>
+    <span style="--i:12" ></span>
+    <span style="--i:24" ></span>
+    <span style="--i:10" ></span>
+    <span style="--i:14" ></span>
+    <span style="--i:23" ></span>
+    <span style="--i:18" ></span>
+    <span style="--i:16" ></span>
+    <span style="--i:19" ></span>
+    <span style="--i:22" ></span>
+    <span style="--i:25" ></span>
+    <span style="--i:30" ></span>
+    <span style="--i:13" ></span>
+    <span style="--i:15" ></span>
+    <span style="--i:10" ></span>
+    <span style="--i:27" ></span>
+    <span style="--i:23" ></span>
+    <span style="--i:28" ></span>
+    <span style="--i:17" ></span>
+    <span style="--i:21" ></span>
+    <span style="--i:26" ></span>
+    <span style="--i:31" ></span>
+  
+ 
+   
+  </div>
+ </div>
+
+
+
+
+
+  </body>
