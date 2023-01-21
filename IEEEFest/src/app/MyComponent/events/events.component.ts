@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { events } from 'src/app/JSONDATA/events'; 
-// import { events } from 'src/app/JSONdata/events'; 
+
 
 
 @Component({
