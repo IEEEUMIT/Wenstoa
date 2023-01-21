@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { timeline } from '../JSONdata/timeline';
+import { timeline } from 'src/app/JSONdata/timeline';
 
 
 @Component({
