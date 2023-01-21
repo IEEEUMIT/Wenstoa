@@ -11,7 +11,12 @@
     background-color: palevioletred;
    
 } */
-
+#text{
+    margin: 2nnvh;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 .empty-box1 { 
     width: 150px; 
     height: 150px; 
@@ -28,7 +33,7 @@
     width: 150px; 
     height: 150px; 
     border: 2px solid rgb(230, 101, 183); 
-    top:-115.5vh; 
+    top:-118vh; 
     position:relative;
     margin-top: 10%;
     margin-left:16%;
@@ -40,7 +45,7 @@
     width: 150px; 
     height: 150px; 
     border: 2px solid rgb(230, 101, 183); 
-    top:-147vh; 
+    top:-151.2vh; 
     position:relative;
     margin-top: 10%;
     margin-left:28%;
@@ -52,7 +57,7 @@
     width: 150px; 
     height: 150px; 
     border: 2px solid rgb(230, 101, 183); 
-    top:-191vh; 
+    top:-198vh; 
     position:relative;
     margin-top: 10%;
     margin-left:40%;
@@ -64,7 +69,7 @@
     width: 150px; 
     height: 150px; 
     border: 2px solid rgb(230, 101, 183); 
-    top:-236vh; 
+    top:-246vh; 
     position:relative;
     margin-top: 10%;
     margin-left:52%;
@@ -76,7 +81,7 @@
     width: 150px; 
     height: 150px; 
     border: 2px solid rgb(230, 101, 183); 
-    top:-267.7vh; 
+    top:-279.9vh; 
     position:relative;
     margin-top: 10%;
     margin-left:64%;
@@ -88,7 +93,7 @@
     width: 150px; 
     height: 150px; 
     border: 2px solid rgb(230, 101, 183); 
-    top:-312vh; 
+    top:-326.6vh; 
     position:relative;
     margin-top: 10%;
     margin-left:76%;
@@ -100,7 +105,7 @@
     width: 150px; 
     height: 150px; 
     border: 2px solid rgb(230, 101, 183); 
-    top:-357.8vh; 
+    top:-375vh; 
     position:relative;
     margin-top: 10%;
     margin-left:87%;
