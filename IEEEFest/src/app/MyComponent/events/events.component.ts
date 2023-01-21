@@ -1,10 +1,24 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { events } from 'src/app/JSONDATA/events'; 
+
+
 
 @Component({
   selector: 'app-events',
   templateUrl: './events.component.html',
   styleUrls: ['./events.component.css']
 })
-export class EventsComponent {
+export class EventsComponent implements OnInit{
+  // evens:any;
+  // ngOnInit(): void {
+  //   this.evens=events
+  // }
+  eventdel:any;
+  constructor() {}
+  
+  ngOnInit(): void {
+    this.eventdel=events;
+  }
+
 
 }

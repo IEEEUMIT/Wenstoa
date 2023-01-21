@@ -5,11 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  title {
+  #text{
     text-align: center;
-    margin-left: 10px;
-
     
+    margin-bottom: 5%;
   }
   
   body {
@@ -20,6 +19,7 @@
     margin-right: auto;
     text-align: center;
     min-height: 100vh;
+    overflow:hidden;
   }
   
   section {

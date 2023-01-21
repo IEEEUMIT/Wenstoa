@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { EventpageComponent } from './eventpage/eventpage.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
