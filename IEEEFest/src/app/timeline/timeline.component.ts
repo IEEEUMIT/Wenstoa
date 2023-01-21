@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { timeline } from '../JSONdata/timeline';
 
 
 @Component({
@@ -7,6 +8,9 @@ import { Component } from '@angular/core';
   templateUrl: './timeline.component.html',
   styleUrls: ['./timeline.component.css']
 })
-export class TimelineComponent{
- 
+export class TimelineComponent implements OnInit{
+  timelinedel:any;    
+  ngOnInit(): void {
+        this.timelinedel=timeline
+      }
 }

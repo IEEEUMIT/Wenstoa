@@ -1,57 +1,64 @@
 export let timeline=[
     {
-        "name":"FestName",
+        "name":"Fest Name",
         "time":"12:30",
-        "venue":"foyer"
+        "Venue":"Foyer"
         
 
     },
+
     {
-        "name":"FestName",
+        "name":"Fest Name",
         "time":"12:30",
-        "venue":"foyer"
+        "Venue":"Foyer"
         
 
     },
+
     {
-        "name":"FestName",
+        "name":"Fest Name",
         "time":"12:30",
-        "venue":"foyer"
+        "Venue":"Foyer"
         
 
     },
+
     {
-        "name":"FestName",
+        "name":"Fest Name",
         "time":"12:30",
-        "venue":"foyer"
+        "Venue":"Foyer"
         
 
     },
+
     {
-        "name":"FestName",
+        "name":"Fest Name",
         "time":"12:30",
-        "venue":"foyer"
+        "Venue":"Foyer"
         
 
     },
+
     {
-        "name":"FestName",
+        "name":"Fest Name",
         "time":"12:30",
-        "venue":"foyer"
+        "Venue":"Foyer"
         
 
     },
+
     {
-        "name":"FestName",
+        "name":"Fest Name",
         "time":"12:30",
-        "venue":"foyer"
+        "Venue":"Foyer"
         
 
     },
+
     {
-        "name":"FestName",
+        "name":"Fest Name",
         "time":"12:30",
-        "venue":"foyer"
+        "Venue":"Foyer"
         
 
     },
