@@ -1,136 +1,3 @@
-/* .text-box{
-    width: 90%;
-    color: rgb(8, 8, 8);
-    position: absolute;
-    top: 30%;
-    left: 60%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-.text-box p{
-    font-size: 52px;
-}
-.text-box2{
-    width: 90%;
-    color: rgb(8, 8, 8);
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-.text-box2 p{
-    font-size: 72px;
-    font-family:papyrus;
-    
-}
-.text-box2 p{
-    margin: 10px 0 40px;
-    font-size: 75px;
-    color: rgb(13, 13, 13);
-}
-.text-box3{
-    width: 90%;
-    color: rgb(8, 8, 8);
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-.text-box3 p{
-    font-size: 20px;
-} */
-/* .logo { 
-    background: url("/path") no-repeat; 
-    max-width: 50px; 
-    max-height: 60px; 
-    display: block; 
-    .crop {
-    width: 160px;
-    height: 120px;
-    overflow: hidden;
-} */
-
-/* .crop img {
-    width: 250px;
-    height: 120px;
-    margin: -50px;
-    position:relative;
-}
-   
-.crop {
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-} */
-/* .crop {
-    width: 160px;
-    height: 120px;
-    overflow: hidden;
-    text-align: center;
-} */
-
-/* .crop img {
-    width: 200px;
-    height: auto;
-    margin: -50px;
-    float:left;
-    
-} */
-
-/* basic layout */
-/* .container {
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-    margin:3%;
-    comments background-image: url(../../assets/bagground.png);
-}
-   
-   img {
-     max-width: 50%;
-     max-height:50%;
-   }
-   
- .text {
-     font-size: 20px;
-   }
-   .text-box2 p{
-    font-size: 80px;
-    font-family:papyrus;
-    text-align: center;
-    
-} 
- .text-box2 p{
-    margin: 10px 0 40px;
-    font-size: 80px;
-    color: rgb(13, 13, 13);
-} 
-till */
-
-
-/* .text-box3{
-    width: 90%;
-    color: rgb(8, 8, 8);
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-.text-box3 p{
-    font-size: 20px;
-}  */
-
-
-
-
-  
- 
-/* gradient text */
-/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); */
 *{
   margin: 0;
   padding: 0;
@@ -143,10 +10,14 @@ body{
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr; */
     background-image: url(../../assets/background.png);
-    height: 85vh;
+    height: 89vh;
+	overflow: hidden;
+	max-height: 100%;
     /* background-position: center; */
     background-size: cover; 
     text-align: center;
+	/* background-color:#8F47B3; */
+	
 }
 .ieeelogo {
     margin-left: 25%;
@@ -165,7 +36,7 @@ body{
   -webkit-text-fill-color: transparent; 
   animation: animate 10s linear infinite;
   line-height: 230%;
-
+  /* margin-top: 2%; */
   
 }
 @keyframes animate {
@@ -181,8 +52,650 @@ body{
 }
 
 /* wenstoa */
-.wenstoa{
-    margin-top: -4%;
+.wenstoa img{
+   top:30vh;
+	margin-left: 20%;
+	margin-right: 40%;
+	margin-top: 5vh;
+}
+/* letter A */
+.lettera{
+	/* top:30vh; */
+	margin-left: 37%;
+	/* margin-right: 15%; */
+	margin-top: -23vh;
 }
 
+
+
+/* feeri wheel */
+
+
+
+.ferris-wheel {
+	position: absolute;
+	width: 8vw;
+	height: 8vw;
+    top:30vh;
+    left:56vw;
+    /* margin-top: -4%; */
+}
+.ferris-wheel .wheel-wrap {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	animation: wheel_rotate 60s infinite linear;
+}
+.wheels {
+	position: absolute;
+	border: 3px solid #4c2a1e;
+	width: 8vw;
+	height: 8vw;
+	border-radius: 80%;
+	box-sizing: border-box;
+    /* margin-top: -4%; */
+}
+.wheels:before {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top: 50%;
+ 
+	width: 108px;
+	height: 108px;
+	margin-left: -54px;
+	margin-top: -54px;
+	border: 3px solid #4c2a1e;
+	border-radius: 80%;
+	box-sizing: border-box;
+}
+.wheels:after {
+	content: '';
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	top:50%;
+	width: 38px;
+	height: 38px;
+	margin-left: -19px;
+	margin-top: -19px;
+	background-color: #5a6d95;
+	border: 4px solid #fe5329;
+	border-radius: 80%;
+	box-sizing: border-box;
+}
+.wheels span {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	margin-top: -1px;
+	border-bottom: 2px solid #5a6d95;
+}
+.wheels span:nth-child(1) {
+	transform: rotate(0deg);
+}
+.wheels span:nth-child(2) {
+	transform: rotate(22.5deg);
+}
+.wheels span:nth-child(3) {
+	transform: rotate(45deg);
+}
+.wheels span:nth-child(4) {
+	transform: rotate(67.5deg);
+}
+.wheels span:nth-child(5) {
+	transform: rotate(90deg);
+}
+.wheels span:nth-child(6) {
+	transform: rotate(112.5deg);
+}
+.wheels span:nth-child(7) {
+	transform: rotate(135deg);
+}
+.wheels span:nth-child(8) {
+	transform: rotate(157.5deg);
+}
+@keyframes wheel_rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.buckets {
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.buckets div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 14px;
+	height: 12px;
+	border-radius: 2px;
+	transform-origin: 50% 5%;
+	animation: bucket_rotate 60s infinite linear;
+}
+.buckets div:before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: 6px;
+	height: 3px;
+	margin: -2px 0 0 -3px;
+	background-color: #443159;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+.buckets div span {
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	width: 9px;
+	height: 5px;
+	background-color: #b3dad7;
+	border-left: 1px solid #6f7d99;
+	border-top: 1px solid #5a6d95;
+}
+.buckets div span:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	height: 2px;
+	background-color: rgba(0,0,0,.2);
+}
+@keyframes bucket_rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+.buckets div:nth-child(1) {
+	margin: -67px 0 0 -7px;
+}
+.buckets div:nth-child(2) {
+	margin: -61px 0 0 17px;
+}
+.buckets div:nth-child(3) {
+	margin: -47px 0 0 39px;
+}
+.buckets div:nth-child(4) {
+	margin: -26px 0 0 53px;
+}
+.buckets div:nth-child(5) {
+	margin: -2px 0 0 58px;
+}
+.buckets div:nth-child(6) {
+	margin: 23px 0 0 53px;
+}
+.buckets div:nth-child(7) {
+	margin: 44px 0 0 39px;
+}
+.buckets div:nth-child(8) {
+	margin: 58px 0 0 17px;
+}
+.buckets div:nth-child(9) {
+	margin: 63px 0 0 -7px;
+}
+.buckets div:nth-child(10) {
+	margin: 58px 0 0 -31px;
+}
+.buckets div:nth-child(11) {
+	margin: 44px 0 0 -53px;
+}
+.buckets div:nth-child(12) {
+	margin: 23px 0 0 -67px;
+}
+.buckets div:nth-child(13) {
+	margin: -2px 0 0 -72px;
+}
+.buckets div:nth-child(14) {
+	margin: -26px 0 0 -67px;
+}
+.buckets div:nth-child(15) {
+	margin: -47px 0 0 -53px;
+}
+.buckets div:nth-child(16) {
+	margin: -61px 0 0 -31px;
+}
+.buckets div:nth-child(odd) {
+	background-color: #fe5329;
+}
+.buckets div:nth-child(even) {
+	background-color: #fec429;
+}
+.stand {
+	position: absolute;
+	z-index: 10;
+	left: 50%;
+	top: 50%;
+	width: 10px;
+	height: 10px;
+    /* width:10vw; */
+    /* height:10vw; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #453158;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
+.stand:before,
+.stand:after {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	top: 4px;
+	width: 75px;  /*for stand size*/
+	height: 5px;
+	background-color: #453158;
+}
+.stand:before {
+	right: 50%;
+	transform-origin: 100% 50%;
+	transform: rotate(-77deg);
+}
+.stand:after {
+	left: 50%;
+	transform-origin: 0% 50%;
+	transform: rotate(77deg);
+}
+.stand span {
+	position: relative;
+	z-index: 2;
+	display: block;
+	width: 8px;
+	height: 8px;
+	/* background-color: #fec429; */
+	border-radius: 50%;
+}
   
+
+  
+  @Keyframes Firework {
+	0% { Transform: Translate(Var(--X), Var(--InitialY)); Width: Var(--InitialSize); Opacity: 1; }
+	50% { Width: 0.5vmin; Opacity: 1; }
+	100% { Width: Var(--FinalSize); Opacity: 0; }
+  }
+  
+  .Firework,
+  .Firework::Before,
+  .Firework::After
+  {
+	--InitialSize: 0.5vmin;
+	--FinalSize: 45vmin;
+	--ParticleSize: 0.3vmin;
+	--Color1: Yellow;
+	--Color2: Khaki;
+	--Color3: White;
+	--Color4: Lime;
+	--Color5: Gold;
+	--Color6: Mediumseagreen;
+	--Y: -30vmin;
+	--X: -50%;
+	--InitialY: 60vmin;
+	Content: "";
+	Animation: Firework 4s Infinite;
+	Position: Absolute;
+	Top: 30%;
+	Left: 40%;
+	Transform: Translate(-50%, Var(--Y));
+	Width: Var(--InitialSize);
+	Aspect-Ratio: 1;
+	Background: 
+	
+	  
+	  Radial-Gradient(Circle, Var(--Color1) Var(--ParticleSize), #0000 0) 50% 0%,
+	  Radial-Gradient(Circle, Var(--Color2) Var(--ParticleSize), #0000 0) 100% 50%,
+	  Radial-Gradient(Circle, Var(--Color3) Var(--ParticleSize), #0000 0) 50% 100%,
+	  Radial-Gradient(Circle, Var(--Color4) Var(--ParticleSize), #0000 0) 0% 50%,
+	  
+	  Radial-Gradient(Circle, Var(--Color5) Var(--ParticleSize), #0000 0) 80% 90%,
+	  Radial-Gradient(Circle, Var(--Color6) Var(--ParticleSize), #0000 0) 95% 90%,
+	  Radial-Gradient(Circle, Var(--Color1) Var(--ParticleSize), #0000 0) 90% 70%,
+	  Radial-Gradient(Circle, Var(--Color2) Var(--ParticleSize), #0000 0) 100% 60%,
+	  Radial-Gradient(Circle, Var(--Color3) Var(--ParticleSize), #0000 0) 55% 80%,
+	  Radial-Gradient(Circle, Var(--Color4) Var(--ParticleSize), #0000 0) 70% 77%,
+	  
+	  Radial-Gradient(Circle, Var(--Color5) Var(--ParticleSize), #0000 0) 22% 90%,
+	  Radial-Gradient(Circle, Var(--Color6) Var(--ParticleSize), #0000 0) 45% 90%,
+	  Radial-Gradient(Circle, Var(--Color1) Var(--ParticleSize), #0000 0) 33% 70%,
+	  Radial-Gradient(Circle, Var(--Color2) Var(--ParticleSize), #0000 0) 10% 60%,
+	  Radial-Gradient(Circle, Var(--Color3) Var(--ParticleSize), #0000 0) 31% 80%,
+	  Radial-Gradient(Circle, Var(--Color4) Var(--ParticleSize), #0000 0) 28% 77%,
+	  Radial-Gradient(Circle, Var(--Color5) Var(--ParticleSize), #0000 0) 13% 72%,
+	  
+	  Radial-Gradient(Circle, Var(--Color6) Var(--ParticleSize), #0000 0) 80% 10%,
+	  Radial-Gradient(Circle, Var(--Color1) Var(--ParticleSize), #0000 0) 95% 14%,
+	  Radial-Gradient(Circle, Var(--Color2) Var(--ParticleSize), #0000 0) 90% 23%,
+	  Radial-Gradient(Circle, Var(--Color3) Var(--ParticleSize), #0000 0) 100% 43%,
+	  Radial-Gradient(Circle, Var(--Color4) Var(--ParticleSize), #0000 0) 85% 27%,
+	  Radial-Gradient(Circle, Var(--Color5) Var(--ParticleSize), #0000 0) 77% 37%,
+	  Radial-Gradient(Circle, Var(--Color6) Var(--ParticleSize), #0000 0) 60% 7%,
+	  
+	  Radial-Gradient(Circle, Var(--Color1) Var(--ParticleSize), #0000 0) 22% 14%,
+	  Radial-Gradient(Circle, Var(--Color1) Var(--ParticleSize), #0000 0) 45% 20%,
+	  Radial-Gradient(Circle, Var(--Color1) Var(--ParticleSize), #0000 0) 33% 34%,
+	  Radial-Gradient(Circle, Var(--Color1) Var(--ParticleSize), #0000 0) 10% 29%,
+	  Radial-Gradient(Circle, Var(--Color1) Var(--ParticleSize), #0000 0) 31% 37%,
+	  Radial-Gradient(Circle, Var(--Color1) Var(--ParticleSize), #0000 0) 28% 7%,
+	  Radial-Gradient(Circle, Var(--Color1) Var(--ParticleSize), #0000 0) 13% 42%
+	  ;
+	Background-Size: Var(--InitialSize) Var(--InitialSize);
+	Background-Repeat: No-Repeat;
+  }
+  
+  .Firework::Before {
+	--X: -50%;
+	--Y: -50%;
+	--InitialY: -50%;
+	Transform: Translate(-50%, -50%) Rotate(40deg) Scale(1.3) RotateY(40deg);
+  }
+  
+  .Firework::After {
+	--X: -50%;
+	--Y: -50%;
+	--InitialY: -50%;
+	Transform: Translate(-50%, -50%) Rotate(170deg) Scale(1.15) RotateY(-30deg);
+  }
+  
+  .Firework:nth-Child(2) {
+	--X: 30vmin;
+  }
+  
+  .Firework:nth-Child(2),
+  .Firework:nth-Child(2)::Before,
+  .Firework:nth-Child(2)::After {
+	--Color1: Pink;
+	--Color2: Violet;
+	--Color3: Fuchsia;
+	--Color4: Orchid;
+	--Color5: Plum;
+	--Color6: Lavender;  
+	--FinalSize: 40vmin;
+	Left: 30%;
+	Top: 25%;
+	Animation-Delay: -0.5s;
+  }
+  
+  .Firework:nth-Child(3) {
+	--X: -30vmin;
+	--Y: -50vmin;
+  }
+  
+  .Firework:nth-Child(3),
+  .Firework:nth-Child(3)::Before,
+  .Firework:nth-Child(3)::After {
+	--Color1: Cyan;
+	--Color2: Lightcyan;
+	--Color3: Lightblue;
+	--Color4: PaleTurquoise;
+	--Color5: SkyBlue;
+	--Color6: Lavender;
+	--FinalSize: 35vmin;
+	Left: 62%;
+	Top: 52%;
+	Animation-Delay: -0.4s;
+  }
+  .Firework:nth-Child(3) {
+	--X: -30vmin;
+	--Y: -50vmin;
+  }
+  
+  .Firework:nth-Child(4),
+  .Firework:nth-Child(4)::Before,
+  .Firework:nth-Child(4)::After {
+	--Color1: purple;
+	--Color2: rgb(125, 82, 125);
+	--Color3: rgb(226, 152, 226);
+	--Color4:rgb(255, 41, 255);
+	--Color5: rgb(161, 71, 161);
+	--Color6: rgb(255, 117, 255);
+	--FinalSize: 35vmin;
+	Left: 20%;
+	Top: 35%;
+	Animation-Delay: -0.4s;
+  }
+  .Firework:nth-Child(3) {
+	--X: -30vmin;
+	--Y: -50vmin;
+  }
+  
+  .Firework:nth-Child(5),
+  .Firework:nth-Child(5)::Before,
+  .Firework:nth-Child(5)::After {
+	--Color1: purple;
+	--Color2: rgb(125, 82, 125);
+	--Color3: rgb(226, 152, 226);
+	--Color4:rgb(255, 41, 255);
+	--Color5: rgb(161, 71, 161);
+	--Color6: rgb(255, 117, 255);
+	--FinalSize: 35vmin;
+	Left: 80%;
+	Top: 35%;
+	Animation-Delay: -0.4s;
+  }
+  
+  .Firework:nth-Child(6),
+  .Firework:nth-Child(6)::Before,
+  .Firework:nth-Child(6)::After {
+	--Color1: Cyan;
+	--Color2: Lightcyan;
+	--Color3: Lightblue;
+	--Color4: PaleTurquoise;
+	--Color5: SkyBlue;
+	--Color6: Lavender;
+	--FinalSize: 35vmin;
+	Left: 95%;
+	Top: 50%;
+	Animation-Delay: -0.4s;
+  }
+  .Firework:nth-Child(7) {
+	--X: -30vmin;
+	--Y: -50vmin;
+  }
+  .Firework:nth-Child(7),
+  .Firework:nth-Child(7)::Before,
+  .Firework:nth-Child(7)::After {
+	--Color1: Cyan;
+	--Color2: Lightcyan;
+	--Color3: Lightblue;
+	--Color4: PaleTurquoise;
+	--Color5: SkyBlue;
+	--Color6: Lavender;
+	--FinalSize: 35vmin;
+	Left: 7%;
+	Top: 70%;
+	Animation-Delay: -0.4s;
+  }
+  .Firework:nth-Child(7) {
+	--X: -30vmin;
+	--Y: -50vmin;
+  }
+ 
+  
+  /* button */
+  
+
+
+/* 
+.button {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 10px;
+  color: #e13333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+} */
+
+
+
+
+
+
+
+/* new button */
+.button-pressure marquee {
+	position: absolute;
+	width: 90%;
+	top: 125%;
+	left: 5%;
+	font: 18px "Margarine", sans-serif;
+}
+.button-pressure marquee span {
+	display: inline-block;
+	height: 20px;
+}
+.button-pressure marquee span:not(:last-child) {
+	margin-right: 130px;
+}
+.button-pressure button:before {
+	content: "OMG YAS";
+	transition: 0.5s ease;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+	top: -15px;
+	font-size: 12px;
+	opacity: 0;
+}
+.button-pressure button:hover:before {
+	animation: omg-yes 1s;
+}
+.main-content {
+	display: grid;
+	width: 15%;
+	/* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+	margin-top: 3%;
+}
+.main-content .item {
+	display: grid;
+	grid-template-rows: 1fr min-content;
+	align-items: center;
+	justify-content: center;
+	height: 20vh;
+	flex-wrap: wrap;
+	width:50%;
+	/* background: var(--bg-color); */
+}
+.main-content .item:not(.footer) {
+	padding-top: 1rem;
+}
+button {
+	background: #f44336;
+	color:#fff;
+	border: 2px solid red;
+	border-radius: 15px;
+	/* padding:  0.4rem 2rem; */
+	font: 25px "Margarine", sans-serif;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	transition: 0.2s ease-in-out;
+	letter-spacing: 1px;
+	width: 15%;
+	/* height: 3%; */
+	/* top:50%; */
+	text-align: center;
+}
+.button p{
+  text-align: center;
+ 
+}
+.tagline{
+    color: #395ff9;
+}
+
+.item.footer {
+	flex-wrap: wrap;
+	padding: 5rem;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.7;
+	grid-column: span 1;
+}
+@media screen and (min-width: 823px) and (max-width: 1223px) {
+	.item.footer {
+		grid-column: span 2;
+   }
+}
+.item.footer a {
+	text-decoration: none;
+	color: #fff;
+	padding: 3px 0;
+	border-bottom: 1px dashed;
+}
+.item.footer a:hover {
+	border-bottom: 1px solid;
+}
+footer {
+	margin-top: 1.5rem;
+}
+footer a {
+	text-decoration: none;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px dashed #fff;
+	color: #fff;
+	margin: 5px;
+}
+footer a:hover {
+	background: rgba(255, 255, 255, 0.1);
+}
+footer a .icons {
+	margin-top: 8px;
+	display: inline-block;
+	font-size: 20px;
+}
+footer a .icons:before {
+	position: relative;
+}
+* {
+	box-sizing: border-box;
+}
+*:before, *:after {
+	content: "";
+	position: absolute;
+}
+
+
+
