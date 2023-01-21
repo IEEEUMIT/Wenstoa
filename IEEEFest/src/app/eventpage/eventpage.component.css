@@ -21,8 +21,9 @@
     position: relative;
 }
 .logo{
-    width: 200px;
+    width: 150px;
     cursor: pointer;
+    
 }
 .navbar{
     text-align: center;
@@ -39,15 +40,15 @@
 }
 .btn{
     cursor: pointer;
-    color:black ;
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    padding: 20px,10px;
-    border: 0.4px solid #121213;
+    color:rgb(204, 110, 176) ;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: 2px solid #121213;
     background: transparent;
     text-decoration: none;
     text-align: center;
-    font-weight:bold;
+    font-weight: bold;
     margin-top: 50px;
     margin-left: 10px;
 }
