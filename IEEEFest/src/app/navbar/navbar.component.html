@@ -63,11 +63,10 @@
             <div class="logo1">
                 <img src="../../assets/ieeelogo.png" alt="">
             </div>
-            <ul class="menu5">
-              <li>Home</li>
-              <li>Timeline</li>
-              <li>Events</li>
-             
-            </ul>
+            <div class="menu5">
+                <li *ngFor="let x of navdata" class="listitem">
+                    <a routerLink="{{x.link}}">{{x.name}}</a>
+                </li>
+            </div>
           </div>
           
