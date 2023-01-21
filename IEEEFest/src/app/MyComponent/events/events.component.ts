@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< HEAD
 
+=======
+import { events} from 'src/app/JSONdata/events'; 
+>>>>>>> fbcd309f6152494f52739360041152a726a8274d
 
 @Component({
   selector: 'app-events',
