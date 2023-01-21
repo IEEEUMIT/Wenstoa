@@ -21,8 +21,11 @@
     position: relative;
 }
 .logo{
-    width: 150px;
+    width: 400px;
     cursor: pointer;
+    margin-top: 80px;
+    margin-left: 0%;
+
     
 }
 .navbar{
@@ -30,18 +33,21 @@
     flex: 1;
 }
 .navbar a{
-    padding: 6px 8px;
+    padding: 6px;
     text-decoration: none;
     color: black;
-    margin-left: 8px;
-    margin-right: 4px;
-    font-size: 15px;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 18px;
     font-size: bold;    
+}
+.navbar a:hover{
+    background-color: beige;
 }
 .btn{
     cursor: pointer;
-    color:rgb(204, 110, 176) ;
-    font-size: 20px;
+    color:#121213;
+    font-size: 15;
     letter-spacing: 1px;
     padding: 10px 20px;
     border: 2px solid #121213;
@@ -51,4 +57,17 @@
     font-weight: bold;
     margin-top: 50px;
     margin-left: 10px;
+    font-family: sans-serif;
 }
+.notify:hover{
+    color: #121213;
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes btn{
+   0% {transform:translateY(0) ;}
+   50% { transform: translateY(-50px);}
+   100%{transform: translateY(0);}
+}
+
+    

@@ -9,12 +9,9 @@ import { SponsorComponent } from './sponsor/sponsor.component';
 import { EventsComponent } from './MyComponent/events/events.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { FooterComponent } from './footer/footer.component';
-<<<<<<< HEAD
 import { EventComponent } from './event/event.component';
-=======
 import { EventpageComponent } from './eventpage/eventpage.component';
 
->>>>>>> f96cd7ad7208222e2999849fc310a010b564683c
 
 
 @NgModule({
@@ -26,11 +23,11 @@ import { EventpageComponent } from './eventpage/eventpage.component';
     EventsComponent,
     TimelineComponent,
     FooterComponent,
-<<<<<<< HEAD
-    EventComponent
-=======
-    EventpageComponent
->>>>>>> f96cd7ad7208222e2999849fc310a010b564683c
+
+    EventComponent,
+
+    EventpageComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -40,3 +37,4 @@ import { EventpageComponent } from './eventpage/eventpage.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
