@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { event } from '../JSONdata/event';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -9,3 +10,4 @@ import { event } from '../JSONdata/event';
 export class HomeComponent {
 
 }
+
