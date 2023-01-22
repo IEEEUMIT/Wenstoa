@@ -17,13 +17,25 @@
             </div>
             </div>
             <div>
-                <button class="btn"><a href="">Notification</a></button>
-                <button class="btn"><a href="">Rules</a></button>
-                <button class="btn"><a href="">Information</a></button>
+                <div class="container">
+                <button class="btn"><a href="#">Notification</a></button>
+                <button class="btn"><a href="#">Rules</a></button>
+                <button class="btn"><a href="#">Information</a></button>
             </div>
-            
+            <div class="leftBox" *ngFor="let x of eventdetail">
+                <section>
+                <div class="content">
+                    <h2>
+                        Event-{{x.name}}<br>
+                        Tagline-{{x.tagline}}
+                    </h2>
+                     <p>
+                        Description: {{x.description}}<br>
+                        time : {{x.time}}<br>
+                        venue : Foyer
+                    </p>
+                    
         </div>
 
     
-    </body>
 
