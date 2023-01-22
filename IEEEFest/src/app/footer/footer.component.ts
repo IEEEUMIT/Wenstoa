@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { footer } from '../JSONDATA/footer';
 
 @Component({
   selector: 'app-footer',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
+  footer: any;
 
+  user:any;
+  ngOnInit(): void{
+    this.footer = footer ;
+  }
 }
