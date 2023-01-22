@@ -1,8 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
 import { events} from '../../JSONDATA/events'; 
 
 // import { events} from 'src/app/JSONDATA/events'; 
+
 
 @Component({
   selector: 'app-events',
