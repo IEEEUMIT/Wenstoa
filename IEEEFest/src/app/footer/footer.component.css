@@ -71,14 +71,14 @@ body{
 
       /* animation dot bg */
 
-      *{
+      /* *{
         margin:0;
         padding:0;
         box-sizing: border-box; 
      }
      body{
         min-height: 100vh;
-        /* background:#f29fea;  */
+        background:#f29fea; 
      }
      .container{
          position: relative;
@@ -90,23 +90,10 @@ body{
      .bubbles{       
         position:absolute;
         display: flex; 
-        /* width: 100px; */
-         /* height: 100px; */
+       
  
      }
-     /* .bubbles span{
-         position:relative;
-         width: 30px;
-         height: 30px;
-         background:#4fc3dc;
-         margin: 0 4px;
-         border-radius: 50%;
-         box-shadow: 0 0 0 5px #4fc3dc44,
-         0 0 10px #4fc3dc,
-         0 0 12px #4fc3dc;
-         animation:animate 15s linear infinite;
-         animation-duration:calc(120s/var(--i));
-     } */
+    
      .bubbles span{
          position:relative;
          width: 1px;
@@ -124,7 +111,6 @@ body{
          background:Fuchsia;
          border-radius: 50%;
          box-shadow: 0 0 0 2px rgb(231, 122, 231),
-         /* --Color5: Plum, */
          0 0 10px Violet,
          0 0 12px red;
       
@@ -141,4 +127,4 @@ body{
         {
          transform:translateY(-10vh) scale(1);
         }
-     }
+     } */

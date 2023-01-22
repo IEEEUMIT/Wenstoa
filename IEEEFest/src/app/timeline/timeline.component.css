@@ -136,7 +136,6 @@
     display: block;
     } */
 
-<<<<<<< HEAD
 
 
     /* animation dot bg */
@@ -146,7 +145,7 @@
 /* animation dot bg */
 /* 
     *{
->>>>>>> a5e24477cdf07c189bb532015b38c3fe2e5fba0f
+
        margin:0;
        padding:0;
        box-sizing: border-box; 
@@ -192,7 +191,7 @@
         0 0 10px Violet,
         0 0 12px red;
      
-=======
+
        /* background:#f29fea;  
     } */
 .container {
@@ -238,7 +237,7 @@
   box-shadow: 0 0 0 5px rgb(231, 122, 231),
     /* --Color5: Plum, */ 0 0 10px Violet, 0 0 12px red;
 }
->>>>>>> a5e24477cdf07c189bb532015b38c3fe2e5fba0f
+
 
 @keyframes animate {
   0% {
@@ -718,4 +717,4 @@
     left: -20vw;
   }
 }
->>>>>>> a5e24477cdf07c189bb532015b38c3fe2e5fba0f
+
