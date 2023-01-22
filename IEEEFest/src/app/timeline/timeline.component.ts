@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { timeline } from 'src/app/JSONdata/timeline';
+import { timeline } from 'src/app/JSONDATA/timeline';
 
 
 @Component({
@@ -123,3 +123,5 @@ export class TimelineComponent implements OnInit{
 // function windowResized() {
 //   resizeCanvas(windowWidth, windowHeight);
 // }
+
+

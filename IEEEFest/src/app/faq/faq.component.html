@@ -1,66 +1,24 @@
-<div class="faqs-container">
-      <h2>Frequently Asked Questions</h2>
+<div class="section">
 
-      <div class="questions-container">
-        <div class="content-container">
-          <div class="faq-header">
-            <h3>How do I purchase a membership?</h3>
-            <span class="open active">+</span>
-            <span class="close">-</span>
-          </div>
-
-          <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-              veniam!
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              voluptatem voluptatibus temporibus nemo amet tempore aperiam
-              pariatur laboriosam qui vel!
-            </p>
-          </div>
-        </div>
-
-        <div class="content-container">
-          <div class="faq-header">
-            <h3>Which platforms are supported?</h3>
-            <span class="open active">+</span>
-            <span class="close">-</span>
-          </div>
-
-          <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              voluptatem voluptatibus temporibus nemo amet tempore aperiam
-              pariatur laboriosam qui vel!
-            </p>
-          </div>
-        </div>
-
-        <div class="content-container">
-          <div class="faq-header">
-            <h3>How to cancel the subscription?</h3>
-            <span class="open active">+</span>
-            <span class="close">-</span>
-          </div>
-
-          <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-              veniam!
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              voluptatem voluptatibus temporibus nemo amet tempore aperiam
-              pariatur laboriosam qui vel!
-            </p>
-          </div>
-        </div>
-      </div>
+  <div class="heading-cont">
+    <div class="heading">
+      Frequently Asked Questions
     </div>
-
+  </div>
+</div>
+<br><br>
+      <div class="section-content">
+        <div class="faq">
+          <div class="faq-content" *ngFor="let FAQ of faq; let i=index">
+            <div class="question-cont">
+            <div class="faq-arrow" (click)="toggleFAQ(i)" [ngClass]="{'faq-arrow-turn':faqDisplay[i]}">|[
+            </div>
+            {{FAQ.question}}
+            <div class="answers" [ngClass]="{'a-popout':faqDisplay[i]}"></div>
+            {{FAQ.answer}}
+          </div>
+          </div>
+          </div>
+        </div>
+      
     
-  
