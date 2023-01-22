@@ -25,18 +25,8 @@ import { FaqComponent } from './faq/faq.component';
     EventsComponent,
     TimelineComponent,
     FooterComponent,
-<<<<<<< HEAD
-
-
-    EventComponent,
-
-    EventpageComponent,
-
-
-=======
     EventpageComponent,
     FaqComponent
->>>>>>> e63d2bbc81945f42bcf17644d3d54c738a549eb6
   ],
   imports: [
     BrowserModule,

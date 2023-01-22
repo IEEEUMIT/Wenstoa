@@ -41,10 +41,7 @@
     font-size: 18px;
     font-size: bold;    
 }
-.navbar a:hover{
-    background-color: beige;
-}
-.btn{
+.container btn{
     cursor: pointer;
     color:black;
     font-size: 15;
@@ -57,17 +54,52 @@
     font-weight: bold;
     margin-top: 50px;
     margin-left: 10px;
-    font-family: sans-serif;
-}
-.btn:hover{
-    color: #121213;
-    animation-name: bounce;
-    animation-timing-function: ease;
-}
-@keyframes btn{
-   0% {transform:translateY(0) ;}
-   50% { transform: translateY(-50px);}
-   100%{transform: translateY(0);}
+    border-radius:12px;
 }
 
-    
+/* section {
+    width: 100%;
+    height: 100vh;
+    background:url(); 
+    background-size: cover;
+    } */
+  
+/* Styling the left floating section */
+.leftBox {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+  
+/* Styling the background of
+    left floating section */
+.leftBox .content {
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    transition: .5s;
+}
+  
+/* Styling the hover effect 
+    of left floating section */
+.leftBox .content:hover {
+    background: #BF8FCC;
+}
+  
+/* Styling the header of left
+    floating section */
+.leftBox .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+  
+/* Styling the paragraph of
+    left floating section */
+.leftBox .content p {
+    margin: 10px 0 0;
+    padding: 0;
+}

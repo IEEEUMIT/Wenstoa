@@ -13,7 +13,8 @@ export var event =
         {
             "name":"Tanvee Joshi",
             "emailid":"dsdgvcs",
-            "number":"9028249474",
+            "number":"5667889433",
+            "description":"This is technical event",
         },
 
         {
