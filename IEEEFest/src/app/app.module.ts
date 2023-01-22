@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { EventComponent } from './event/event.component';
 
 import { EventpageComponent } from './eventpage/eventpage.component';
+import { FaqComponent } from './faq/faq.component';
 
 
 
@@ -24,6 +25,7 @@ import { EventpageComponent } from './eventpage/eventpage.component';
     EventsComponent,
     TimelineComponent,
     FooterComponent,
+<<<<<<< HEAD
 
 
     EventComponent,
@@ -31,6 +33,10 @@ import { EventpageComponent } from './eventpage/eventpage.component';
     EventpageComponent,
 
 
+=======
+    EventpageComponent,
+    FaqComponent
+>>>>>>> e63d2bbc81945f42bcf17644d3d54c738a549eb6
   ],
   imports: [
     BrowserModule,

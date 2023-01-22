@@ -46,7 +46,7 @@
 }
 .btn{
     cursor: pointer;
-    color:#121213;
+    color:black;
     font-size: 15;
     letter-spacing: 1px;
     padding: 10px 20px;
@@ -59,7 +59,7 @@
     margin-left: 10px;
     font-family: sans-serif;
 }
-.notify:hover{
+.btn:hover{
     color: #121213;
     animation-name: bounce;
     animation-timing-function: ease;

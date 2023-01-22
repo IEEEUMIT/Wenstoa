@@ -1,9 +1,9 @@
 export var event = 
 [{
-    "name": "ravzion",
+    "name": "Ravzion",
     "type": "Non-Tech",
-    "tagline": "abcd ",
-    "date" : "234",
+    "tagline": "Wander wisely",
+    "date" : "2",
     "time":[
         "round 1: 11 to 12",
         "round 2: 12 to 1",
@@ -11,30 +11,30 @@ export var event =
     "eventincharge":
     [
         {
-            "name":"abcds",
+            "name":"Tanvee Joshi",
             "emailid":"dsdgvcs",
-            "number":"5667889433",
+            "number":"9028249474",
         },
 
         {
-            "name":"dfghh",
+            "name":"Kshitija Karande",
             "emailid":"sgdhfkdn",
-            "number":"64362829475",
+            "number":"8788354162",
         },
 
         {
-            "name":"gsddh",
+            "name":"Pratiksha Barman",
             "emailid":"gdfscjdt",
-            "number":"6354326587",
+            "number":"7977605183",
         },
     ],
    "prizes": ["566","ghh"],
-   "rules" : ["hgfds ndhds lsjf vjnhds ljgdsnbgvds kuhsfecjmbzxdhfg ksrfvhknd"],
+   "rules" : ["In case of any discrepancy, the organizers will have a final say."],
 },
 {
-    "name":"mahfil-e-taxi",
+    "name":"Mahfil-E-Taxi",
     "type": "Non-Tech",
-    "tagline": "hdfsv",
+    "tagline": "Raah me milte lafz",
     "date" : "56 65",
     "time":[
         "round 1: 12 to 13",
@@ -43,26 +43,166 @@ export var event =
     "eventincharge":
     [
         {
-            "name":"gfds",
-            "emailid":"hsdrvsf",
-            "number":"643232548",
+            "name":"Tanvee Joshi",
+            "emailid":"dsdgvcs",
+            "number":"9028249474",
+        },
+
+        { "name":"Kshitija Karande",
+        "emailid":"sgdhfkdn",
+        "number":"8788354162",
+            
         },
 
         {
-            "name":"gfds",
-            "emailid":"hsdrvsf",
-            "number":"643232548",
+            "name":"Pratiksha Barman",
+            "emailid":"gdfscjdt",
+            "number":"7977605183",
+            
+       },
+    ],
+  "prizes": ["567","667"],
+  "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy "],
+}, 
+{
+    
+    "name":"BombayCircuit",
+    "type": "Tech",
+    "tagline": "Raah me milte lafz",
+    "date" : "56 65",
+    "time":[
+        "round 1: 12 to 13",
+        "round 2: 11 to 16",
+    ],
+    "eventincharge":
+    [
+        {
+            "name":"Tanvee Joshi",
+            "emailid":"dsdgvcs",
+            "number":"9028249474",
+        },
+
+        { "name":"Kshitija Karande",
+        "emailid":"sgdhfkdn",
+        "number":"8788354162",
+            
         },
 
         {
-            "name":"gfds",
-            "emailid":"hsdrvsf",
-            "number":"643232548",
+            "name":"Pratiksha Barman",
+            "emailid":"gdfscjdt",
+            "number":"7977605183",
+            
+       },
+    ],
+  "prizes": ["567","667"],
+  "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy "],
+
+},
+{
+    
+    "name":"Naukari Central",
+    "type": "Tech",
+    "tagline": "Raah me milte lafz",
+    "date" : "56 65",
+    "time":[
+        "round 1: 12 to 13",
+        "round 2: 11 to 16",
+    ],
+    "eventincharge":
+    [
+        {
+            "name":"Tanvee Joshi",
+            "emailid":"dsdgvcs",
+            "number":"9028249474",
+        },
+
+        { "name":"Kshitija Karande",
+        "emailid":"sgdhfkdn",
+        "number":"8788354162",
+            
+        },
+
+        {
+            "name":"Pratiksha Barman",
+            "emailid":"gdfscjdt",
+            "number":"7977605183",
+            
+       },
+    ],
+  "prizes": ["567","667"],
+  "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy"],
+},
+
+{
+    
+    "name":"Web Srujana",
+    "type": "Non-Tech",
+    "tagline": "Raah me milte lafz",
+    "date" : "56 65",
+    "time":[
+        "round 1: 12 to 13",
+        "round 2: 11 to 16",
+    ],
+    "eventincharge":
+    [
+        {
+            "name":"Tanvee Joshi",
+            "emailid":"dsdgvcs",
+            "number":"9028249474",
+        },
+
+        { "name":"Kshitija Karande",
+        "emailid":"sgdhfkdn",
+        "number":"8788354162",
+            
+        },
+
+        {
+            "name":"Pratiksha Barman",
+            "emailid":"gdfscjdt",
+            "number":"7977605183",
+            
        },
     ],
   "prizes": ["567","667"],
   "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy "]
-}, 
+},
+{
+    
+    "name":"Matarghasti",
+    "type": "Non-Tech",
+    "tagline": "Raah me milte lafz",
+    "date" : "56 65",
+    "time":[
+        "round 1: 12 to 13",
+        "round 2: 11 to 16",
+    ],
+    "eventincharge":
+    [
+        {
+            "name":"Tanvee Joshi",
+            "emailid":"dsdgvcs",
+            "number":"9028249474",
+        },
+
+        { "name":"Kshitija Karande",
+        "emailid":"sgdhfkdn",
+        "number":"8788354162",
+            
+        },
+
+        {
+            "name":"Pratiksha Barman",
+            "emailid":"gdfscjdt",
+            "number":"7977605183",
+            
+       },
+    ],
+  "prizes": ["567","667"],
+  "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy "]
+},
+
 
 
 
