@@ -1,47 +1,49 @@
 export let events=[
     {
-        "name":"events",
+        "name":"BombayCircuits",
         "img":"../assets/images/img 1.webp",
-        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+         "img2":"/assets/images/img 2.jpeg",
+        "detail":"--------------"
+                  
         
 
     },
     {
-        "name":"events1",
-        "img":"../assets/images/img 2.jpeg",
-        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "name":" NaukariCentral ",
+        "img":"/assets/images/",
+        "detail":"On The Hunt For The One"
     },
 
     {
-        "name":"events2",
-        "img":"",
-        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "name":"TechyTalkies",
+        "img":"/assets/images/TPP.jpeg",
+        "detail":"Unleashing Ideas: Speak Your Mind"
     },
 
     {
-        "name":"events3",
-        "img":"",
-        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "name":"WebSrujana",
+        "img":"/assets/images/web srujana.jpg",
+        "detail":"Awaken Your Inner Srujana"
     },
 
     {
-        "name":"events4",
+        "name":"MatarGhasti",
         "img":"",
-        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "detail":"Bazam-E-Yaarana"
     },
     {
-        "name":"events5",
+        "name":"Mehfil-E-Taxi",
         "img":"",
-        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "detail":"Raah Me Milte Lafz"
     },
     {
-        "name":"events6",
+        "name":"Ravzion",
         "img":"",
-        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "detail":"Wander Wisely"
     },
     {
         "name":"events7",
         "img":"",
-        "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "detail":"--------------------"
     }
 ]
