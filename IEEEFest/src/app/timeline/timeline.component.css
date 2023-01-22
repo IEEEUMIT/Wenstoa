@@ -206,12 +206,14 @@ body{
     position: relative;
     width: 11vw;
     margin-left: 80%;
+    transform: scaleX(-1);
   }
 
   .toy-train1{
     position: relative;
     width: 11vw;
     margin-right: 80%;
+
     
   }
   
