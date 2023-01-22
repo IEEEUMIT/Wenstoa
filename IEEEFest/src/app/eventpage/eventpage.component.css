@@ -37,20 +37,20 @@
     font-size: 15px;
     font-size: bold;    
 }
-.container btn{
+.container .btn a{
     cursor: pointer;
-    color:black ;
+    color: #000;
     font-size: 15px;
     letter-spacing: 0.5px;
     padding: 20px,10px;
-    border: 0.4px solid #121213;
+    border: 0.4px solid #fff;
     background: transparent;
     text-decoration: none;
     text-align: center;
     font-weight:bold;
     margin-top: 50px;
     margin-left: 10px;
-    border-radius:12px;
+    /* border-radius:12px; */
 }
 
 /* section {
