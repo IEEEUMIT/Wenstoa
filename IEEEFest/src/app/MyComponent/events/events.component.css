@@ -3,13 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 #text {
-  margin: 2vh;
+  /* margin: 1vh; */
   text-align: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
 }
 
 body {
@@ -162,9 +163,9 @@ section .card .box .contentBx div p {
 .toy-train {
   position: relative;
   width: 11vw;
-  margin-top: 2%;
-  margin-bottom: 5%;
-  margin-left: 90%;
+  margin-top: -2vh;
+  /* margin-bottom: 5vh; */
+  margin-left: 148vh;
 }
 
 .engine {
