@@ -45,8 +45,6 @@
   color: white;
   position: relative;
   font-size: 20px;
-  /* border-bottom-left-radius: 20px; */
-  /* border-top-right-radius: 20px; */
 }
 
 .question-cont {
@@ -62,8 +60,8 @@
 }
 
 .answers {
-  background-color: rgba(1, 7, 1, 0.911);
-  background: rgba(153, 153, 153, 0.822);
+
+  background: #000;
   color: #fff;
 
   width: 100%;
@@ -72,7 +70,6 @@
   display: flex;
   align-items: center;
   animation: answer-in 0.5s ease-in-out forwards;
-
 }
 
 .a-popout {
@@ -81,23 +78,23 @@
 
 @keyframes answer-out {
   from {
-      color: #fff;
-      height: 0vh;
+    color: #fff;
+    height: 0vh;
   }
   to {
-      color: #fff;
-      height: 8vh;
+    color: #fff;
+    height: 8vh;
   }
 }
 
 @keyframes answer-in {
   from {
-      color: rgba(0, 0, 0, 1);
-      height: 5vh;
+    color: rgba(0, 0, 0, 1);
+    height: 5vh;
   }
   to {
-      color: rgba(0, 0, 0, 0);
-      height: 0vh;
+    color: rgba(0, 0, 0, 0);
+    height: 0vh;
   }
 }
 
@@ -114,19 +111,18 @@
 
 @keyframes faq-arrow-turn {
   from {
-      transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
   }
   to {
-      transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
   }
 }
 
 @keyframes faq-arrow-back {
   from {
-      transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
   }
   to {
-      transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
   }
 }
-
