@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
+<<<<<<< HEAD
+=======
+import { events} from '../../JSONDATA/events'; 
+
+// import { events} from 'src/app/JSONDATA/events'; 
+>>>>>>> bfbcae42012dc7baa7a78a20676ffb531d8acc97
 
 @Component({
   selector: 'app-events',
@@ -15,7 +21,7 @@ export class EventsComponent implements OnInit{
   constructor() {}
   
   ngOnInit(): void {
-    this.eventdel=event;
+    this.eventdel=events;
   }
 
 

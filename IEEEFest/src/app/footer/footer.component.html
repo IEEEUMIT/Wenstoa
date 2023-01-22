@@ -10,11 +10,13 @@
 </div>
 <div class="row">
 <ul>
-<li><a href="#home">Home</a></li>
+<!-- <li><a href="#home">Home</a></li>
 <li><a href="#timeline">Timeline</a></li>
 <li><a href="#events">Events</a></li>
-<li><a href="#faqs">FAQs</a></li>
-
+<li><a href="#faqs">FAQs</a></li> -->
+<li *ngFor="let x of footer" class="listitem">
+    <a routerLink="{{x.link}}">{{x.name}}</a>
+</li>
 </ul>
 </div>
 <div class="row">
