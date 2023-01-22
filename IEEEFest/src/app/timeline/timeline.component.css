@@ -127,14 +127,14 @@
 
     /* animation dot bg */
 
-    *{
+    /* *{
        margin:0;
        padding:0;
        box-sizing: border-box; 
     }
     body{
        min-height: 100vh;
-       /* background:#f29fea;  */
+       background:#f29fea; 
     }
     .container{
         position: relative;
@@ -146,41 +146,29 @@
     .bubbles{       
        position:absolute;
        display: flex; 
-       /* width: 100px; */
-        /* height: 100px; */
+       width: 100px; */
+        /* height: 100px;
 
     }
-    /* .bubbles span{
-        position:relative;
-        width: 30px;
-        height: 30px;
-        background:#4fc3dc;
-        margin: 0 4px;
-        border-radius: 50%;
-        box-shadow: 0 0 0 5px #4fc3dc44,
-        0 0 10px #4fc3dc,
-        0 0 12px #4fc3dc;
-        animation:animate 15s linear infinite;
-        animation-duration:calc(120s/var(--i));
-    } */
+
     .bubbles span{
         position:relative;
-        width: 7px;
-        height: 7px;
+        width: 1px;
+        height: 1px;
         background:cyan;
         margin: 0 4px;
         border-radius: 50%;
-        box-shadow: 0 0 0 5px #4fc3dc44,
-        0 0 10px lightcyan,
-        0 0 12px SkyBlue;;
+        box-shadow: 0 0 0 2px #4fc3dc44,
+        0 0 1px lightcyan,
+        0 0 1px SkyBlue;;
         animation:animate 13s linear infinite;
         animation-duration:calc(150s/var(--i));
     }
     .bubbles span:nth-child(even){
         background:Fuchsia;
         border-radius: 50%;
-        box-shadow: 0 0 0 5px rgb(231, 122, 231),
-        /* --Color5: Plum, */
+        box-shadow: 0 0 0 2px rgb(231, 122, 231),
+        --Color5: Plum,
         0 0 10px Violet,
         0 0 12px red;
      
@@ -197,4 +185,121 @@
        {
         transform:translateY(-10vh) scale(1);
        }
-    }
+    } */
+
+
+
+    /* ship */
+     /* body {
+        height: 100%;
+   }
+    body {
+        overflow: hidden;
+   }
+    .ocean {
+        width: 100%;
+        height: 400px;
+        left: 0px;
+        background-color: #cdb380; 
+         margin: 0px;
+        position: absolute;
+        top:170%;
+        margin-left: 40vh;
+
+   }
+    .wave {
+        position: absolute;
+        width: 300%;
+        height: 200px;
+        bottom: 0px;
+   }
+    .wave:nth-of-type(1) {
+        background: url(http://walkerkinetics.com/development/water-light.png) repeat-x;
+        transform: translate(0, 0px);
+        animation: wave 25s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite;
+        opacity: 1;
+   }
+    .wave:nth-of-type(2) {
+        background: url(http://walkerkinetics.com/development/water-dark.png) repeat-x;
+        transform: translate(0px, 20px);
+        animation: wave 30s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite;
+        opacity: 1;
+   }
+    .wave:nth-of-type(3) {
+        background: url(http://walkerkinetics.com/development/water-light.png) repeat-x;
+        transform: translate(0px, 40px);
+        animation: wave 25s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite;
+        z-index: 4;
+   }
+    .wave:nth-of-type(4) {
+        background: url(http://walkerkinetics.com/development/water-dark.png) repeat-x;
+        transform: translate(0px, 60px);
+        animation: wave 20s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite;
+        opacity: 1;
+        z-index: 4;
+   }
+    @keyframes wave {
+        100% {
+            margin-left: 0;
+       }
+        0% {
+            margin-left: -1600px;
+       }
+   }
+    .boat {
+        width: 300px;
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        top: 50px;
+        animation: boat 3s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite;
+   }
+    .boat img {
+        width: 100%;
+   }
+    @keyframes boat {
+        0%, 100% {
+            transform: translate3d(0px, 0px, 0px) rotateZ(-2deg);
+       }
+        50% {
+            transform: translate3d(0px, 10px, 10px) rotateZ(5deg);
+       }
+   }
+     */ 
+
+
+     /* scroll effect */
+
+     .section-container section {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Roboto", sans-serif;
+      }
+      
+      .section-container img {
+        width: 400px;
+        border-radius: 10px;
+        border: 2px solid black;
+        padding: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+      }
+      
+      .section-container section h2 {
+        font-size: 40px;
+        margin: 16px 0;
+      }
+      
+      .section-container p {
+        padding: 8px 0;
+      }
+      
+      .section-container .section-heading {
+        width: 400px;
+        text-align: center;
+        border-top: 2px solid #53d7ee;
+        border-bottom: 2px solid #53d7ee;
+        margin-bottom: 10px;
+      }
