@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { event } from '../JSONdata/event';
+import { event } from '../JSONDATA/event';
 import { footer } from '../JSONDATA/footer';
 
 @Component({
