@@ -8,6 +8,7 @@ import { event } from '../JSONDATA/event';
 })
 export class EventpageComponent implements OnInit{
   eventdetail:any;
+  
   constructor(router: Router) {}
   
   noti = ["noti2", "noti3", "noti4", "noti5", "noti6"];
@@ -16,8 +17,7 @@ export class EventpageComponent implements OnInit{
   event: number = 0;
   user: any;
   notification: Array<any> = [];
- 
-
+  
   tab: number = 3;
   ngOnInit(): void {
     this.eventdetail=event;
