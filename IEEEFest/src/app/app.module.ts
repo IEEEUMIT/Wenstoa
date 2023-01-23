@@ -9,7 +9,7 @@ import { SponsorComponent } from './sponsor/sponsor.component';
 import { EventsComponent } from './MyComponent/events/events.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { FooterComponent } from './footer/footer.component';
-import { EventComponent } from './event/event.component';
+
 
 import { EventpageComponent } from './eventpage/eventpage.component';
 import { FaqComponent } from './faq/faq.component';
