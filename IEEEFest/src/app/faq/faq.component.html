@@ -13,7 +13,7 @@
             <div class="question-cont">
             <div class="faq-arrow" (click)="toggleFAQ(i)" [ngClass]="{'faq-arrow-turn':faqDisplay[i]}">|[
             </div>
-            {{FAQ.question}}
+            {{FAQ.question}}<br>
             <div class="answers" [ngClass]="{'a-popout':faqDisplay[i]}">
             {{FAQ.answer}}
           </div>
