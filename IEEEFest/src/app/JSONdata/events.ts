@@ -4,9 +4,6 @@ export let events=[
         "img":"../assets/images/img 1.webp",
          "img2":"/assets/images/img 2.jpeg",
         "detail":"--------------"
-                  
-        
-
     },
     {
         "name":" NaukariCentral ",
