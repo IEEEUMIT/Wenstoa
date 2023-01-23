@@ -14,6 +14,7 @@ export var event =
             "name":"abcds",
             "emailid":"dsdgvcs",
             "number":"5667889433",
+            "description":"This is technical event",
         },
 
         {
