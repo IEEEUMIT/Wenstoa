@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 521708b5ef33c484f03c4235b27dcaf4280be56e
 
 
 
@@ -10,7 +14,11 @@ import { event } from 'src/app/JSONDATA/event';
 
 // import { events} from 'src/app/JSONDATA/events'; 
 
+<<<<<<< HEAD
+
+=======
 ; 
+>>>>>>> 521708b5ef33c484f03c4235b27dcaf4280be56e
 @Component({
   selector: 'app-events',
   templateUrl: './events.component.html',
