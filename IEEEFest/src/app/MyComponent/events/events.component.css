@@ -21,16 +21,10 @@ body {
   height: 120vh;
   max-height: 100%;
   overflow: hidden;
-  background-size: cover;
+ 
 }
 
-/* #myVideo {
-  position: absolute;
-  right: ;
-  bottom: ;
-  min-width: 100%;
-  min-height: 100%;
-} */
+
 
 section {
   display: flex;
