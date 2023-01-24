@@ -1,9 +1,8 @@
 export let events=[
     {
         "name":"BombayCircuits",
-        "img":"../assets/images/img 1.webp",
-         "img2":"/assets/images/img 2.jpeg",
-        "detail":"--------------"
+        "img":"../assets/images/front-face-bg.jpg",
+        "detail":"Think.Code.Execute"
     },
     {
         "name":" NaukariCentral ",
