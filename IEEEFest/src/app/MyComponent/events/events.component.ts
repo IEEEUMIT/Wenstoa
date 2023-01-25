@@ -15,8 +15,10 @@ export class EventsComponent implements OnInit{
   constructor() {}
   
   ngOnInit(): void {
-    this.eventdel=events;
+    this.eventdel=event;
   }
 
 
 }
+
+
