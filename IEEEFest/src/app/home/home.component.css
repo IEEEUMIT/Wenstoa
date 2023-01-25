@@ -359,7 +359,7 @@ body{
   
 
   
-  @Keyframes Firework {
+  @keyframes Firework {
 	0% { Transform: Translate(Var(--X), Var(--InitialY)); Width: Var(--InitialSize); Opacity: 1; }
 	50% { Width: 0.5vmin; Opacity: 1; }
 	100% { Width: Var(--FinalSize); Opacity: 0; }
