@@ -16,14 +16,17 @@
 
 body {
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+ 
   height: 120vh;
   max-height: 100%;
   overflow: hidden;
- 
+  background-image: url(C:\Users\dell\Downloads\background.gif);
+  background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
 
 
 section {
