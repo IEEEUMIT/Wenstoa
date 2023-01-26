@@ -43,6 +43,7 @@ body{
     .footer .row ul li{
     display:inline-block; 
     margin:0% 3%;
+    margin-left: 5%;
     }
     
     .footer .row a i{
