@@ -998,6 +998,11 @@ a:hover span:nth-child(4) {
     line-height: 1.25;
     background-color: #18222d;
   }
+  .sponsor h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
  
   
   .grid {
@@ -1019,7 +1024,8 @@ a:hover span:nth-child(4) {
   
   .grid-block {
     display: inline-block;
-    width: 48%;
+    width:20%;
+	min-width: 100px;
     min-height: 11.25rem;
     
     /* padding: 1rem; */
@@ -1135,5 +1141,16 @@ a:hover span:nth-child(4) {
     box-shadow: 5px 5px rgba(4, 140, 231, 0.4), 10px 10px rgba(4, 140, 231, 0.3),
       15px 15px rgba(4, 140, 231, 0.2), 20px 20px rgba(4, 140, 231, 0.1),
       25px 25px rgba(4, 140, 231, 0.05);
+  }
+  @media only screen and (max-width: 992px) {
+	.grid-block{
+		display: inline-block;
+		width:75%;
+		min-width: 100px;
+		min-height: 11.25rem;
+	}
+	.sponsor h1{
+		font-size: 2rem;
+	}
   }
   

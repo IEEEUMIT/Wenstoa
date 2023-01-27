@@ -148,4 +148,7 @@ section .card .box .contentBx div p {
   text-align: center;
   font-weight: 300;
 }
+@media  screen and (max-width:992px) {
+  
+}
 
