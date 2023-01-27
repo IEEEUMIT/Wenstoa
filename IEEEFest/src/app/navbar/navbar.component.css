@@ -115,8 +115,10 @@ nav.circle ul li a {
     list-style: none;
     padding: 0 100px;
     text-align: right;
-    margin:-65%;  /* right side k liye nav */
+    /* margin:-65%;  right side k liye nav */
     text-decoration: none;
+    margin-right:-200%;
+    letter-spacing: 1px;
    
   }
   
