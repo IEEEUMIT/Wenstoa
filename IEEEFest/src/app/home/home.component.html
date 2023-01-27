@@ -82,46 +82,34 @@
     </div>
   </div>
 
-<div class="timeline">
-  <h1 id="text">TIMELINE</h1>
-
-  
-  <div class="timeline">
-    <div class="outer">
-      <div class="card">
-        <div class="info">
-          <h3 class="title">Title 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  <!-- Events -->
+ <div class="event">
+  <h1 id="text">EVENTS</h1>
+<div class="eventbg">
+<section>
+    <div class="card" *ngFor="let x of eventdel">
+        <div class="box" >
+            <div class="imgBx">
+             <img src={{x.img}} alt="image" style="width:300px;height:300px"> 
+            </div>
+            <div class="contentBx">
+              <div>
+                <h2>{{x.name}}</h2>
+                <p>{{x.detail}}</p>
+                </div>
+            </div>
         </div>
       </div>
-      <div class="card">
-        <div class="info">
-          <h3 class="title">Title 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="info">
-          <h3 class="title">Title 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="info">
-          <h3 class="title">Title 4</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="info">
-          <h3 class="title">Title 5</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  </section> 
 </div>
+ </div> 
+
+ <!-- Timeline -->
+<div class="timeline">
+ 
+</div>
+
+<!-- FAQ  -->
 <div class="faq">
   <div class="section">
 
@@ -144,10 +132,10 @@
             </div>
             </div>
             </div>
-                  </div>
-        
-      
+                  </div> 
 </div>
+
+<!-- Sponsors -->
 <div class="sponsor">
   <h1>Our Sponsors</h1>
 <div class="grid image-grid">
@@ -161,6 +149,8 @@
   </div>
 </div>
 
+
+<!-- Fotter -->
  <footer>
   <div class="footer">
   <div class="row">
@@ -185,5 +175,3 @@
   </div>
   </div>
   </footer>
-</div>
-</body>

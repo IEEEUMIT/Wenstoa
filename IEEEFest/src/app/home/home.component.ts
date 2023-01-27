@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { event } from '../JSONDATA/event';
+import { events } from '../JSONDATA/events';
 import { footer } from '../JSONDATA/footer';
 import { sponsors } from '../JSONDATA/sponsor';
 import { FAQ } from '../JSONDATA/faq';
@@ -10,7 +10,7 @@ import { timeline } from '../JSONDATA/timeline';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit{
-  
+   eventdel:any;
   timelinedel:any;   
   faq:any = [];
   faqDisplay: Array<Boolean> = []
@@ -18,6 +18,7 @@ export class HomeComponent implements OnInit{
   spons:any;
   user:any;
   ngOnInit(): void{
+    this.eventdel=events;
     this.footer = footer ;
     this.spons=sponsors ;
     this.timelinedel=timeline;
