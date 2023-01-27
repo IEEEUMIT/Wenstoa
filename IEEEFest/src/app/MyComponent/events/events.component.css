@@ -30,6 +30,7 @@ body {
 
 
 section {
+  
   display: flex;
   justify-content: space-between;
   define-block: inline;
@@ -152,6 +153,26 @@ section .card .box .contentBx div p {
   font-weight: 300;
 }
 @media  screen and (max-width:992px) {
-  
+  section {
+    grid-template: "left""right" / 100%;
+    display: block;
+    justify-content: space-between;
+    /* define-block: inline; */
+    column-gap: 20px;
+    row-gap: 50px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+    max-height: 500px;
+    /* margin-right: auto; */
+    align-items: center;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    width: 1300px;
+  }
+  section .card{
+    grid-template: "left" "right" / 100%;
+    /* width: 100%;
+  height: 100%; */
+  }
 }
 
