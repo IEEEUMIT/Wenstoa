@@ -108,3 +108,43 @@
     margin: 10px 0 0;
     padding: 0;
 } 
+
+/*
+@media screen and (max width: 992px) {
+    .event{
+        width: 100vw;
+        height: 100px;
+        box-sizing: border-box;
+    }
+    .header{
+        height: 13px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+}
+   .logo{
+    width: 400px;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 0%;
+}
+   .navbar a{
+    padding: 6px;
+    text-decoration: none;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 18px;
+    font-size: bold;    
+}
+
+.leftBox {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+}
+*/
