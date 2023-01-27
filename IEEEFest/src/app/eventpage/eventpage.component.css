@@ -21,20 +21,24 @@
     position: relative;
 }
 .logo{
-    width: 200px;
+    width: 400px;
     cursor: pointer;
+    margin-top: 80px;
+    margin-left: 0%;
+
+    
 }
 .navbar{
     text-align: center;
     flex: 1;
 }
 .navbar a{
-    padding: 6px 8px;
+    padding: 6px;
     text-decoration: none;
     color: black;
-    margin-left: 8px;
-    margin-right: 4px;
-    font-size: 15px;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 18px;
     font-size: bold;    
 }
 .container .btn a{
@@ -44,10 +48,15 @@
     letter-spacing: 0.5px;
     padding: 20px,10px;
     border: 0.4px solid #fff;
+    color:black;
+    font-size: 15;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: 2px solid #121213;
     background: transparent;
     text-decoration: none;
     text-align: center;
-    font-weight:bold;
+    font-weight: bold;
     margin-top: 50px;
     margin-left: 10px;
     /* border-radius:12px; */
@@ -98,4 +107,4 @@
 .leftBox .content p {
     margin: 10px 0 0;
     padding: 0;
-}
+} 
