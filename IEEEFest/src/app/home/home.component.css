@@ -971,11 +971,11 @@ html {
   line-height: 1.25;
   background-color: #18222d;
 }
-  .sponsor h1{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  }
+.sponsor h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .grid {
   width: 100%;
@@ -995,8 +995,8 @@ html {
 
 .grid-block {
   display: inline-block;
-  width:20%;
-	min-width: 100px;
+  width: 20%;
+  min-width: 100px;
   min-height: 11.25rem;
 
   /* padding: 1rem; */
@@ -1110,20 +1110,17 @@ html {
     15px 15px rgba(4, 140, 231, 0.2), 20px 20px rgba(4, 140, 231, 0.1),
     25px 25px rgba(4, 140, 231, 0.05);
 }
-  @media only screen and (max-width: 992px) {
-	.grid-block{
-		display: inline-block;
-		width:75%;
-		min-width: 100px;
-		min-height: 11.25rem;
-	}
-	.sponsor h1{
-		font-size: 2rem;
-	}
+@media only screen and (max-width: 992px) {
+  .grid-block {
+    display: inline-block;
+    width: 75%;
+    min-width: 100px;
+    min-height: 11.25rem;
   }
-
-
-
+  .sponsor h1 {
+    font-size: 2rem;
+  }
+}
 
 .section {
   height: fit-content;
@@ -1259,7 +1256,6 @@ html {
 
 /* TIMELINE CSS */
 
-
 /* event css */
 .event {
   margin: 0;
@@ -1269,8 +1265,8 @@ html {
 }
 
 .event h1 {
-  color:#000;
-  font-size:50px; 
+  color: #000;
+  font-size: 50px;
   margin: 1vh;
   text-align: center;
   margin-top: 1.5vh;
@@ -1411,3 +1407,15 @@ section .card .box .contentBx div p {
   font-weight: 300;
 }
 
+@media screen and (max-width: 768px) {
+  .section {
+    max-height: 100px;
+    max-width: 50vw;
+    overflow: hidden;
+  }
+  .card {
+  }
+  .event h1 {
+    align-items: center;
+  }
+}
