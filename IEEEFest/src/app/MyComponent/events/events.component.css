@@ -146,3 +146,11 @@ section .card .box .contentBx div p {
   font-weight: 300;
 }
 
+
+section {
+  img {
+    
+    height: 200px;
+    width: 150px;
+  }
+}
