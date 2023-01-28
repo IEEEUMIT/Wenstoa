@@ -1411,17 +1411,3 @@ section .card .box .contentBx div p {
   font-weight: 300;
 }
 
-
-@media screen and (max-width:768px){
-  .section{
-    max-height:100px;
-    max-width:50vw;
-    overflow:hidden;
-  }
-  .card {
-
-  }
-  .event h1{
-    align-items:center;
-  }
-}
