@@ -68,9 +68,9 @@ nav.circle ul li a {
     border-radius: 50%;
     background: transparent;
   }
-  nav.circle ul li a:hover:after {
+  /* nav.circle ul li a:hover:after {
     -webkit-animation: circle 1.5s ease-in forwards;
-  }
+  } */
 
 
 
