@@ -18,7 +18,6 @@ export class HomeComponent implements OnInit{
   footer: any;
   spons:any;
   user:any;
-  eventdel: any;
   ngOnInit(): void{
     this.eventdel=events;
     this.footer = footer ;
