@@ -22,6 +22,7 @@
     font-size: bold;
     width: 100px;
     display: inline;
+    cursor: pointer;
 }
 .events-tab:hover {
     text-decoration: underline purple;
@@ -32,7 +33,7 @@
         font-size: 2em;
         text-align: center;
         font-family: subhead;
-        cursor: pointer;
+
         
     }
     .content-wrapper {
@@ -319,10 +320,7 @@
     .event{
         flex-wrap: wrap;
     }
-    .eventdetails{
-        flex-wrap: wrap;
 
-    }
     .name {
         /* height: 6vh; */
         font-size: 2em;
@@ -334,4 +332,50 @@
         margin-top: 2vh;
         margin-top: 2vh;
     }
+    .eventdetails {
+        width: 100%;
+        height: 20vh;
+        border-radius: 20px;
+        background-color: rgba(10, 10, 10, 0.5);
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .eventdescription {
+        width: 50%;
+        height: 10vh;
+        border-radius: 20px;
+        background-color: rgba(5, 62, 77, 0.5);
+        font-size: 7px;
+        color: antiquewhite;
+        font-style: bold;
+        font-family: subhead;
+    }
+    .events-info-section {
+        height: fit-content;
+        overflow-y: visible;
+    }
+    .function {
+        flex-wrap: wrap;
+    }
+    .info {
+        height: 6%;
+        width: 100%;
+        margin: 1vh 0;
+        text-align: center;
+        font-size: 30px;
+        
+    }
+    .name-tagline {
+        flex-wrap: wrap;
+    }
+    .name {
+        width: 100%;
+    }
+    .label {
+        font-size: large;
+    }
+
+
 }
