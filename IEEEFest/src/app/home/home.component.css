@@ -1279,9 +1279,10 @@ html {
   font-size:50px;
   margin-top:800px;
   position: relative;
-  }
+  
+}
 /* Card container */
-.cardtl {
+.card {
   position: relative;
   max-width: 1000px;
 }
@@ -1310,14 +1311,14 @@ html {
 }
 
 /* setting padding based on even or odd */
-.cardtl:nth-child(odd) {
+.card:nth-child(odd) {
   padding: 30px 0 30px 30px;
 }
-.cardtl:nth-child(even) {
+.card:nth-child(even) {
   padding: 30px 30px 30px 0;
 }
 /* Global ::before */
-.cardtl::before {
+.card::before {
   content: "";
   position: absolute;
   width: 50%;
@@ -1325,7 +1326,7 @@ html {
 }
 
 /* Setting the border of top, bottom, left */
-.cardtl:nth-child(odd)::before {
+.card:nth-child(odd)::before {
   left: 0px;
   top: -4.5px;
   bottom: -4.5px;
@@ -1334,7 +1335,7 @@ html {
 }
 
 /* Setting the border of top, bottom, right */
-.cardtl:nth-child(even)::before {
+.card:nth-child(even)::before {
   right: 0;
   top: 0;
   bottom: 0;
@@ -1343,19 +1344,19 @@ html {
 }
 
 /* Removing the border if it is the first card */
-.cardtl:first-child::before {
+.card:first-child::before {
   border-top: 0;
   border-top-left-radius: 0;
 }
 
 /* Removing the border if it is the last card  and it's odd */
-.cardtl:last-child:nth-child(odd)::before {
+.card:last-child:nth-child(odd)::before {
   border-bottom: 0;
   border-bottom-left-radius: 0;
 }
 
 /* Removing the border if it is the last card  and it's even */
-.cardtl:last-child:nth-child(even)::before {
+.card:last-child:nth-child(even)::before {
   border-bottom: 0;
   border-bottom-right-radius: 0;
 }
@@ -1394,17 +1395,17 @@ html {
   border-radius: 999px;
   border: 3px solid orangered;
 }
-.cardtl:nth-child(even) > .info > .title2 {
+.card:nth-child(even) > .info > .title2 {
   text-align: right;
 }
 
 /* setting dot to the left if the card is odd */
-.cardtl:nth-child(odd) > .info > .title2::before {
+.card:nth-child(odd) > .info > .title2::before {
   left: -45px;
 }
 
 /* setting dot to the right if the card is odd */
-.cardtl:nth-child(even) > .info > .title2::before {
+.card:nth-child(even) > .info > .title2::before {
   right: -45px;
 }
 /* Timeline dot  */
@@ -1419,17 +1420,17 @@ html {
 }
 
 /* text right if the card is even  */
-.cardtl:nth-child(even) > .info > .title {
+.card:nth-child(even) > .info > .title {
   text-align: right;
 }
 
 /* setting dot to the left if the card is odd */
-.cardtl:nth-child(odd) > .info > .title::before {
+.card:nth-child(odd) > .info > .title::before {
   left: -45px;
 }
 
 /* setting dot to the right if the card is odd */
-.cardtl:nth-child(even) > .info > .title::before {
+.card:nth-child(even) > .info > .title::before {
   right: -45px;
 }
 
