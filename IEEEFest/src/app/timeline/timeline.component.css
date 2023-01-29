@@ -1,70 +1,74 @@
-
 .timelinepg {
   background: var(--background-color);
   font-family: var(--font);
   display: flex;
   justify-content: center;
-  background-image:url(https://media.giphy.com/media/l1g3RddMFNWNcJ1wiD/giphy.gif);
+  background-image: url(https://media.giphy.com/media/3o6vXWjti3IvIpTbbi/giphy.gif);
   background-image: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
-  background-color:white;
+  background-size: cover;
+  background-color: white;
+  flex-direction: row;
 }
-
-
 
 /* Timeline Container */
 .timeline {
   background: var(--primary-color);
-  margin-left:250px;
-  margin-top:5px;
+  margin-left: 250px;
+  margin-top: 5px;
   margin-bottom: 5px;
- 
-/*   margin: 1000px auto; */
-/*   padding: -100px; */
+
+  /*   margin: 1000px auto; */
+  /*   padding: -100px; */
 }
 
-.text{
-  font-size:50px;
-  margin-top:800px;
+.text {
+  font-size: 50px;
+  /* margin-top: 800px; */
+  position: relative;
+  text-align:center;
   
 }
 /* Card container */
-.card {
+.cardtl {
   position: relative;
   max-width: 1000px;
 }
 
 .date {
-  font-size : 20px;
-   margin-left: 690px;   
+  font-size: 20px;
+  margin-left: 690px;
+  position: relative;
 }
 
-.date2{
-  font-size:20px;
+.date2 {
+  font-size: 20px;
   margin-left: 20px;
+  position: relative;
 }
 
-.time{
-  font-size:20px;
-  margin-left:10px;
+.time {
+  font-size: 20px;
+  margin-left: 10px;
+  position: relative;
 }
-.time2{
-  font-size:20px;
-  margin-left:680px;
+.time2 {
+  font-size: 20px;
+  margin-left: 680px;
+  position: relative;
 }
 
 /* setting padding based on even or odd */
-.card:nth-child(odd) {
+.cardtl:nth-child(odd) {
   padding: 30px 0 30px 30px;
 }
-.card:nth-child(even) {
+.cardtl:nth-child(even) {
   padding: 30px 30px 30px 0;
 }
 /* Global ::before */
-.card::before {
+.cardtl::before {
   content: "";
   position: absolute;
   width: 50%;
@@ -72,7 +76,7 @@
 }
 
 /* Setting the border of top, bottom, left */
-.card:nth-child(odd)::before {
+.cardtl:nth-child(odd)::before {
   left: 0px;
   top: -4.5px;
   bottom: -4.5px;
@@ -81,7 +85,7 @@
 }
 
 /* Setting the border of top, bottom, right */
-.card:nth-child(even)::before {
+.cardtl:nth-child(even)::before {
   right: 0;
   top: 0;
   bottom: 0;
@@ -90,19 +94,19 @@
 }
 
 /* Removing the border if it is the first card */
-.card:first-child::before {
+.cardtl:first-child::before {
   border-top: 0;
   border-top-left-radius: 0;
 }
 
 /* Removing the border if it is the last card  and it's odd */
-.card:last-child:nth-child(odd)::before {
+.cardtl:last-child:nth-child(odd)::before {
   border-bottom: 0;
   border-bottom-left-radius: 0;
 }
 
 /* Removing the border if it is the last card  and it's even */
-.card:last-child:nth-child(even)::before {
+.cardtl:last-child:nth-child(even)::before {
   border-bottom: 0;
   border-bottom-right-radius: 0;
 }
@@ -111,24 +115,25 @@
 .info {
   display: flex;
   flex-direction: column;
-  background: #333;
+  background: #fff;
   color: gray;
   border-radius: 10px;
   width: 50vw;
-  height:150px;
+  height: 150px;
   padding: 10px;
+  position: relative;
 }
 
 /* Title of the card */
 .title {
-  color: #fff;
+  color: #000;
   position: relative;
-  font-size:30px;
+  font-size: 30px;
 }
-.title2{
-  color:#fff;
-  font-size:30px;
-  position:relative;
+.title2 {
+  color: #000;
+  font-size: 30px;
+  position: relative;
 }
 
 .title2::before {
@@ -140,17 +145,17 @@
   border-radius: 999px;
   border: 3px solid orangered;
 }
-.card:nth-child(even) > .info > .title2 {
+.cardtl:nth-child(even) > .info > .title2 {
   text-align: right;
 }
 
 /* setting dot to the left if the card is odd */
-.card:nth-child(odd) > .info > .title2::before {
+.cardtl:nth-child(odd) > .info > .title2::before {
   left: -45px;
 }
 
 /* setting dot to the right if the card is odd */
-.card:nth-child(even) > .info > .title2::before {
+.cardtl:nth-child(even) > .info > .title2::before {
   right: -45px;
 }
 /* Timeline dot  */
@@ -165,357 +170,112 @@
 }
 
 /* text right if the card is even  */
-.card:nth-child(even) > .info > .title {
+.cardtl:nth-child(even) > .info > .title {
   text-align: right;
 }
 
 /* setting dot to the left if the card is odd */
-.card:nth-child(odd) > .info > .title::before {
+.cardtl:nth-child(odd) > .info > .title::before {
   left: -45px;
 }
 
 /* setting dot to the right if the card is odd */
-.card:nth-child(even) > .info > .title::before {
+.cardtl:nth-child(even) > .info > .title::before {
   right: -45px;
 }
 
-.toy-train {
-  position: relative;
-  width: 11vw;
-  margin-left: 10%;
-  transform: scaleX(-1);
-  top:11vh;
 
-} */
-
-.toy-train1 {
-  position: relative;
-  width: 11vw;
-  margin-left: -800%;
-  /* margin-right: 10vh; */
-}
-
-.engine {
-  float: right;
-  position: relative;
-}
-
-.window {
-  height: 2.8vw;
-  width: 3vw;
-  background-color: #194488;
-  position: relative;
-  border: 0.3vw solid #000;
-}
-
-.window:before,
-.window:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  border: 0.3vw solid #000;
-}
-
-.window:before {
-  height: 0.7vw;
-  background-color: #f82510;
-  width: 4.5vw;
-  margin-top: -1.3vw;
-  margin-left: -2.6vw;
-  border-radius: 0.8vw;
-}
-
-.window:after {
-  margin-left: -0.8vw;
-  margin-top: 0.3vw;
-  border-radius: 50%;
-  height: 1.1vw;
-  width: 1.1vw;
-  background-color: #fff;
-}
-
-.engine-main {
-  height: 1vw;
-  width: 3.5vw;
-  border: 0.3vw solid #000;
-  background-color: #3d9a01;
-  position: absolute;
-  border-radius: 0 0.8vw 0.8vw 0;
-  right: -4.1vw;
-  bottom: -0.3vw;
-}
-
-.engine-main:before {
-  content: "";
-  height: 1vw;
-  width: 0.8vw;
-  background-color: #000;
-  position: absolute;
-  top: -1.1vw;
-  left: 0.4vw;
-  transform: rotate(180deg);
-  border-radius: 50% 50% 50% 50% / 90% 90% 40% 40%;
-}
-
-.engine-main:after {
-  content: "";
-  height: 1.2vw;
-  width: 0.8vw;
-  position: absolute;
-  display: block;
-  right: 0.5vw;
-  top: -1.8vw;
-  border-radius: 50% 50% 50% 50% / 90% 90% 40% 40%;
-  transform: rotate(180deg);
-  z-index: -1;
-  background-color: #194488;
-  border: 0.3vw solid #000;
-}
-
-.engine-body {
-  height: 1.7vw;
-  width: 7.5vw;
-  position: absolute;
-  left: -0.2vw;
-  top: 3vw;
-  background-color: #f69f00;
-  border: 0.3vw solid #000;
-  border-radius: 0.5vw;
-}
-
-.engine-body .big-wheel {
-  top: 0.3vw;
-  left: 0.2vw;
-}
-
-.engine-body .normal-wheel {
-  left: 4.5vw;
-  top: 0.5vw;
-}
-
-.engine-body:before {
-  content: "";
-  position: absolute;
-  height: 0.5vw;
-  width: 0.5vw;
-  left: -1.1vw;
-  bottom: 0.2vw;
-  z-index: -1;
-  background-color: #fff;
-  border-radius: 50%;
-  border: 0.3vw solid #000;
-}
-
-.wheels > div {
-  position: absolute;
-  background-color: #f82510;
-  border-radius: 50%;
-  border: 0.3vw solid #000;
-  animation: wheel-rotate 1s linear infinite;
-}
-
-.wheels > div:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  border-bottom: 0.1vw solid #000;
-  top: 50%;
-  margin-top: -0.1vw;
-}
-
-.wheels > div:after {
-  content: "";
-  height: 0.8vw;
-  width: 0.8vw;
-  position: absolute;
-  background-color: #000;
-  border-radius: 50%;
-  left: 50%;
-  top: 50%;
-  margin-left: -0.4vw;
-  margin-top: -0.4vw;
-}
-
-.wheels .big-wheel {
-  width: 2.2vw;
-  height: 2.2vw;
-  animation-delay: -0.3s;
-}
-
-.wheels .normal-wheel {
-  height: 2vw;
-  width: 2vw;
-  animation-delay: -0.6s;
-}
-
-.locomotive {
-  height: 3.5vw;
-  width: 6vw;
-  border: 0.3vw solid #000;
-  background-color: #f69f00;
-  border-radius: 0.5vw;
-  position: relative;
-  float: left;
-  margin-top: 1.3vw;
-}
-
-.locomotive:before {
-  content: "";
-  width: 100%;
-  background: linear-gradient(
-    to right,
-    #000000 0%,
-    #000000 8%,
-    #f69f00 8%,
-    #f69f00 15%,
-    #000000 15%,
-    #000000 28%,
-    #000000 34%,
-    #f69f00 34%,
-    #f69f00 65%,
-    #000000 65%,
-    #000000 65%,
-    #000000 100%
-  );
-  height: 0.3vw;
-  position: absolute;
-  top: 0.6vw;
-  left: 0;
-}
-
-.locomotive:after {
-  content: "";
-  width: 100%;
-  background: linear-gradient(
-    to right,
-    #000000 0%,
-    #000000 24%,
-    #f69f00 24%,
-    #f69f00 65%,
-    #f69f00 65%,
-    #000000 65%,
-    #000000 85%,
-    #f69f00 85%,
-    #f69f00 90%,
-    #000000 90%,
-    #000000 100%
-  );
-  height: 0.3vw;
-  position: absolute;
-  top: 1.4vw;
-  left: 0;
-}
-
-.locomotive .wheels > div {
-  top: 2.2vw;
-  animation-delay: -0.6s;
-}
-
-.locomotive .wheels > div:first-child {
-  animation-delay: -0.9s;
-}
-
-.locomotive .normal-wheel:first-of-type {
-  left: 0.2vw;
-}
-
-.locomotive .normal-wheel:last-of-type {
-  right: 0.2vw;
-}
-
-.locomotive .trash {
-  height: 3.5vw;
-  width: 5vw;
-  position: absolute;
-  top: -1.8vw;
-  border: 0.3vw solid #000;
-  background-color: #3d9a01;
-  border-radius: 50%;
-  left: 0.2vw;
-  z-index: -1;
-}
-
-.tracks {
-  position: relative;
-  width: 20vw;
-  bottom: -1vw;
-  overflow: hidden;
-  height: 0.3vw;
-}
-
-.tracks span {
-  display: inline;
-  height: 0.3vw;
-  width: 20vw;
-  position: absolute;
-  left: 20vw;
-  background: linear-gradient(
-    to right,
-    black 0%,
-    black 30%,
-    transparent 30%,
-    transparent 39%,
-    black 39%,
-    black 61%,
-    black 65%,
-    transparent 65%,
-    transparent 70%,
-    black 71%,
-    black 100%
-  );
-  animation: track 2s linear infinite;
-  animation-fill-mode: forwards;
-}
-
-.tracks span:nth-child(2) {
-  animation-delay: -1s;
-}
-
-.smokes:before,
-.smokes:after,
-.smokes span:before {
-  display: block;
-  content: "";
-  height: 0.8vw;
-  width: 0.8vw;
-  background-color: #d4d2cd;
-  border-radius: 50%;
-  position: absolute;
-  right: 0.8vw;
-  top: 1.5vw;
-  z-index: -1;
-}
-
-.smokes:before {
-  animation: smoke 1s linear infinite;
-}
-
-.smokes span:before {
-  animation: smoke 1s linear infinite;
-  animation-delay: -0.6s;
-}
-
-.smokes:after {
-  animation: smoke 1s linear infinite;
-  animation-delay: -0.3s;
-}
-
-@keyframes smoke {
-  100% {
-    top: -5vw;
-    opacity: 0.5;
+@media screen and (max-width:700px){
+  
+  
+  /* Timeline Container */
+  .timeline {
+    background: var(--primary-color);
+    margin-left:20px;
+    /*margin-top:4px;
+    margin-bottom: 4px;*/
+    text-align: center;
+   
+  /*   margin: 1000px auto; */
+  /*   padding: -100px; */
   }
-}
-
-@keyframes wheel-rotate {
-  100% {
-    transform: rotate(360deg);
+  
+  .text{
+    font-size:25px;
+    margin-top:200px;
+    
   }
-}
-
-@keyframes track {
-  100% {
-    left: -20vw;
+  /* Card container */
+  .card {
+    position: relative;
+    max-width: 300vw;
   }
+  
+  .date {
+    font-size : 20px;
+     margin-left: 20px;   
+  }
+  .date2{
+    font-size:20px;
+    margin-left: 20px;
+  }
+  
+  .time{
+    font-size:20px;
+    margin-left:20px;
+  }
+  .time2{
+    font-size:20px;
+    margin-left:20px;
+  }
+  
+  /* setting padding based on even or odd */
+  .card:nth-child(odd) {
+    padding: 30px 0 30px 30px;
+  }
+  .card:nth-child(even) {
+    padding: 30px 30px 30px 0;
+  }
+  /* Setting the border of top, bottom, left */
+.card:nth-child(odd)::before {
+  left: 0px;
+  top: -4.5px;
+  bottom: -4.5px;
+  border-width: 4px 0 4px 4px;
+  border-radius: 40px 0 0 40px;
 }
 
+/* Setting the border of top, bottom, right */
+.card:nth-child(even)::before {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-width: 4px 4px 4px 0;
+  border-radius: 0 40px 40px 0;
+}
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 60vw;
+  height:100px;
+  padding: 5px;
+}
+
+/* Title of the card */
+.title {
+  position: relative;
+  font-size:20px;
+}
+.title2{
+  font-size:20px;
+  position:relative;
+}
+.timelinepg {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+}

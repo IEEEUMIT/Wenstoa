@@ -1267,7 +1267,7 @@ html {
   font-family: var(--font);
   display: flex;
   justify-content: center;
-  background-image: url(https://media.giphy.com/media/l41lZZqhIUA6IJNDO/giphy.gif);
+  background-image: url(https://media.giphy.com/media/3o6vXWjti3IvIpTbbi/giphy.gif);
   background-image: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1279,18 +1279,20 @@ html {
 /* Timeline Container */
 .timeline {
   background: var(--primary-color);
-  margin-left: 250px;
+  margin-left: 50px;
   margin-top: 5px;
   margin-bottom: 5px;
+  align-items:center;
 
   /*   margin: 1000px auto; */
   /*   padding: -100px; */
 }
 
 .text {
-  font-size: 50px;
-  margin-top: 800px;
+  font-size: 60px;
+  margin-top: 20px;
   position: relative;
+  text-align:center;
 }
 /* Card container */
 .cardtl {
@@ -1299,25 +1301,25 @@ html {
 }
 
 .date {
-  font-size: 20px;
-  margin-left: 690px;
+  font-size: 30px;
+  margin-left: 10px;
   position: relative;
 }
 
 .date2 {
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 30px;
+  margin-left: 680px;
   position: relative;
 }
 
 .time {
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 10px;
   position: relative;
 }
 .time2 {
-  font-size: 20px;
-  margin-left: 680px;
+  font-size: 30px;
+  margin-left: 635px;
   position: relative;
 }
 
@@ -1376,8 +1378,8 @@ html {
 .info {
   display: flex;
   flex-direction: column;
-  background: #fff;
-  color: gray;
+  background: transparent;
+  color: white;
   border-radius: 10px;
   width: 50vw;
   height: 150px;
@@ -1389,11 +1391,11 @@ html {
 .title {
   color: #000;
   position: relative;
-  font-size: 30px;
+  font-size: 55px;
 }
 .title2 {
   color: #000;
-  font-size: 30px;
+  font-size: 55px;
   position: relative;
 }
 
@@ -1404,7 +1406,7 @@ html {
   height: 10px;
   background: white;
   border-radius: 999px;
-  border: 3px solid orangered;
+  border: 8px solid orangered;
 }
 .cardtl:nth-child(even) > .info > .title2 {
   text-align: right;
@@ -1427,7 +1429,7 @@ html {
   height: 10px;
   background: white;
   border-radius: 999px;
-  border: 3px solid orangered;
+  border: 8px solid orangered;
 }
 
 /* text right if the card is even  */
@@ -1789,6 +1791,8 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 .event h1 {
@@ -1946,3 +1950,97 @@ section .card .box .contentBx div p {
 }
 
 /* timeline  */
+@media screen and (max-width:700px){
+  
+  
+  /* Timeline Container */
+  .timeline {
+    background: var(--primary-color);
+    margin-left:20px;
+    /*margin-top:4px;
+    margin-bottom: 4px;*/
+    text-align: center;
+   
+  /*   margin: 1000px auto; */
+  /*   padding: -100px; */
+  }
+  
+  .text{
+    font-size:25px;
+    margin-top:200px;
+    
+  }
+  /* Card container */
+  .card {
+    position: relative;
+    max-width: 300vw;
+  }
+  
+  .date {
+    font-size : 20px;
+     margin-left: 20px;   
+  }
+  .date2{
+    font-size:20px;
+    margin-left: 20px;
+  }
+  
+  .time{
+    font-size:20px;
+    margin-left:20px;
+  }
+  .time2{
+    font-size:20px;
+    margin-left:20px;
+  }
+  
+  /* setting padding based on even or odd */
+  .card:nth-child(odd) {
+    padding: 30px 0 30px 30px;
+  }
+  .card:nth-child(even) {
+    padding: 30px 30px 30px 0;
+  }
+  /* Setting the border of top, bottom, left */
+.card:nth-child(odd)::before {
+  left: 0px;
+  top: -4.5px;
+  bottom: -4.5px;
+  border-width: 4px 0 4px 4px;
+  border-radius: 40px 0 0 40px;
+}
+
+/* Setting the border of top, bottom, right */
+.card:nth-child(even)::before {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-width: 4px 4px 4px 0;
+  border-radius: 0 40px 40px 0;
+}
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 60vw;
+  height:100px;
+  padding: 5px;
+}
+
+/* Title of the card */
+.title {
+  position: relative;
+  font-size:20px;
+}
+.title2{
+  font-size:20px;
+  position:relative;
+}
+.timelinepg {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+}
