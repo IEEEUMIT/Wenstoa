@@ -1252,7 +1252,7 @@ html {
   font-family: var(--font);
   display: flex;
   justify-content: center;
-  background-image: url(https://media.giphy.com/media/l41lZZqhIUA6IJNDO/giphy.gif);
+  background-image: url(https://media.giphy.com/media/3o6vXWjti3IvIpTbbi/giphy.gif);
   background-image: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1264,18 +1264,20 @@ html {
 /* Timeline Container */
 .timeline {
   background: var(--primary-color);
-  margin-left: 250px;
+  margin-left: 50px;
   margin-top: 5px;
   margin-bottom: 5px;
+  align-items:center;
 
   /*   margin: 1000px auto; */
   /*   padding: -100px; */
 }
 
 .text {
-  font-size: 50px;
-  margin-top: 800px;
+  font-size: 60px;
+  margin-top: 20px;
   position: relative;
+  text-align:center;
 }
 /* Card container */
 .cardtl {
@@ -1284,25 +1286,25 @@ html {
 }
 
 .date {
-  font-size: 20px;
-  margin-left: 690px;
+  font-size: 30px;
+  margin-left: 10px;
   position: relative;
 }
 
 .date2 {
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 30px;
+  margin-left: 680px;
   position: relative;
 }
 
 .time {
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 10px;
   position: relative;
 }
 .time2 {
-  font-size: 20px;
-  margin-left: 680px;
+  font-size: 30px;
+  margin-left: 635px;
   position: relative;
 }
 
@@ -1361,8 +1363,8 @@ html {
 .info {
   display: flex;
   flex-direction: column;
-  background: #fff;
-  color: gray;
+  background: transparent;
+  color: white;
   border-radius: 10px;
   width: 50vw;
   height: 150px;
@@ -1374,11 +1376,11 @@ html {
 .title {
   color: #000;
   position: relative;
-  font-size: 30px;
+  font-size: 55px;
 }
 .title2 {
   color: #000;
-  font-size: 30px;
+  font-size: 55px;
   position: relative;
 }
 
@@ -1389,7 +1391,7 @@ html {
   height: 10px;
   background: white;
   border-radius: 999px;
-  border: 3px solid orangered;
+  border: 8px solid orangered;
 }
 .cardtl:nth-child(even) > .info > .title2 {
   text-align: right;
@@ -1412,7 +1414,7 @@ html {
   height: 10px;
   background: white;
   border-radius: 999px;
-  border: 3px solid orangered;
+  border: 8px solid orangered;
 }
 
 /* text right if the card is even  */
