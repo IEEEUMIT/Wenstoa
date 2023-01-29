@@ -886,6 +886,8 @@ a:hover span:nth-child(4) {
 /* overflow-x:hidden; */
 /* } */
 
+/* Footer  */
+
 .footer {
   height: 100%;
   background: rgb(0, 162, 255);
@@ -894,31 +896,24 @@ a:hover span:nth-child(4) {
   text-align: center;
 }
 
-.footer .row {
+.last{
   width: 100%;
   color: black;
   font-size: 1em;
 }
 
-h1 {
+.icon a img {
+  height:50px;
+  width:50vw;
+  margin-left:-40px;
+  background-color:#000;
+}
+
+.email {
   color: white;
   font-family: verdana;
   font-size: 1em;
   margin-left: -5vh;
-}
-
-.footer .row .a img {
-  align-items: center;
-}
-.footer .row a {
-  text-decoration: none;
-  color: black;
-  transition: 0.5s;
-  margin-left: 2%;
-}
-
-.footer .row a:hover {
-  color: #fff;
 }
 
 .footer .row ul {
@@ -933,10 +928,6 @@ h1 {
   margin-left: 2%;
 }
 
-.footer .row a i {
-  font-size: 2em;
-  margin: 0% 1%;
-}
 
 @media (max-width: 720px) {
   .footer {
@@ -1262,7 +1253,7 @@ html {
   font-family: var(--font);
   display: flex;
   justify-content: center;
-  background-image:url(https://media.giphy.com/media/l1g3RddMFNWNcJ1wiD/giphy.gif);
+  background-image:url(https://media.giphy.com/media/l41lZZqhIUA6IJNDO/giphy.gif);
   background-image: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1287,6 +1278,7 @@ html {
 .text{
   font-size:50px;
   margin-top:800px;
+  position: relative;
   }
 /* Card container */
 .cardtl {
@@ -1296,21 +1288,25 @@ html {
 
 .date {
   font-size : 20px;
-   margin-left: 690px;   
+   margin-left: 690px; 
+   position: relative;  
 }
 
 .date2{
   font-size:20px;
   margin-left: 20px;
+  position: relative;
 }
 
 .time{
   font-size:20px;
   margin-left:10px;
+  position: relative;
 }
 .time2{
   font-size:20px;
   margin-left:680px;
+  position: relative;
 }
 
 /* setting padding based on even or odd */
@@ -1374,16 +1370,17 @@ html {
   width: 50vw;
   height:150px;
   padding: 10px;
+  position: relative;
 }
 
 /* Title of the card */
 .title {
-  color: #fff;
+  color: #000;
   position: relative;
   font-size:30px;
 }
 .title2{
-  color:#fff;
+  color:#000;
   font-size:30px;
   position:relative;
 }
