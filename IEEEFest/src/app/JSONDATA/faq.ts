@@ -1,7 +1,7 @@
 export var FAQ = [
     {
         "question": "What is 360 Degrees + ?",
-        "answer":"The 360 Degrees Plus is the technical fest of IEEE UMIT It helps students strengthen their knowledge and hone their technical skills",
+        "answer":"It istechnical fest of IEEE UMIT It helps students strengthen their knowledge and technical skills",
         
     },
     {
@@ -49,7 +49,7 @@ export var FAQ = [
         "answer":"Yes everyone participating will get a certificate of participation.",
     },
     {
-        "question":"Can people of any age-group attend 360+?",
-        "answer":"No, Only college students are allowed.",
+        "question":"Can people of any college attend 360+?",
+        "answer":"Yas",
     },
 ]
