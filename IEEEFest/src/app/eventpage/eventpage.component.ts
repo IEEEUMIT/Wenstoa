@@ -15,18 +15,21 @@ export class EventpageComponent implements OnInit{
   
   events: any = []
   event: number = 0;
-  user: any;
   notification: Array<any> = [];
   
   tab: number = 3;
   ngOnInit(): void {
-    this.eventdetail=event;
+    this.getEvents();
+  }
+  getEvents(){
+    this.events=event;
   }
   toggleTabs(t: number) {
     this.tab = t;
   }
+
   toggleEvent(ind: number) {
-    this.event = ind;
-  }
+    this.event=ind;
+}
 
 }
