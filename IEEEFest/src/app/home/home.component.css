@@ -1182,7 +1182,6 @@ html {
 }
 
 .faqbg{
-  
   background-image: url(https://media.giphy.com/media/7eicfcGQy0Jr4nk0Y7/giphy.gif);
   background-image: no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1194,7 +1193,7 @@ html {
   opacity:0.5;
 }
 .faq-content {
-  width: 100%;
+  /* width: 100vw; */
   height: fit-content;
   color: rgb(28, 2, 21);
   position: relative;
