@@ -180,3 +180,5 @@
 .cardtl:nth-child(even) > .info > .title::before {
   right: -45px;
 }
+
+
