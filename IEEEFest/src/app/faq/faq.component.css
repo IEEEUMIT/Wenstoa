@@ -78,18 +78,21 @@
   padding-left: -20vw;
   display: flex;
   align-items: center;
+
   animation: answer-in 0.2s ease-in-out forwards;
   position: relative;
 }
 
 .a-popout {
   animation: answer-out 0.2s ease-in-out forwards;
+  
 }
 
 @keyframes answer-out {
   from {
     color: rgb(150, 6, 102);
     height: 0vh;
+    
   }
   to {
     color: rgb(13, 1, 1);

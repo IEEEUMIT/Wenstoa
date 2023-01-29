@@ -10,6 +10,7 @@
   -o-background-size: cover;
   background-size: cover;
   background-color: white;
+  flex-direction: row;
 }
 
 /* Timeline Container */
@@ -181,4 +182,100 @@
 /* setting dot to the right if the card is odd */
 .cardtl:nth-child(even) > .info > .title::before {
   right: -45px;
+}
+
+
+@media screen and (max-width:700px){
+  
+  
+  /* Timeline Container */
+  .timeline {
+    background: var(--primary-color);
+    margin-left:20px;
+    /*margin-top:4px;
+    margin-bottom: 4px;*/
+    text-align: center;
+   
+  /*   margin: 1000px auto; */
+  /*   padding: -100px; */
+  }
+  
+  .text{
+    font-size:25px;
+    margin-top:200px;
+    
+  }
+  /* Card container */
+  .card {
+    position: relative;
+    max-width: 300vw;
+  }
+  
+  .date {
+    font-size : 20px;
+     margin-left: 20px;   
+  }
+  .date2{
+    font-size:20px;
+    margin-left: 20px;
+  }
+  
+  .time{
+    font-size:20px;
+    margin-left:20px;
+  }
+  .time2{
+    font-size:20px;
+    margin-left:20px;
+  }
+  
+  /* setting padding based on even or odd */
+  .card:nth-child(odd) {
+    padding: 30px 0 30px 30px;
+  }
+  .card:nth-child(even) {
+    padding: 30px 30px 30px 0;
+  }
+  /* Setting the border of top, bottom, left */
+.card:nth-child(odd)::before {
+  left: 0px;
+  top: -4.5px;
+  bottom: -4.5px;
+  border-width: 4px 0 4px 4px;
+  border-radius: 40px 0 0 40px;
+}
+
+/* Setting the border of top, bottom, right */
+.card:nth-child(even)::before {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-width: 4px 4px 4px 0;
+  border-radius: 0 40px 40px 0;
+}
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 60vw;
+  height:100px;
+  padding: 5px;
+}
+
+/* Title of the card */
+.title {
+  position: relative;
+  font-size:20px;
+}
+.title2{
+  font-size:20px;
+  position:relative;
+}
+.timelinepg {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 }

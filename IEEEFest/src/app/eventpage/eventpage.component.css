@@ -33,6 +33,7 @@
         font-size: 2em;
         text-align: center;
         font-family: subhead;
+        color: rgb(31, 31, 121)
 
         
     }
@@ -78,12 +79,19 @@
     .name-tagline{
         background-color: silver;
         width: 100%;
-        color: black;
+        color:black
+          ;
         /* height: 10vh; */
         display: flex;
         flex-direction: row;
-        border-bottom: solid thin silver;
+        cursor: pointer;
+        background-color: transparent;
+        
+     
     }
+     
+
+    
     .label {
         font-family: 'Times New Roman', Times, serif;
         font-size: 120%;
@@ -112,6 +120,7 @@
         text-align: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: italic;
+       
     }
     
     .tagline {
@@ -121,6 +130,7 @@
         justify-content: end;
         font-size: 120%;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         color: black;
     }
     .adjust {
         display: flex;
@@ -132,7 +142,7 @@
         display: flex;
         width: 100%;
         /* height: 13vh; */
-        background-color: rgba(241, 109, 21, 0.315);
+        background-color: transparent;
         flex-direction: row;
         /* align-items: center; */
         /* text-align: center; */
@@ -144,7 +154,7 @@
         /* background-color: rgb(208, 255, 196); */
         font-size: 28px;
         font-family: body;
-        color: white;
+        color: rgba(40, 146, 111, 0.952);
         text-align: center;
     }
     .desc {
@@ -153,7 +163,7 @@
          /* background-color: rgb(255, 196, 240); */
         font-size: 23px;
         font-family: body;
-        color: white;
+        color: rgba(236, 61, 236, 0.603);
         text-align: center;
     }
     .prizes {
@@ -162,7 +172,7 @@
         /* background-color: rgb(141, 135, 222); */
         font-size: 23px;
         font-family: body;
-        color: white;
+        color: rgb(29, 29, 139);
         text-align: center;
         font-weight:800;
         /* display: flex; */
@@ -177,7 +187,7 @@
         .pri {
             font-size: 25px;
             font-family: body;
-            color: white;
+            color: black;
             text-align: center;
             /* height: 4vh; */
             /* background-color:cadetblue; */
@@ -201,7 +211,7 @@
             width: 100%;
             font-size: 1.3em;
             font-family: subhead;
-            color: white;
+            color:black;
             text-align: center;
         }
         .incharges {
@@ -209,20 +219,20 @@
             width: 100%;
             font-size: 22px;
             font-family: body;
-            color: white;
+            color: black;
             display: flex;
             flex-direction: column;
             text-align: center;
-            margin: 3vh 0;
+
         }
         .in-name:hover {
-            color: silver;
+            color: rgb(114, 109, 109);
             cursor: pointer;
         }
         .date {
             width: 100%;
              /* background-color:aqua; */
-            color: white;
+            color:rgba(207, 56, 56, 0.966);
             text-align: left;
             font-size: 22px;
             font-family: body;
@@ -231,7 +241,7 @@
         .time1 {
             width: 100%;
              /* background-color:chocolate; */
-            color: white;
+            color: rgba(207, 56, 56, 0.904);
             text-align: left;
             font-size: 22px;
             font-family: body;
@@ -247,8 +257,10 @@
         .heading {
             font-size: 1.5em;
             font-family: subhead;
-            color: white;
+            color:black;
             text-align: center;
+            font-weight: bold;
+            background-color: rgba(250, 235, 215, 0.555);
         }
         .card {
             display: flex;
@@ -256,7 +268,9 @@
             align-items: center;
             justify-content: space-evenly;
             flex-wrap: wrap;
+            background-color:rgba(245, 245, 220, 0.438);
         }
+    
         .not {
             color: white;
             font-size: 40px;
@@ -277,7 +291,7 @@
             font-size: 28px;
             font-weight: 800;
             font-family: subhead;
-            color: white;
+            color: black;
             text-align: center;
         }
         .in-email {
@@ -285,7 +299,7 @@
             /* background-color: rgb(20, 207, 220); */
             font-size: 22px;
             font-family: body;
-            color: white;
+            color:black;
             text-align: center;
         }
         
@@ -294,15 +308,18 @@
             /* background-color: rgb(220, 100, 20); */
             font-size: 22px;
             font-family: body;
-            color: white;
+            color: black;
             text-align: center;
         }
 @media only screen and (max-width: 600px){
     .eventmain{
-        overflow-y: scroll;
         padding: 2vh 0vh;
         overflow-x: hidden;
-        
+        background-size: cover ;
+        background-image: no-repeat center center fixed;
+        background-size: cover;
+        height: fit-content;
+        flex-wrap: wrap;
 
     }
     .events-tab {
@@ -326,7 +343,7 @@
         font-size: 2em;
         text-align: center;
         font-family: subhead;
-        cursor: pointer;
+        
     }
     .content {
         margin-top: 2vh;
@@ -372,10 +389,53 @@
     }
     .name {
         width: 100%;
+        font-size: large;
     }
     .label {
         font-size: large;
     }
+    .tagline {
+        width: 100%;
+        font-size: small;
+    }
+    .prizes {
+        width: 40%;
+        font-size: medium;
+    }
+    .incharge {
+        font-size: small;
+    }
+    .incharge {
+        font-size: small;
+    }
+    .in-name {
+        font-size: x-small;
+    }
+    .in-email {
+        font-size: small;
+    }
+    .in-phone {
+        font-size: xx-small;
+    }
+    .dateandtime {
+        font-size: xx-small;
+    }
+    .date {
+        font-size: xx-small;
+    }
+    .time1 {
+        font-size: xx-small;
+    }
+    .card {
+        flex-wrap: wrap;
+    }
+    .incharge {
+        width: 90%;
+        margin: 1vh 0;
+    }
+    
+    
 
 
 }
+
