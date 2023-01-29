@@ -9,9 +9,9 @@ export let navbar = [
         "name":"Event",
         "link":"/eventpage",
     },
-    {
-        "role":"user",
-        "name":"Timeline",
-        "link":"/timeline",
-    },
+    // {
+    //     "role":"user",
+    //     "name":"Timeline",
+    //     "link":"/timeline",
+    // },
 ]
