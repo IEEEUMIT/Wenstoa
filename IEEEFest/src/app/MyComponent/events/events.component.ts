@@ -13,10 +13,11 @@ export class EventsComponent implements OnInit{
   // }
   eventdel:any;
   constructor() {}
-  
   ngOnInit(): void {
     this.eventdel=events;
   }
 
 
 }
+
+

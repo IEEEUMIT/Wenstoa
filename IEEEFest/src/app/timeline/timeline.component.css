@@ -1,13 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 
-body {
+.timelinepg {
   background: var(--background-color);
   font-family: var(--font);
   display: flex;
   justify-content: center;
+  background-image:url(https://media.giphy.com/media/l1g3RddMFNWNcJ1wiD/giphy.gif);
+  background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  background-color:white;
 }
 
 
@@ -15,21 +18,43 @@ body {
 /* Timeline Container */
 .timeline {
   background: var(--primary-color);
+  margin-left:250px;
+  margin-top:5px;
+  margin-bottom: 5px;
+ 
 /*   margin: 1000px auto; */
 /*   padding: -100px; */
 }
 
+.text{
+  font-size:50px;
+  margin-top:800px;
+  
+}
 /* Card container */
 .card {
   position: relative;
   max-width: 1000px;
 }
 
-p{
-  text-align:center;
-  /* align-itmes:center; */
+.date {
+  font-size : 20px;
+   margin-left: 690px;   
 }
 
+.date2{
+  font-size:20px;
+  margin-left: 20px;
+}
+
+.time{
+  font-size:20px;
+  margin-left:10px;
+}
+.time2{
+  font-size:20px;
+  margin-left:680px;
+}
 
 /* setting padding based on even or odd */
 .card:nth-child(odd) {
@@ -43,7 +68,7 @@ p{
   content: "";
   position: absolute;
   width: 50%;
-  border: solid orangered;
+  border: solid #000;
 }
 
 /* Setting the border of top, bottom, left */
@@ -89,15 +114,45 @@ p{
   background: #333;
   color: gray;
   border-radius: 10px;
+  width: 50vw;
+  height:150px;
   padding: 10px;
 }
 
 /* Title of the card */
 .title {
-  color: orangered;
+  color: #fff;
   position: relative;
+  font-size:30px;
+}
+.title2{
+  color:#fff;
+  font-size:30px;
+  position:relative;
 }
 
+.title2::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  border: 3px solid orangered;
+}
+.card:nth-child(even) > .info > .title2 {
+  text-align: right;
+}
+
+/* setting dot to the left if the card is odd */
+.card:nth-child(odd) > .info > .title2::before {
+  left: -45px;
+}
+
+/* setting dot to the right if the card is odd */
+.card:nth-child(even) > .info > .title2::before {
+  right: -45px;
+}
 /* Timeline dot  */
 .title::before {
   content: "";

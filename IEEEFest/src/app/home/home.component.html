@@ -2,7 +2,7 @@
  <div class="main">
   <div class="home">
     <div>
-      <div spellcheck="false" class="text" contenteditable="false">
+      <div spellcheck="false" class="name" contenteditable="false">
         <h1> IEEE UMIT Presents
           <br>A 360 Degree +
         </h1>
@@ -63,7 +63,7 @@
     <div class="item button-pressure">
       <!-- <button>
         <p> Register Now </p> -->
-        <a href="#">
+        <a href="https://forms.gle/atRpocJ6mqAS4pfm7">
           <span></span>
           <span></span>
           <span></span>
@@ -82,8 +82,126 @@
     </div>
   </div>
 
+  
+ <!-- Timeline -->
+ <div class="timelinepg" >
+  <div class="text">TIMELINE</div>
+
+  <div class="timeline">
+    <div class="outer">
+      <div class="card">
+        <div class="info">
+          <h3 class="title">Title 1</h3>
+          <div class="date">Date : 03/02/23 </div>
+          <div class="time">3:00 pm to 4:00 pm</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="info">
+          <h3 class="title2">Title 2</h3>
+          <div class="date2">Date : 03/02/23 </div>
+          <div class="time2">3:00 pm to 4:00 pm</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="info">
+          <h3 class="title">Title 3</h3>
+          <div class="date">Date : 03/02/23 </div>
+          <div class="time">3:00 pm to 4:00 pm</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="info">
+          <h3 class="title2">Title 4</h3>
+          <div class="date2">Date : 03/02/23 </div>
+          <div class="time2">3:00 pm to 4:00 pm</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="info">
+          <h3 class="title">Title 5</h3>
+          <div class="date">Date : 03/02/23 </div>
+          <div class="time">3:00 pm to 4:00 pm</div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="info">
+          <h3 class="title2">Title 6</h3>
+          <div class="date2">Date : 03/02/23 </div>
+          <div class="time2">3:00 pm to 4:00 pm</div>
+</div>
+</div>
+          
+      <div class="card">
+        <div class="info">
+          <h3 class="title">Title 7</h3>
+          <div class="date">Date : 03/02/23 </div>
+          <div class="time">3:00 pm to 4:00 pm</div>
+          </div>
+          </div>
+          
+      <div class="card">
+        <div class="info">
+          <h3 class="title2">Title 8</h3>
+          <div class="date2">Date : 03/02/23 </div>
+          <div class="time2">3:00 pm to 4:00 pm</div>
+        </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+  <!-- Events -->
+ <div class="event">
+  <h1 id="text">EVENTS</h1>
+<div class="eventbg">
+<section>
+    <div class="card" *ngFor="let x of eventdel">
+        <div class="box" >
+            <div class="imgBx">
+             <img src={{x.img}} alt="image" style="width:300px;height:300px"> 
+            </div>
+            <div class="contentBx">
+              <div>
+                <h2>{{x.name}}</h2>
+                <p>{{x.detail}}</p>
+                </div>
+            </div>
+        </div>
+      </div>
+  </section> 
+</div>
+ </div> 
 
 
+<!-- FAQ  -->
+<div class="faq">
+  <div class="section">
+
+    <div class="heading-cont">
+      <div class="heading">
+        Frequently Asked Questions
+      </div>
+    </div>
+  </div>
+  <br><br>
+        <div class="section-content">
+          <div class="faq">
+            <div class="faq-content" *ngFor="let FAQ of faq; let i=index">
+              <div class="question-cont">
+              <div class="faq-arrow" (click)="toggleFAQ(i)" [ngClass]="{'faq-arrow-turn':faqDisplay[i]}">|[
+              </div>
+              {{FAQ.question}}<br>
+              </div>
+              <div class="answers" [ngClass]="{'a-popout':faqDisplay[i]}">=>     {{FAQ.answer}}
+            </div>
+            </div>
+            </div>
+                  </div> 
+</div>
+
+<!-- Sponsors -->
 <div class="sponsor">
   <h1>Our Sponsors</h1>
 <div class="grid image-grid">
@@ -99,6 +217,8 @@
 
 
 
+
+<!-- Fotter -->
  <footer>
   <div class="footer">
   <div class="row">
@@ -123,5 +243,3 @@
   </div>
   </div>
   </footer>
-</div>
-</body>
