@@ -894,6 +894,15 @@ a:hover span:nth-child(4) {
   padding: 20px 0px;
   font-family: verdana;
   text-align: center;
+  background-image: url(https://media.giphy.com/media/7eicfcGQy0Jr4nk0Y7/giphy.gif);
+  background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.footer:before {
+  opacity: 0.5;
 }
 
 .last {
@@ -960,7 +969,12 @@ html {
   min-height: 100vh;
   font-size: 1rem;
   line-height: 1.25;
-  background-color: #18222d;
+  background-image: url(https://media.giphy.com/media/7eicfcGQy0Jr4nk0Y7/giphy.gif);
+  background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .sponsor h1 {
   display: flex;
@@ -1101,7 +1115,7 @@ html {
     15px 15px rgba(4, 140, 231, 0.2), 20px 20px rgba(4, 140, 231, 0.1),
     25px 25px rgba(4, 140, 231, 0.05);
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 600px) {
   .grid-block {
     display: inline-block;
     width: 75%;
@@ -1156,6 +1170,18 @@ html {
   align-items: center;
 }
 
+.faqbg{
+  
+  background-image: url(https://media.giphy.com/media/7eicfcGQy0Jr4nk0Y7/giphy.gif);
+  background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.faqbg:before{
+  opacity:0.5;
+}
 .faq-content {
   width: 100%;
   height: fit-content;
@@ -1252,13 +1278,16 @@ html {
   font-family: var(--font);
   display: flex;
   justify-content: center;
-  background-image: url(https://media.giphy.com/media/3o6vXWjti3IvIpTbbi/giphy.gif);
+  background-image: url(https://media.giphy.com/media/7eicfcGQy0Jr4nk0Y7/giphy.gif);
   background-image: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-color: white;
+}
+.timelinepg:before {
+  opacity: 0.2;
 }
 
 /* Timeline Container */
@@ -1267,7 +1296,7 @@ html {
   margin-left: 50px;
   margin-top: 5px;
   margin-bottom: 5px;
-  align-items:center;
+  align-items: center;
 
   /*   margin: 1000px auto; */
   /*   padding: -100px; */
@@ -1277,7 +1306,7 @@ html {
   font-size: 60px;
   margin-top: 20px;
   position: relative;
-  text-align:center;
+  text-align: center;
 }
 /* Card container */
 .cardtl {
@@ -1293,7 +1322,7 @@ html {
 
 .date2 {
   font-size: 30px;
-  margin-left: 680px;
+  margin-left: 660px;
   position: relative;
 }
 
@@ -1304,7 +1333,7 @@ html {
 }
 .time2 {
   font-size: 30px;
-  margin-left: 635px;
+  margin-left: 615px;
   position: relative;
 }
 
@@ -1363,7 +1392,7 @@ html {
 .info {
   display: flex;
   flex-direction: column;
-  background: transparent;
+  background: #957DAD;
   color: white;
   border-radius: 10px;
   width: 50vw;
@@ -1789,6 +1818,18 @@ html {
   margin-bottom: 1.5vh;
 }
 
+.eventpg {
+  background-image: url(https://media.giphy.com/media/7eicfcGQy0Jr4nk0Y7/giphy.gif);
+  background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+}
+.eventpg:before{
+  opacity:0.5;
+}
 .event {
   align-items: center;
 
@@ -1935,50 +1976,47 @@ section .card .box .contentBx div p {
 }
 
 /* timeline  */
-@media screen and (max-width:700px){
-  
-  
+@media screen and (max-width: 700px) {
   /* Timeline Container */
   .timeline {
     background: var(--primary-color);
-    margin-left:20px;
+    margin-left: 20px;
     /*margin-top:4px;
     margin-bottom: 4px;*/
     text-align: center;
-   
-  /*   margin: 1000px auto; */
-  /*   padding: -100px; */
+
+    /*   margin: 1000px auto; */
+    /*   padding: -100px; */
   }
-  
-  .text{
-    font-size:25px;
-    margin-top:200px;
-    
+
+  .text {
+    font-size: 25px;
+    margin-top: 200px;
   }
   /* Card container */
   .card {
     position: relative;
     max-width: 300vw;
   }
-  
+
   .date {
-    font-size : 20px;
-     margin-left: 20px;   
-  }
-  .date2{
-    font-size:20px;
+    font-size: 20px;
     margin-left: 20px;
   }
-  
-  .time{
-    font-size:20px;
-    margin-left:20px;
+  .date2 {
+    font-size: 20px;
+    margin-left: 20px;
   }
-  .time2{
-    font-size:20px;
-    margin-left:20px;
+
+  .time {
+    font-size: 20px;
+    margin-left: 20px;
   }
-  
+  .time2 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
   /* setting padding based on even or odd */
   .card:nth-child(odd) {
     padding: 30px 0 30px 30px;
@@ -1987,45 +2025,45 @@ section .card .box .contentBx div p {
     padding: 30px 30px 30px 0;
   }
   /* Setting the border of top, bottom, left */
-.card:nth-child(odd)::before {
-  left: 0px;
-  top: -4.5px;
-  bottom: -4.5px;
-  border-width: 4px 0 4px 4px;
-  border-radius: 40px 0 0 40px;
-}
+  .card:nth-child(odd)::before {
+    left: 0px;
+    top: -4.5px;
+    bottom: -4.5px;
+    border-width: 4px 0 4px 4px;
+    border-radius: 40px 0 0 40px;
+  }
 
-/* Setting the border of top, bottom, right */
-.card:nth-child(even)::before {
-  right: 0;
-  top: 0;
-  bottom: 0;
-  border-width: 4px 4px 4px 0;
-  border-radius: 0 40px 40px 0;
-}
-/* Information about the timeline */
-.info {
-  display: flex;
-  flex-direction: column;
-  border-radius: 5px;
-  width: 60vw;
-  height:100px;
-  padding: 5px;
-}
+  /* Setting the border of top, bottom, right */
+  .card:nth-child(even)::before {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-width: 4px 4px 4px 0;
+    border-radius: 0 40px 40px 0;
+  }
+  /* Information about the timeline */
+  .info {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 60vw;
+    height: 100px;
+    padding: 5px;
+  }
 
-/* Title of the card */
-.title {
-  position: relative;
-  font-size:20px;
-}
-.title2{
-  font-size:20px;
-  position:relative;
-}
-.timelinepg {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+  /* Title of the card */
+  .title {
+    position: relative;
+    font-size: 20px;
+  }
+  .title2 {
+    font-size: 20px;
+    position: relative;
+  }
+  .timelinepg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
