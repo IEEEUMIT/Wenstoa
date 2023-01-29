@@ -1,41 +1,105 @@
-    <body>
+
         <div class="event" id="event">
         
-            <div class="header">
-            
-            
-            <div class="navbar">
-                <a href="#">Bombay Circuits</a>
-                <a href="#">Naukari Central</a>
-                <a href="#">Mehfil E Taxi</a>
-                <a href="#">Techy Talkies</a>
-                <a href="#"> Once Upon A Time In Mumbai</a>
-                <a href="#">Web Srujana</a>
-                <a href="#">Ravzion</a>
-                <a href="#">Matarghasti</a>
-        
-            </div>
-            </div>
-            <div>
-                <div class="container">
-                <button class="btn"><a href="#">Notification</a></button>
-                <button class="btn"><a href="#">Rules</a></button>
-                <button class="btn"><a href="#">Information</a></button>
-            </div>
-            <div class="leftBox" *ngFor="let x of eventdetail">
-                <section>
-                <div class="content">
-                    <h2>
-                        Event-{{x.name}}<br>
-                        Tagline-{{x.tagline}}
-                    </h2>
-                     <p>
-                        Description: {{x.description}}<br>
-                        time : {{x.time}}<br>
-                        venue : Foyer
-                    </p>
-                    
-        </div>
+           
+            <div class="eventmain">
+                <div class="event">
+                    <div class="events-tab"*ngFor="let e of events; let i=index" (click)="toggleEvent(i)">
+                        {{e.name}}
+                    </div>
 
+                </div>
+                <div class="content-wrapper">
+                    <div class ="content">
+                        <div class="function">
+                            <!-- <div class="toggleTabs">
+                                <div class="tt-btn"(click)="toggleTabs(1)"[ngClass]="{'tt-btn-selected': tab==1}">
+                                 <span>Notification</span>
+                                </div>
+                                <div class="tt-btn"(click)="toggleTabs(1)"[ngClass]="{'tt-btn-selected': tab==2}">
+                                    <span>Rules</span>
+                                </div>
+                                <div class="tt-btn"(click)="toggleTabs(1)"[ngClass]="{'tt-btn-selected': tab==3}">
+                                    <span>Information</span>
+                                </div> -->
+
+
+
+                            </div>
+                        </div>
+                            <!-- <div class="events-info-section" *ngIf="tab == 1">
+                                <div *ngIf="notification.length">
+                                    <div class="notifications" *ngFor=" let x of [0,1,2,3,4,5]">
+                                        <div class="time">time</div>
+                                        <div class="noti">The events starts at 6pm</div>
+                                    </div>
+                                </div>
+                                <div class="notifications not" *ngIf="!notification.length">
+                                    No Notifications yet
+                                </div>
+                            </div>
+                            <div class="events-info-section" *ngIf="tab == 2">
+                                <div class="rules" *ngFor=" let r of events[event].rules">
+                               <h5>Event will Start</h5>
+                                </div>
+                            </div> -->
+                            <div class="events-info-section" *ngIf="tab == 3">
+                                <div class="name-tagline">
+                                    <div class="ntf name">
+                                        <div class="label">
+                                            {{events[event].name}}
+                                        </div>
+                                    </div>
+                                    <div class="ntf tagline">
+                                        {{events[event].tagline}}
+                                    </div>
+                                    
+                                </div>
+                                <div class="description-and-prizes">
+                                    <div class="adjust">
+                                        <div class="adjust2">Description</div>
+                                        <div class="desc">
+                                            {{events[event].desc}}
+                                        </div>
+                                    </div>
+                                    <div class="prizes">
+                                        <div class="info-heading">Prizes</div>
+                                        <div class="prize">
+                                            <div *ngFor="let p of events[event].prizes; let i = index" class="my-prize" [ngClass]="{}">
+                                                {{i + 1}}: {{p}}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dateandtime">
+                                    <div class="date">Mode: {{events[event].mode}}</div>
+                                    <div class="date"> Date: {{events[event].date}}</div>
+                                    <div class="time1">Time:
+                                        <div *ngFor="let t of events[event].Time">{{t}}</div>
+                                    </div>
+                                </div>
+                                <div class="incharges">
+                                    <div class="heading">Event Co-ordinators</div>
+                                 
+                                    <div class="card">
+                                        <div class="incharge three" *ngFor="let inch of events[event].eventincharge">
+                                            <div class="in-name">
+                                                {{inch.name}}
+                                            </div>
+                                            <div class="in-email">
+                                                {{inch.emailid}}
+                                            </div>
+                                            <div class="in-phone">{{inch.number}}
+                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+                      
+            
     
 

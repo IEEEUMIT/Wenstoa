@@ -1,16 +1,16 @@
 export var FAQ = [
     {
         "question": "What is 360 Degrees + ?",
-        "answer":"The 360 Degrees Plus is the technical fest of IEEE UMIT It helps students strengthen their knowledge and hone their technical skills",
+        "answer":"It is technical fest of IEEE UMIT.It helps students strengthen their knowledge and technical skills.",
         
     },
     {
-        "question":"What are the 360+ 2023 dates?",
+        "question":"What are the 360 Degrees + dates?",
         "answer":"The dates of 360+ are February 3–5. Prepare for the three craziest days of the year!",
     },
     {
         "question":"What is this year's theme ?",
-        "answer":"Mumbai ",
+        "answer":"Mumbai City. ",
     },
     {
         "question":"What does Wenstoa means ?",
@@ -49,7 +49,7 @@ export var FAQ = [
         "answer":"Yes everyone participating will get a certificate of participation.",
     },
     {
-        "question":"Can people of any age-group attend 360+?",
-        "answer":"No, Only college students are allowed.",
+        "question":"Can people of any college attend 360 Degrees +?",
+        "answer":"Yes",
     },
 ]

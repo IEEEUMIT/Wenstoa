@@ -1,110 +1,337 @@
-*{
-    margin:0;
-    padding:0;
-}
-.event{
+.eventmain {
     width: 100%;
     height: 100vh;
     background-image: url('../../assets/images/backg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     padding-left: 0%;
     padding-right: 8%;
     box-sizing: border-box;
+    background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.header{
-    height: 13%;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-}
-.logo{
-    width: 400px;
-    cursor: pointer;
-    margin-top: 80px;
-    margin-left: 0%;
 
-    
-}
-.navbar{
-    text-align: center;
-    flex: 1;
-}
-.navbar a{
-    padding: 6px;
+.events-tab {
+    padding: 6px 10px;
     text-decoration: none;
     color: black;
-    margin-left: 1vh;
+    margin-left: 0vh;
     margin-right: 1vh;
     font-size: 18px;
-    font-size: bold;    
+    font-size: bold;
+    width: 100px;
+    display: inline;
 }
-.container .btn a{
-    cursor: pointer;
-    color: #000;
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    padding: 20px,10px;
-    border: 0.4px solid #fff;
-    color:black;
-    font-size: 15;
-    letter-spacing: 1px;
-    padding: 10px 20px;
-    border: 2px solid #121213;
-    background: transparent;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 50px;
-    margin-left: 10px;
-    /* border-radius:12px; */
+.events-tab:hover {
+    text-decoration: underline purple;
 }
+.name{
 
-/* section {
-    width: 100%;
-    height: 100vh;
-    background:url(); 
-    background-size: cover;
-    } */
-  
-/* Styling the left floating section */
-.leftBox {
-    width: 50%;
-    height: 100%;
-    float: left;
-    padding: 50px;
-    box-sizing: border-box;
+          height: 6vh; 
+        font-size: 2em;
+        text-align: center;
+        font-family: subhead;
+        cursor: pointer;
+        
+    }
+    .content-wrapper {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow-y: visible;
+    }
+    .eventdetails {
+        width: 100%;
+        height: 10vh;
+        border-radius: 20px;
+        background-color: rgba(114, 68, 68, 0.5);
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+    }
+    .function {
+        width: 100%;
+        height: 10vh;
+        flex-direction: row;
+        display: flex;
+        color: white;
+    }
+    .events-info-section {
+        width: 100%;
+        height: 60vh;
+        border-radius: 20px;
+        align-items: center;
+        /* color: antiquewhite; */
+        text-align: center;
+        /* overflow-y: scroll; */
+        /* color: white; */
+        background-color: transparent;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .name-tagline{
+        background-color: silver;
+        width: 100%;
+        color: black;
+        /* height: 10vh; */
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid thin silver;
+    }
+    .label {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 120%;
+        font-weight: 800;
+        /* background-color:aquamarine; */
+    }
+    .text {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 80%;
+    }
+    
+    .ntf {
+        text-align: left;
+        font-weight: 600;
+        /* background-color: #7e3310; */
+    }
+    
+    .ntf tagline {
+        text-align: center;
+        /* background-color: #107e57; */
+    }
+    .name {
+        /* background-color: purple; */
+        width: 40%;
+        /* height: 100%; */
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+    }
+    
+    .tagline {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        font-size: 120%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .adjust {
+        display: flex;
+        flex-direction: column;
+        margin: 1vh 0;
+        width: 50%;
+    }
+    .description-and-prizes {
+        display: flex;
+        width: 100%;
+        /* height: 13vh; */
+        background-color: rgba(241, 109, 21, 0.315);
+        flex-direction: row;
+        /* align-items: center; */
+        /* text-align: center; */
+        margin: 1vh 0;
+    }
+    .adjust2 {
+         /* height: 4vh; */
+        /* width: 50%; */
+        /* background-color: rgb(208, 255, 196); */
+        font-size: 28px;
+        font-family: body;
+        color: white;
+        text-align: center;
+    }
+    .desc {
+    /* height: 9vh; */
+        /* width: 90%; */
+         /* background-color: rgb(255, 196, 240); */
+        font-size: 23px;
+        font-family: body;
+        color: white;
+        text-align: center;
+    }
+    .prizes {
+        /* height: 13vh; */
+        width: 50%;
+        /* background-color: rgb(141, 135, 222); */
+        font-size: 23px;
+        font-family: body;
+        color: white;
+        text-align: center;
+        font-weight:800;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* margin-left: 13vh; */
+    }
+    .prizes {
+        display: flex;
+        flex-direction: column;
+    }
+    
+        .pri {
+            font-size: 25px;
+            font-family: body;
+            color: white;
+            text-align: center;
+            /* height: 4vh; */
+            /* background-color:cadetblue; */
+        }
+        .info-heading {
+            margin: 1vh 0;
+            font-size: 28px;
+        }
+        .prize {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        
+        .my-prize {
+            height: 10vh;
+            width: 15vw;
+        }
+        .criteria {
+            height: 15vh;
+            width: 100%;
+            font-size: 1.3em;
+            font-family: subhead;
+            color: white;
+            text-align: center;
+        }
+        .incharges {
+            /* height: 10vh; */
+            width: 100%;
+            font-size: 22px;
+            font-family: body;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 3vh 0;
+        }
+        .in-name:hover {
+            color: silver;
+            cursor: pointer;
+        }
+        .date {
+            width: 100%;
+             /* background-color:aqua; */
+            color: white;
+            text-align: left;
+            font-size: 22px;
+            font-family: body;
+            font-weight: 800;
+        }
+        .time1 {
+            width: 100%;
+             /* background-color:chocolate; */
+            color: white;
+            text-align: left;
+            font-size: 22px;
+            font-family: body;
+            font-weight: 800;
+        }
+        .dateandtime {
+            /* height: 5vh; */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* background-color:burlywood; */
+        }
+        .heading {
+            font-size: 1.5em;
+            font-family: subhead;
+            color: white;
+            text-align: center;
+        }
+        .card {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .not {
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+        .incharge {
+            /* height: 25vh; */
+            padding: 2vh 0;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        .in-name {
+            width: 100%;
+            /* background-color: crimson; */
+            font-size: 28px;
+            font-weight: 800;
+            font-family: subhead;
+            color: white;
+            text-align: center;
+        }
+        .in-email {
+            width: 100%;
+            /* background-color: rgb(20, 207, 220); */
+            font-size: 22px;
+            font-family: body;
+            color: white;
+            text-align: center;
+        }
+        
+        .in-phone {
+            width: 100%;
+            /* background-color: rgb(220, 100, 20); */
+            font-size: 22px;
+            font-family: body;
+            color: white;
+            text-align: center;
+        }
+@media only screen and (max-width: 600px){
+    .eventmain{
+        overflow-y: scroll;
+        padding: 2vh 0vh;
+        overflow-x: hidden;
+        
+
+    }
+    .events-tab {
+        width: 40%;
+        border: rgba(0, 0, 0, 0) solid thin;
+        border-bottom: purple solid thin;
+        padding: 2%;
+        margin: 2% 0%;
+    }
+
+    
+    .events-tab:hover{
+        border: purple solid thin;
+    }
+    .event{
+        flex-wrap: wrap;
+    }
+    .eventdetails{
+        flex-wrap: wrap;
+
+    }
+    .name {
+        /* height: 6vh; */
+        font-size: 2em;
+        text-align: center;
+        font-family: subhead;
+        cursor: pointer;
+    }
+    .content {
+        margin-top: 2vh;
+        margin-top: 2vh;
+    }
 }
-  
-/* Styling the background of
-    left floating section */
-.leftBox .content {
-    color: #FFF;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 40px;
-    transition: .5s;
-}
-  
-/* Styling the hover effect 
-    of left floating section */
-.leftBox .content:hover {
-    background: #BF8FCC;
-}
-  
-/* Styling the header of left
-    floating section */
-.leftBox .content h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 50px;
-    text-transform: uppercase;
-}
-  
-/* Styling the paragraph of
-    left floating section */
-.leftBox .content p {
-    margin: 10px 0 0;
-    padding: 0;
-} 
