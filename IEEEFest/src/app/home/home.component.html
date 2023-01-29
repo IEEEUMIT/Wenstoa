@@ -2,7 +2,7 @@
  <div class="main">
   <div class="home">
     <div>
-      <div spellcheck="false" class="text" contenteditable="false">
+      <div spellcheck="false" class="name" contenteditable="false">
         <h1> IEEE UMIT Presents
           <br>A 360 Degree +
         </h1>
@@ -63,7 +63,7 @@
     <div class="item button-pressure">
       <!-- <button>
         <p> Register Now </p> -->
-        <a href="#">
+        <a href="https://forms.gle/atRpocJ6mqAS4pfm7">
           <span></span>
           <span></span>
           <span></span>
@@ -81,13 +81,133 @@
       </div>
     </div>
   </div>
- 
+
+  
+ <!-- Timeline -->
+ <div class="timelinepg" >
+  <div class="text">TIMELINE</div>
+
+  <div class="timeline">
+    <div class="outer">
+      <div class="cardtl">
+        <div class="info">
+          <h3 class="title">Title 1</h3>
+          <div class="date">Date : 03/02/23 </div>
+          <div class="time">3:00 pm to 4:00 pm</div>
+        </div>
+      </div>
+      <div class="cardtl">
+        <div class="info">
+          <h3 class="title2">Title 2</h3>
+          <div class="date2">Date : 03/02/23 </div>
+          <div class="time2">3:00 pm to 4:00 pm</div>
+        </div>
+      </div>
+      <div class="cardtl">
+        <div class="info">
+          <h3 class="title">Title 3</h3>
+          <div class="date">Date : 03/02/23 </div>
+          <div class="time">3:00 pm to 4:00 pm</div>
+        </div>
+      </div>
+      <div class="cardtl">
+        <div class="info">
+          <h3 class="title2">Title 4</h3>
+          <div class="date2">Date : 03/02/23 </div>
+          <div class="time2">3:00 pm to 4:00 pm</div>
+        </div>
+      </div>
+      <div class="cardtl">
+        <div class="info">
+          <h3 class="title">Title 5</h3>
+          <div class="date">Date : 03/02/23 </div>
+          <div class="time">3:00 pm to 4:00 pm</div>
+        </div>
+      </div>
+      
+      <div class="cardtl">
+        <div class="info">
+          <h3 class="title2">Title 6</h3>
+          <div class="date2">Date : 03/02/23 </div>
+          <div class="time2">3:00 pm to 4:00 pm</div>
+</div>
+</div>
+          
+      <div class="cardtl">
+        <div class="info">
+          <h3 class="title">Title 7</h3>
+          <div class="date">Date : 03/02/23 </div>
+          <div class="time">3:00 pm to 4:00 pm</div>
+          </div>
+          </div>
+          
+      <div class="cardtl">
+        <div class="info">
+          <h3 class="title2">Title 8</h3>
+          <div class="date2">Date : 03/02/23 </div>
+          <div class="time2">3:00 pm to 4:00 pm</div>
+        </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+  <!-- Events -->
+ <div class="event">
+  <h1 id="text">EVENTS</h1>
+<div class="eventbg">
+<section>
+    <div class="card" *ngFor="let x of eventdel">
+        <div class="box" >
+            <div class="imgBx">
+             <img src={{x.img}} alt="image" style="width:300px;height:300px"> 
+            </div>
+            <div class="contentBx">
+              <div>
+                <h2>{{x.name}}</h2>
+                <p>{{x.detail}}</p>
+                </div>
+            </div>
+        </div>
+      </div>
+  </section> 
+</div>
+ </div> 
+
+
+<!-- FAQ  -->
+<div class="faq">
+  <div class="section">
+
+    <div class="heading-cont">
+      <div class="heading">
+        Frequently Asked Questions
+      </div>
+    </div>
+  </div>
+  <br><br>
+        <div class="section-content">
+          <div class="faq">
+            <div class="faq-content" *ngFor="let FAQ of faq; let i=index">
+              <div class="question-cont">
+              <div class="faq-arrow" (click)="toggleFAQ(i)" [ngClass]="{'faq-arrow-turn':faqDisplay[i]}">|[
+              </div>
+              {{FAQ.question}}<br>
+              </div>
+              <div class="answers" [ngClass]="{'a-popout':faqDisplay[i]}">=>     {{FAQ.answer}}
+            </div>
+            </div>
+            </div>
+                  </div> 
+</div>
+
+<!-- Sponsors -->
 <div class="sponsor">
   <h1>Our Sponsors</h1>
 <div class="grid image-grid">
   <div class="grid-block" *ngFor="let x of spons">
     <div class="tile">
-      <a class="tile-link" href={{x.link}}>
+      <a class="tile-link" href={{x.link}}>{{x.name}}
         <img class="tile-img tile-img1" src={{x.img}} alt="Image">
       </a>
     </div>
@@ -95,13 +215,19 @@
   </div>
 </div>
 
+
+
+
+<!-- Fotter -->
  <footer>
   <div class="footer">
-  <div class="row">
-  <a  href="https://www.youtube.com/channel/UCbdLV95w2jS6GhgbLv74C_g" target="_blank"><img src="/assets/youtube.png" style="width:40px;height:40px"><i class="fa fa-youtube-play"></i></a>
-  <a href="https://instagram.com/ieee.umit?igshid=YzdkMWQ2MWU=" target="_blank"><img src="/assets/instagram.ico" style="width:40px;height:40px"><i class="fa fa-instagram"></i></a>
-  <a href="https://www.linkedin.com/company/ieeeumitofficial" target="_blank"><img src="/assets/linkedin.png" style="width:40px;height:40px"><i class="fa fa-linkedin"></i></a>
-  <h1>ieee.umit2223@gmail.com</h1>
+  <div class="icon">
+   <a  href="https://www.youtube.com/channel/UCbdLV95w2jS6GhgbLv74C_g" target="_blank">
+    <img src="/assets/youtube.png" style="width:40px;height:40px">
+    <i class="fa fa-youtube-play"></i></a>
+  <!-- <a href="https://instagram.com/ieee.umit?igshid=YzdkMWQ2MWU=" target="_blank"><img src="/assets/instagram.ico" style="width:40px;height:40px"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.linkedin.com/company/ieeeumitofficial" target="_blank"><img src="/assets/linkedin.png" style="width:40px;height:40px"><i class="fa fa-linkedin"></i></a>  -->
+  <div class="email">ieee.umit2223@gmail.com</div>
   </div>
   <div class="row">
   <ul>
@@ -114,10 +240,8 @@
   </li>
   </ul>
   </div>
-  <div class="row">
+  <div class="last">
   WENSTOA Copyright © 2023 IEEE UMIT - All rights reserved || Designed By: IEEE UMIT 
   </div>
   </div>
   </footer>
-</div>
-</body>
