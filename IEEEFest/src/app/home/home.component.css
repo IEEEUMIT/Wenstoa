@@ -896,17 +896,17 @@ a:hover span:nth-child(4) {
   text-align: center;
 }
 
-.last{
+.last {
   width: 100%;
   color: black;
   font-size: 1em;
 }
 
 .icon a img {
-  height:50px;
-  width:50vw;
-  margin-left:-40px;
-  background-color:#000;
+  height: 50px;
+  width: 50vw;
+  margin-left: -40px;
+  background-color: #000;
 }
 
 .email {
@@ -927,7 +927,6 @@ a:hover span:nth-child(4) {
   margin: 0% 3%;
   margin-left: 2%;
 }
-
 
 @media (max-width: 720px) {
   .footer {
@@ -1129,7 +1128,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
 
 .heading {
@@ -1253,72 +1252,69 @@ html {
   font-family: var(--font);
   display: flex;
   justify-content: center;
-  background-image:url(https://media.giphy.com/media/l41lZZqhIUA6IJNDO/giphy.gif);
+  background-image: url(https://media.giphy.com/media/l41lZZqhIUA6IJNDO/giphy.gif);
   background-image: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
-  background-color:white;
+  background-size: cover;
+  background-color: white;
 }
-
-
 
 /* Timeline Container */
 .timeline {
   background: var(--primary-color);
-  margin-left:250px;
-  margin-top:5px;
+  margin-left: 250px;
+  margin-top: 5px;
   margin-bottom: 5px;
- 
-/*   margin: 1000px auto; */
-/*   padding: -100px; */
+
+  /*   margin: 1000px auto; */
+  /*   padding: -100px; */
 }
 
-.text{
-  font-size:50px;
-  margin-top:800px;
+.text {
+  font-size: 50px;
+  margin-top: 800px;
   position: relative;
-  
 }
 /* Card container */
-.card {
+.cardtl {
   position: relative;
   max-width: 1000px;
 }
 
 .date {
-  font-size : 20px;
-   margin-left: 690px; 
-   position: relative;  
+  font-size: 20px;
+  margin-left: 690px;
+  position: relative;
 }
 
-.date2{
-  font-size:20px;
+.date2 {
+  font-size: 20px;
   margin-left: 20px;
   position: relative;
 }
 
-.time{
-  font-size:20px;
-  margin-left:10px;
+.time {
+  font-size: 20px;
+  margin-left: 10px;
   position: relative;
 }
-.time2{
-  font-size:20px;
-  margin-left:680px;
+.time2 {
+  font-size: 20px;
+  margin-left: 680px;
   position: relative;
 }
 
 /* setting padding based on even or odd */
-.card:nth-child(odd) {
+.cardtl:nth-child(odd) {
   padding: 30px 0 30px 30px;
 }
-.card:nth-child(even) {
+.cardtl:nth-child(even) {
   padding: 30px 30px 30px 0;
 }
 /* Global ::before */
-.card::before {
+.cardtl::before {
   content: "";
   position: absolute;
   width: 50%;
@@ -1326,7 +1322,7 @@ html {
 }
 
 /* Setting the border of top, bottom, left */
-.card:nth-child(odd)::before {
+.cardtl:nth-child(odd)::before {
   left: 0px;
   top: -4.5px;
   bottom: -4.5px;
@@ -1335,7 +1331,7 @@ html {
 }
 
 /* Setting the border of top, bottom, right */
-.card:nth-child(even)::before {
+.cardtl:nth-child(even)::before {
   right: 0;
   top: 0;
   bottom: 0;
@@ -1344,19 +1340,19 @@ html {
 }
 
 /* Removing the border if it is the first card */
-.card:first-child::before {
+.cardtl:first-child::before {
   border-top: 0;
   border-top-left-radius: 0;
 }
 
 /* Removing the border if it is the last card  and it's odd */
-.card:last-child:nth-child(odd)::before {
+.cardtl:last-child:nth-child(odd)::before {
   border-bottom: 0;
   border-bottom-left-radius: 0;
 }
 
 /* Removing the border if it is the last card  and it's even */
-.card:last-child:nth-child(even)::before {
+.cardtl:last-child:nth-child(even)::before {
   border-bottom: 0;
   border-bottom-right-radius: 0;
 }
@@ -1369,7 +1365,7 @@ html {
   color: gray;
   border-radius: 10px;
   width: 50vw;
-  height:150px;
+  height: 150px;
   padding: 10px;
   position: relative;
 }
@@ -1378,12 +1374,12 @@ html {
 .title {
   color: #000;
   position: relative;
-  font-size:30px;
+  font-size: 30px;
 }
-.title2{
-  color:#000;
-  font-size:30px;
-  position:relative;
+.title2 {
+  color: #000;
+  font-size: 30px;
+  position: relative;
 }
 
 .title2::before {
@@ -1395,17 +1391,17 @@ html {
   border-radius: 999px;
   border: 3px solid orangered;
 }
-.card:nth-child(even) > .info > .title2 {
+.cardtl:nth-child(even) > .info > .title2 {
   text-align: right;
 }
 
 /* setting dot to the left if the card is odd */
-.card:nth-child(odd) > .info > .title2::before {
+.cardtl:nth-child(odd) > .info > .title2::before {
   left: -45px;
 }
 
 /* setting dot to the right if the card is odd */
-.card:nth-child(even) > .info > .title2::before {
+.cardtl:nth-child(even) > .info > .title2::before {
   right: -45px;
 }
 /* Timeline dot  */
@@ -1420,17 +1416,17 @@ html {
 }
 
 /* text right if the card is even  */
-.card:nth-child(even) > .info > .title {
+.cardtl:nth-child(even) > .info > .title {
   text-align: right;
 }
 
 /* setting dot to the left if the card is odd */
-.card:nth-child(odd) > .info > .title::before {
+.cardtl:nth-child(odd) > .info > .title::before {
   left: -45px;
 }
 
 /* setting dot to the right if the card is odd */
-.card:nth-child(even) > .info > .title::before {
+.cardtl:nth-child(even) > .info > .title::before {
   right: -45px;
 }
 
@@ -1439,11 +1435,9 @@ html {
   width: 11vw;
   margin-left: 10%;
   transform: scaleX(-1);
-  top:11vh;
-
-} */
-
-.toy-train1 {
+  top: 11vh;
+}
+*/ .toy-train1 {
   position: relative;
   width: 11vw;
   margin-left: -800%;
@@ -1931,14 +1925,9 @@ section .card .box .contentBx div p {
     max-width: 50vw;
     overflow: hidden;
   }
-  .card 
-  .event h1 {
+  .card .event h1 {
     align-items: center;
   }
 }
 
-
-
-
 /* timeline  */
-
