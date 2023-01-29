@@ -15,7 +15,7 @@
   /* display: grid;
     grid-template-columns: 1fr 1fr 1fr; */
     background-image: url(../../assets/background.png);
-    height: 90vh;
+    height: 95vh;
 	overflow: hidden;
 	max-height: 100%;
 	max-width: 100vw;
@@ -644,7 +644,7 @@ background-repeat: no-repeat;
   width: 90%;
   top: 125%;
   left: 5%;
-  font: 18px "Margarine", sans-serif;
+  font: 20px "Margarine", sans-serif;
 }
 .button-pressure marquee span {
   display: inline-block;
@@ -719,18 +719,18 @@ background-repeat: no-repeat;
   /* color:#fff; */
   /* border: 2px solid #f436a2; */
   border-radius: 15px;
-  color: #395ff9;
+  color: #ca00fc;
   font: 25px "Margarine", sans-serif;
   outline: none;
   cursor: pointer;
   position: relative;
   transition: 0.2s ease-in-out;
   letter-spacing: 1px;
-  width: 15%;
+  width: 30vw;
   margin-top: 2px;
-  text-align: center;
-  margin-left: 50%;
-  margin-right: 50%;
+  /* text-align: center; */
+   margin-left: 40%;
+  margin-right: 40%; 
 }
 
 /* .item.footer {
@@ -839,18 +839,19 @@ footer a .icons:before {
 a {
   position: relative;
   display: inline-block;
-  padding: 15px 30px;
+  padding: 12px 25px;
   color: #f436a2;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 30px;
   overflow: hidden;
   transition: 0.2s;
   margin-left: 50%;
   margin-right: 50%;
   font-family: consolas;
   font-weight: 30%;
+  font-weight: bolder;
 }
 
 a:hover {
