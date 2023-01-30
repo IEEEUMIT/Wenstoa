@@ -176,22 +176,22 @@ body::-webkit-scrollbar:horizontal {
     line-height: 70px;
 
   }
-  a {
+  .item button-pressure .a {
     position: relative;
     display: inline-block;
-    padding: 12px 25px;
+    padding: 10px 20px;
     color: #f436a2;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 15px;
     overflow: hidden;
     transition: 0.2s;
     /* margin-left: 50%;
   margin-right: 50%; */
     align-items: center;
     font-family: consolas;
-    font-weight: 30%;
+    font-weight: 15%;
     font-weight: bolder;
   }
   .ferris-wheel{
@@ -980,7 +980,7 @@ footer a .icons:before {
     font-family: consolas;
 } */
 
-  a {
+  .button-pressure a {
     position: relative;
     display: inline-block;
     padding: 12px 25px;
@@ -999,7 +999,7 @@ footer a .icons:before {
     font-weight: bolder;
   }
 
-  a:hover {
+  .button-pressure a:hover {
     color: #255784;
     background: #2196f3;
     box-shadow: 0 0 5px #2196f3, 0 0 15px #2196f3, 0 0 30px #2196f3;
