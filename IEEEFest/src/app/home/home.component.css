@@ -957,6 +957,7 @@ a:hover span:nth-child(4) {
   width: 100%;
   color: black;
   font-size: 1em;
+  margin-left: 30px;
 }
 
 .icon {
