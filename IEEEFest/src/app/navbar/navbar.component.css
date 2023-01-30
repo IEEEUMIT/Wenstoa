@@ -199,8 +199,8 @@ nav.circle ul li a {
     /* responsive */
     @media screen and (max-width: 992px) {
       .menu5 li{
-         font-size: 12px;
-         letter-spacing: 2px;
+         font-size: 20px;
+         letter-spacing: 3px;
 
       }
       .menu5{
@@ -209,5 +209,11 @@ nav.circle ul li a {
       }
       .header5{
         margin-top: -1px;
+        justify-content: space-between;
       }
+      .logo1 img{
+        width:20vw;
+       margin-right: 0px;
+       margin-left: 0px;
+        }
     }
