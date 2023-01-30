@@ -340,7 +340,7 @@
             border: rgba(0, 0, 0, 0) solid thin;
             text-align: center;
             display: flex;
-            font-size: x-small;
+            font-size: small;
             flex-direction: row;
             flex-wrap: wrap;
             column-count: 3;
@@ -365,7 +365,7 @@
 
     .name {
         /* height: 6vh; */
-        font-size: 2em;
+        font-size: xx-large;
         text-align: center;
         font-family: subhead;
         
@@ -414,7 +414,8 @@
     }
     .name {
         width: 100%;
-        font-size: large;
+        font-size: xx-large;
+        font-weight: bold;
     }
     .label {
         font-size: large;
@@ -431,7 +432,8 @@
         font-size: small;
     }
     .adjust2{
-        font-size: x-small;
+        font-size: medium;
+        font-weight: bold;
     }
     
     .incharge {
@@ -466,16 +468,22 @@
         margin: 1vh 0;
     }
     .heading{
-        font-size: medium;
+        font-size:large;
     }
     .desc{
-        font-size: xx-small;
+        font-size: small;
         display: flex;
         overflow-wrap: break-word;
         flex-wrap: wrap;
+        font-weight: 200;
     }
     .ntf-fees{
-        font-size: x-small;
+        font-size: small;
+    }
+    .description-and-prizes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
     
 
