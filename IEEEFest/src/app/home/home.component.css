@@ -14,6 +14,16 @@
   /* box-sizing: border-box; */
   /* display: grid;
     grid-template-columns: 1fr 1fr 1fr; */
+    background-image: url(../../assets/background.png);
+    height: 95vh;
+	overflow: hidden;
+	max-height: 100%;
+	max-width: 100vw;
+    /* background-position: center; */
+    background-size: cover; 
+    text-align: center;
+	/* background-color:#8F47B3; */
+	/* overflow-x:hidden;
   background-image: url(../../assets/background.png);
   height: 90vh;
   overflow: hidden;
@@ -96,6 +106,35 @@ body::-webkit-scrollbar:horizontal {
   margin-left: 20%;
   margin-right: 40%;
   margin-top: 5vh;
+}
+@media screen and (max-width: 992px) {
+	.wenstoa img{
+        max-width: 60vw;
+		max-height: 70px;
+		margin-left: 5%;
+
+	}
+	.lettera img{
+        max-width: 17vw;
+		max-height: 55px;
+		/* margin-left: 10%; */
+		margin-right: 5%;
+		margin-top: 13vh
+
+	}
+	.home{
+		/* background-size: 90vh; */
+		/* max-height: 130%;
+	    max-width: 100vw;
+	 background-position: 50%;
+	 background-position-x:50%; */
+	
+	 background-size:contain;
+background-position: bottom;
+background-repeat: no-repeat;
+/* background-size:  80%; */
+}
+	
 }
 /* letter A */
 .lettera {
@@ -602,10 +641,10 @@ body::-webkit-scrollbar:horizontal {
 /* new button */
 .button-pressure marquee {
   position: absolute;
-  width: 90%;
+  width: 100%;
   top: 125%;
   left: 5%;
-  font: 18px "Margarine", sans-serif;
+  font: 20px "Margarine", sans-serif;
 }
 .button-pressure marquee span {
   display: inline-block;
@@ -680,18 +719,25 @@ body::-webkit-scrollbar:horizontal {
   /* color:#fff; */
   /* border: 2px solid #f436a2; */
   border-radius: 15px;
-  color: #395ff9;
-  font: 25px "Margarine", sans-serif;
+  color: #06dd8b;
+  font: 50px "Margarine", sans-serif;
   outline: none;
   cursor: pointer;
   position: relative;
-  transition: 0.2s ease-in-out;
+  transition: 1s ease-in-out;
   letter-spacing: 1px;
-  width: 15%;
+  width: 150vw;
   margin-top: 2px;
-  text-align: center;
-  margin-left: 50%;
-  margin-right: 50%;
+  /* text-align: center; */
+   margin-left: -40%;
+  /* margin-right: 40%; */
+  font-weight: bolder; 
+  font-size: 50px;
+}
+.marquee{
+	font-weight: 5px;
+	
+
 }
 
 /* .item.footer {
@@ -800,18 +846,20 @@ footer a .icons:before {
 a {
   position: relative;
   display: inline-block;
-  padding: 15px 30px;
+  padding: 12px 25px;
   color: #f436a2;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 35px;
   overflow: hidden;
   transition: 0.2s;
-  margin-left: 50%;
-  margin-right: 50%;
+  /* margin-left: 50%;
+  margin-right: 50%; */
+  align-items: center;
   font-family: consolas;
   font-weight: 30%;
+  font-weight: bolder;
 }
 
 a:hover {
@@ -894,19 +942,57 @@ a:hover span:nth-child(4) {
   padding: 20px 0px;
   font-family: verdana;
   text-align: center;
+  background-image: url(https://media.giphy.com/media/pc6ERNu8pzaTe/giphy.gif);
+  background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.footer:before {
+  opacity: 0.5;
 }
 
 .last {
   width: 100%;
   color: black;
   font-size: 1em;
+  margin-left: 30px;
 }
 
-.icon a img {
-  height: 50px;
-  width: 50vw;
-  margin-left: -40px;
-  background-color: #000;
+.icon {
+  width: 9vw;
+  height: 100%;
+  /* display: flex; */
+  justify-content: center;
+  /* margin-top: 6%; */
+   margin-left:470px; 
+   /*
+  margin-right: */
+  color:#fff;
+}
+.icon a i {
+  font-size: 20px;
+  height: 5vh;
+  width: 60px;
+  color: #000;
+  border-radius: 50px;
+  font-size: 43px;
+  text-align: center;
+  align-items:center;
+  /* margin:10px; */
+  justify-content:center;
+  margin-left:13px;
+  /* box-shadow: 1px 4px 1px 1px; */
+  transition: all 0.3s linear;
+}
+
+.icon a:hover i {
+  transform: scale(1.5);
+  color: rgb(37, 11, 144);
+}
+.icon i.mysize {
+  font-size: 3em;
 }
 
 .email {
@@ -960,7 +1046,12 @@ html {
   min-height: 100vh;
   font-size: 1rem;
   line-height: 1.25;
-  background-color: #18222d;
+  background-image: url(https://media.giphy.com/media/pc6ERNu8pzaTe/giphy.gif);
+  background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .sponsor h1 {
   display: flex;
@@ -1101,32 +1192,29 @@ html {
     15px 15px rgba(4, 140, 231, 0.2), 20px 20px rgba(4, 140, 231, 0.1),
     25px 25px rgba(4, 140, 231, 0.05);
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 600px) {
   .grid-block {
     display: inline-block;
     width: 75%;
     min-width: 100px;
     min-height: 11.25rem;
-    
   }
   .sponsor h1 {
     font-size: 2rem;
   }
 }
 
-  
 .section {
-  height: fit-content;
+  height: 100%;
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   background-size: cover;
  
-
 }
-
+/* 
 .heading-cont {
   width: fit-content;
   align-self: center;
@@ -1134,10 +1222,11 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .heading {
-  font-size: 5vh;
+  margin-top:10px;
+  font-size: 8vh;
   height: fit-content;
   font-family: space;
   text-align: center;
@@ -1146,16 +1235,18 @@ html {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   justify-content: center;
-
 }
 
 .section-content {
+  margin-left:160px;
   width: 100vw;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  min-height: 11.25rem;
+  min-width: 100px;
+
 }
 
 .faq {
@@ -1164,14 +1255,33 @@ html {
   align-items: center;
 }
 
+.faqbg {
+  background-image: url(https://media.giphy.com/media/pc6ERNu8pzaTe/giphy.gif);
+  background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.faqbg:before {
+  opacity: 0.5;
+}
 .faq-content {
-  width: 100%;
+  /* width: 100vw; */
   height: fit-content;
   color: rgb(28, 2, 21);
   position: relative;
-  font-size: 13px;
-  padding: 4px 32px;
+  font-size: 23px;
+  padding: 14px 32px;
   overflow-x: hidden;
+  overflow-wrap: word-wrap;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  text-align: center;
+  justify-content:center;
+  overflow-wrap: break-word;
+  flex-wrap:wrap;
 }
 
 .question-cont {
@@ -1181,13 +1291,13 @@ html {
   height: 5vh;
   display: flex;
   align-items: center;
-  background-color: rgb(172, 194, 213);
+  background-color: transparent;
   cursor: pointer;
   /* padding-left: 5px; */
 }
 
 .answers {
-  background: rgba(239, 240, 244, 0.963);
+  background: transparent;
   color: rgb(1, 3, 10);
   width: 100%;
   /* top:0vh; */
@@ -1254,9 +1364,9 @@ html {
   to {
     transform: rotateZ(0deg);
   }
-} 
-@media only screen and (max-width:600px) {}
-  
+}
+@media only screen and (max-width: 600px) {
+}
 
 /* TIMELINE CSS */
 .timelinepg {
@@ -1264,13 +1374,16 @@ html {
   font-family: var(--font);
   display: flex;
   justify-content: center;
-  background-image: url(https://media.giphy.com/media/l41lZZqhIUA6IJNDO/giphy.gif);
+  background-image: url(https://media.giphy.com/media/3o6vXWjti3IvIpTbbi/giphy.gif);
   background-image: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-color: white;
+}
+.timelinepg:before {
+  opacity: 0.2;
 }
 
 /* Timeline Container */
@@ -1279,6 +1392,7 @@ html {
   margin-left: 250px;
   margin-top: 5px;
   margin-bottom: 5px;
+  align-items:center;
 
   /*   margin: 1000px auto; */
   /*   padding: -100px; */
@@ -1288,6 +1402,7 @@ html {
   font-size: 50px;
   margin-top: 800px;
   position: relative;
+  text-align:center;
 }
 /* Card container */
 .cardtl {
@@ -1296,26 +1411,28 @@ html {
 }
 
 .date {
-  font-size: 20px;
-  margin-left: 690px;
+  font-size: 30px;
+  margin-left: 10px;
   position: relative;
 }
 
 .date2 {
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 30px;
+  margin-left: 680px;
   position: relative;
+  margin-left: 600px; 
 }
 
 .time {
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 10px;
   position: relative;
 }
 .time2 {
-  font-size: 20px;
-  margin-left: 680px;
+  font-size: 30px;
+  margin-left: 635px;
   position: relative;
+  margin-left: 535px;
 }
 
 /* setting padding based on even or odd */
@@ -1373,8 +1490,8 @@ html {
 .info {
   display: flex;
   flex-direction: column;
-  background: #fff;
-  color: gray;
+  background: transparent;
+  color: white;
   border-radius: 10px;
   width: 50vw;
   height: 150px;
@@ -1386,11 +1503,11 @@ html {
 .title {
   color: #000;
   position: relative;
-  font-size: 30px;
+  font-size: 55px;
 }
 .title2 {
   color: #000;
-  font-size: 30px;
+  font-size: 55px;
   position: relative;
 }
 
@@ -1797,6 +1914,18 @@ html {
   margin-bottom: 1.5vh;
 }
 
+.eventpg {
+  background-image: url(https://media.giphy.com/media/pc6ERNu8pzaTe/giphy.gif);
+  background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+.eventpg:before {
+  opacity: 0.5;
+}
 .event {
   align-items: center;
 
@@ -1943,3 +2072,97 @@ section .card .box .contentBx div p {
 }
 
 /* timeline  */
+@media screen and (max-width:700px){
+  
+  
+  /* Timeline Container */
+  .timeline {
+    background: var(--primary-color);
+    margin-left:20px;
+    /*margin-top:4px;
+    margin-bottom: 4px;*/
+    text-align: center;
+   
+  /*   margin: 1000px auto; */
+  /*   padding: -100px; */
+  }
+  
+  .text{
+    font-size:25px;
+    margin-top:200px;
+    
+  }
+  /* Card container */
+  .card {
+    position: relative;
+    max-width: 300vw;
+  }
+  
+  .date {
+    font-size : 20px;
+     margin-left: 20px;   
+  }
+  .date2{
+    font-size:20px;
+    margin-left: 20px;
+  }
+  
+  .time{
+    font-size:20px;
+    margin-left:20px;
+  }
+  .time2{
+    font-size:20px;
+    margin-left:20px;
+  }
+  
+  /* setting padding based on even or odd */
+  .card:nth-child(odd) {
+    padding: 30px 0 30px 30px;
+  }
+  .card:nth-child(even) {
+    padding: 30px 30px 30px 0;
+  }
+  /* Setting the border of top, bottom, left */
+.card:nth-child(odd)::before {
+  left: 0px;
+  top: -4.5px;
+  bottom: -4.5px;
+  border-width: 4px 0 4px 4px;
+  border-radius: 40px 0 0 40px;
+}
+
+/* Setting the border of top, bottom, right */
+.card:nth-child(even)::before {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-width: 4px 4px 4px 0;
+  border-radius: 0 40px 40px 0;
+}
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 60vw;
+  height:100px;
+  padding: 5px;
+}
+
+/* Title of the card */
+.title {
+  position: relative;
+  font-size:20px;
+}
+.title2{
+  font-size:20px;
+  position:relative;
+}
+.timelinepg {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+}
