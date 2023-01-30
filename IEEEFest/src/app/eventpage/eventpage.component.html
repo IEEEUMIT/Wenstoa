@@ -44,22 +44,28 @@
                                 </div>
                             </div> -->
                             <div class="events-info-section" *ngIf="tab == 3">
-                                <div class="name-tagline">
+                                <div class="name-tagline-fees">
                                     <div class="ntf name">
                                         <div class="label">
                                             {{events[event].name}}
                                         </div>
                                     </div>
                                     <div class="ntf tagline">
-                                        {{events[event].tagline}}
+                                        *{{events[event].tagline}}
                                     </div>
+                                    
+                                        <div class="ntf-fees">
+                                            Members: ₹{{events[event].member}} <br> Non members: ₹{{events[event].nonmember}}
+                                        </div>
+                                    
                                     
                                 </div>
                                 <div class="description-and-prizes">
                                     <div class="adjust">
                                         <div class="adjust2">Description</div>
+
                                         <div class="desc">
-                                            {{events[event].desc}}
+                                            {{events[event].type}} <br>{{events[event].type2}} 
                                         </div>
                                     </div>
                                     <div class="prizes">
@@ -70,13 +76,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="dateandtime">
+                                <!-- <div class="dateandtime">
                                     <div class="date">Mode: {{events[event].mode}}</div>
                                     <div class="date"> Date: {{events[event].date}}</div>
                                     <div class="time1">Time:
                                         <div *ngFor="let t of events[event].Time">{{t}}</div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="incharges">
                                     <div class="heading">Event Co-ordinators</div>
                                  

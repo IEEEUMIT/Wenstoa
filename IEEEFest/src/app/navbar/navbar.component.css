@@ -81,6 +81,7 @@ nav.circle ul li a {
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    background-color: white;
   }
   
   .container {
