@@ -1404,26 +1404,28 @@ html {
 }
 
 .date {
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 10px;
   position: relative;
 }
 
 .date2 {
-  font-size: 30px;
-  margin-left: 660px;
+  font-size: 25px;
+  /* margin-left: 660px; */
   position: relative;
+  margin-left: 600px; 
 }
 
 .time {
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 10px;
   position: relative;
 }
 .time2 {
-  font-size: 30px;
-  margin-left: 615px;
+  font-size: 25px;
+  /* margin-left: 615px; */
   position: relative;
+  margin-left: 535px;
 }
 
 /* setting padding based on even or odd */
@@ -1494,11 +1496,11 @@ html {
 .title {
   color: #000;
   position: relative;
-  font-size: 55px;
+  font-size: 40px;
 }
 .title2 {
   color: #000;
-  font-size: 55px;
+  font-size: 40px;
   position: relative;
 }
 
