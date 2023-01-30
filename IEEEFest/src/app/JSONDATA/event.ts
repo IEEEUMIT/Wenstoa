@@ -112,7 +112,7 @@ export var event =
   "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy "]
 }, 
 {    "id" : 5,
-    "name":"MatarGhasti",
+    "name":"MatarGhashti",
     "type": "Life toh hai out of control, but we are here to take full control of your enteLrtainment.",
     "type2":"A fun event, with games of a kind that will help you create memories of a lifetime!",
     "tagline": "Bazm -e-yaaraan",
