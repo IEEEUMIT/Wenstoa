@@ -22,7 +22,7 @@ export var FAQ = [
     },
     {
         "question":"Are there any prizes for the winners?",
-        "answer":"You will get Exciting prizes from our sponsors. So come on, Hurry up and register for our events.",
+        "answer":"You will get Exciting prizes from our sponsors.So dont miss chance.",
     },
     {
         "question":"How many Technical and Non-technical events are organized ?",
@@ -38,14 +38,14 @@ export var FAQ = [
     },
     {
         "question":"What is the date, time and venue for these competitions?",
-        "answer":"The detailed schedule of the competitions will be released later. Stay tuned to our social media handles.",
+        "answer":"The detailed schedule of the competitions will be released later on our social media handle.",
     },
     {
         "question":"Am I supposed to register for the group competition myself?",
         "answer":"If you are the team leader, you must go to the competition you are interested in and create a team and submit the required fee.",
     },
     {
-        "question":"Will I get a certificate for participation in competitions during 360+?",
+        "question":"Will I get a certificate for participation?",
         "answer":"Yes everyone participating will get a certificate of participation.",
     },
     {
