@@ -1233,7 +1233,7 @@ html {
   height: 100%;
   font-family: space;
   text-align: center;
-  background: -webkit-linear-gradient(rgb(230, 42, 145), rgb(93, 14, 116));
+  background: -webkit-linear-gradient(rgb(179, 31, 112), rgb(72, 9, 91));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1306,14 +1306,16 @@ html {
   /* top:0vh; */
   /* margin-top: 15vh; */
   height: 2vh;
-  padding-left: -20vw;
+  padding-left: -30vw;
   display: flex;
   align-items: center;
   animation: answer-in 0.2s ease-in-out forwards;
   position: relative;
   overflow-wrap: break-word;
-  font-size: 9px;
+  font-size: 18px;
+  text-align: center;
 }
+
 
 .a-popout {
   animation: answer-out 0.2s ease-in-out forwards;
@@ -1381,9 +1383,9 @@ html {
     justify-content: center;
     align-items: center;
     max-width: 550px;
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
-    /* margin-left: 40%; */
+    margin-left: -7%;
     margin-right: -20%;
 
   }
@@ -1392,6 +1394,9 @@ html {
     margin-left:-20px;
   }
   .faq-content{
+    font-size: 11px;
+  }
+  .answers{
     font-size: 11px;
   }
   
