@@ -641,7 +641,7 @@ background-repeat: no-repeat;
 /* new button */
 .button-pressure marquee {
   position: absolute;
-  width: 90%;
+  width: 100%;
   top: 125%;
   left: 5%;
   font: 20px "Margarine", sans-serif;
@@ -719,18 +719,25 @@ background-repeat: no-repeat;
   /* color:#fff; */
   /* border: 2px solid #f436a2; */
   border-radius: 15px;
-  color: #ca00fc;
-  font: 25px "Margarine", sans-serif;
+  color: #06dd8b;
+  font: 50px "Margarine", sans-serif;
   outline: none;
   cursor: pointer;
   position: relative;
-  transition: 0.2s ease-in-out;
+  transition: 1s ease-in-out;
   letter-spacing: 1px;
-  width: 30vw;
+  width: 150vw;
   margin-top: 2px;
   /* text-align: center; */
-   margin-left: 40%;
-  margin-right: 40%; 
+   margin-left: -40%;
+  /* margin-right: 40%; */
+  font-weight: bolder; 
+  font-size: 50px;
+}
+.marquee{
+	font-weight: 5px;
+	
+
 }
 
 /* .item.footer {
@@ -844,11 +851,12 @@ a {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 35px;
   overflow: hidden;
   transition: 0.2s;
-  margin-left: 50%;
-  margin-right: 50%;
+  /* margin-left: 50%;
+  margin-right: 50%; */
+  align-items: center;
   font-family: consolas;
   font-weight: 30%;
   font-weight: bolder;
