@@ -1,25 +1,28 @@
 export var event = 
-[{   "id": 1, 
+[{   "id": 7, 
     "name": "Ravzion",
-    "type": "Non-Tech",
+    "type": "Life is full of riddles, So while exploring and solving one another, don't forget to enjoy your journey too",
     "tagline": "Wander wisely",
+    "member":"500",
+    "nonmember":"600",
     "date" : "2",
     "time":[
         "round 1: 11 to 12",
         "round 2: 12 to 1",
     ],
+  
     "eventincharge":
     [
         {
             "name":"Tanvee Joshi",
-            "emailid":"dsdgvcs",
+            "emailid":"tanvee03joshi@gmail.com",
             "number":"5667889433",
-            "description":"This is technical event",
+            
         },
 
         {
             "name":"Kshitija Karande",
-            "emailid":"sgdhfkdn",
+            "emailid":"kshitijaak2502@gmail.com",
             "number":"8788354162",
         },
 
@@ -32,9 +35,11 @@ export var event =
    "prizes": ["566","ghh"],
    "rules" : ["In case of any discrepancy, the organizers will have a final say."],
 },
-{    "id": 2,
+{    "id":6 ,
     "name":"Mahfil-E-Taxi",
-    "type": "Non-Tech",
+    "type": "*Happiness is*....a taxi appearing just when you need it...So board the taxi",
+    "type2":"Dil ki dastaan sunnao tumhari Jarur aao mehfil me humari",
+
     "tagline": "Raah me milte lafz",
     "date" : "56 65",
     "time":[
@@ -45,12 +50,12 @@ export var event =
     [
         {
             "name":"Tanvee Joshi",
-            "emailid":"dsdgvcs",
+            "emailid":"tanvee03joshi@gmail.com",
             "number":"9028249474",
         },
 
         { "name":"Kshitija Karande",
-        "emailid":"sgdhfkdn",
+        "emailid":"kshitijaak2502@gmail.com",
         "number":"8788354162",
             
         },
@@ -65,80 +70,13 @@ export var event =
   "prizes": ["567","667"],
   "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy "],
 }, 
-{
-    
-    "name":"BombayCircuit",
-    "type": "Tech",
-    "tagline": "",
-    "date" : "56 65",
-    "time":[
-        "round 1: 12 to 13",
-        "round 2: 11 to 16",
-    ],
-    "eventincharge":
-    [
-        {
-            "name":"Tanvee Joshi",
-            "emailid":"dsdgvcs",
-            "number":"9028249474",
-        },
 
-        { "name":"Kshitija Karande",
-        "emailid":"sgdhfkdn",
-        "number":"8788354162",
-            
-        },
-
-        {
-            "name":"Pratiksha Barman",
-            "emailid":"gdfscjdt",
-            "number":"7977605183",
-            
-       },
-    ],
-  "prizes": ["567","667"],
-  "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy "],
-
-},
-{
-    
-    "name":"Naukari Central",
-    "type": "Tech",
-    "tagline": "Raah me milte lafz",
-    "date" : "56 65",
-    "time":[
-        "round 1: 12 to 13",
-        "round 2: 11 to 16",
-    ],
-    "eventincharge":
-    [
-        {
-            "name":"Tanvee Joshi",
-            "emailid":"dsdgvcs",
-            "number":"9028249474",
-        },
-
-        { "name":"Kshitija Karande",
-        "emailid":"sgdhfkdn",
-        "number":"8788354162",
-            
-        },
-
-        {
-            "name":"Pratiksha Barman",
-            "emailid":"gdfscjdt",
-            "number":"7977605183",
-            
-       },
-    ],
-  "prizes": ["567","667"],
-  "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy"],
-},
 
 {
-    "id": 3,   
+    "id": 4,   
     "name":"Web Srujana",
-    "type": "Tech",
+    "type": "Give your  touch to design and make websites come alive beacause Great",
+    "type2":"web design is more than pretty pictures",
     "tagline": "Awaken Your Inner Srujana ",
     "date" : "56 65",
     "time":[
@@ -149,12 +87,12 @@ export var event =
     [
         {
             "name":"Tanvee Joshi",
-            "emailid":"dsdgvcs",
+            "emailid":"tanvee03joshi@gmail.com",
             "number":"9028249474",
         },
 
         { "name":"Kshitija Karande",
-        "emailid":"sgdhfkdn",
+        "emailid":"kshitijaak2502@gmail.com",
         "number":"8788354162",
             
         },
@@ -169,9 +107,10 @@ export var event =
   "prizes": ["567","667"],
   "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy "]
 }, 
-{    "id" : 4,
+{    "id" : 5,
     "name":"MatarGhasti",
-    "type": "Non-Tech",
+    "type": "Life toh hai out of control, but we are here to take full control of your enteLrtainment.",
+    "type2":"A fun event, with games of a kind that will help you create memories of a lifetime!",
     "tagline": "Bazm -e-yaaraan",
     "date" : "56 65",
     "time":[
@@ -182,12 +121,12 @@ export var event =
     [
         {
             "name":"Tanvee Joshi",
-            "emailid":"dsdgvcs",
+            "emailid":"tanvee03joshi@gmail.com",
             "number":"9028249474",
         },
 
         { "name":"Kshitija Karande",
-        "emailid":"sgdhfkdn",
+        "emailid":"kshitijaak2502@gmail.com",
         "number":"8788354162",
             
         },
@@ -202,9 +141,10 @@ export var event =
   "prizes": ["567","667"],
   "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy "]
 }, 
-{   "id" : 5,
-    "name":"BombayCircuits",
-    "type": "Tech",
+{   "id" : 1,
+    "name":"Bombay Circuits",
+    "type": "he best error message is the one that never shows up.Experience is the name everyone gives ",
+    "type2":"to their mistakes So come and build the experience you want.",
     "tagline": "Think.Code.Execute",
     "date" : "56 65",
     "time":[
@@ -215,12 +155,12 @@ export var event =
     [
         {
             "name":"Tanvee Joshi",
-            "emailid":"dsdgvcs",
+            "emailid":"tanvee03joshi@gmail.com",
             "number":"9028249474",
         },
 
         { "name":"Kshitija Karande",
-        "emailid":"sgdhfkdn",
+        "emailid":"kshitijaak2502@gmail.com",
         "number":"8788354162",
             
         },
@@ -235,9 +175,10 @@ export var event =
   "prizes": ["567","667"],
   "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy "]
 }, 
-{   "id" : 6,
+{   "id" : 2,
     "name":"NaukariCentral",
-    "type": "Tech",
+    "type": "Best practices are those practices that generally produce the best results or minimize risk.",
+     "type2": "So come and give a try!!",
     "tagline": "On The Hunt For The One",
     "date" : "56 65",
     "time":[
@@ -248,12 +189,12 @@ export var event =
     [
         {
             "name":"Tanvee Joshi",
-            "emailid":"dsdgvcs",
+            "emailid":"tanvee03joshi@gmail.com",
             "number":"9028249474",
         },
 
         { "name":"Kshitija Karande",
-        "emailid":"sgdhfkdn",
+        "emailid":"kshitijaak2502@gmail.com",
         "number":"8788354162",
             
         },
@@ -269,9 +210,10 @@ export var event =
   "rules" : ["hgfcbnhd hgsxfggrwwx jhgfghhy jhyreecbhj jjytvvbnjjy "]
 }, 
 
-{    "id" : 7,
-    "name":"TechyTalkies",
-    "type": "Tech",
+{    "id" : 3,
+    "name":"TechTalkies",
+    "type": "An opportunity to showcase your knowledge should never be wasted.",
+    "type2":"So what are you waiting for? Tech talkies gives you the platform to show off your skills",
     "tagline": "hdfsv",
     "date" : "56 65",
     "time":[
@@ -282,12 +224,12 @@ export var event =
     [
         {
             "name":"Tanvee Joshi",
-            "emailid":"dsdgvcs",
+            "emailid":"tanvee03joshi@gmail.com",
             "number":"9028249474",
         },
 
         { "name":"Kshitija Karande",
-        "emailid":"sgdhfkdn",
+        "emailid":"kshitijaak2502@gmail.com",
         "number":"8788354162",
             
         },
@@ -304,7 +246,8 @@ export var event =
 },
 {    "id" : 8,
     "name":"One of them is Lying ",
-    "type": " Non-Tech",
+    "type": "Kuch toh gadbad hai DAYA.... Everything is a mystery until you unlock it.",
+    "type2":"Be a detective for a day. Unleash the power of your mind",
     "tagline": "Ghum Naam Hai Koi,Badnaam Hai Koi",
     "date" : "56 65",
     "time":[
@@ -315,12 +258,12 @@ export var event =
     [
         {
             "name":"Tanvee Joshi",
-            "emailid":"dsdgvcs",
+            "emailid":"tanvee03joshi@gmail.com",
             "number":"9028249474",
         },
 
         { "name":"Kshitija Karande",
-        "emailid":"sgdhfkdn",
+        "emailid":"kshitijaak2502@gmail.com",
         "number":"8788354162",
             
         },
