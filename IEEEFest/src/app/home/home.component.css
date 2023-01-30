@@ -201,7 +201,7 @@ body::-webkit-scrollbar:horizontal {
     top: -10vh;
     margin-left: 60px;
   }  
-  .wheel{
+  .wheels{
     position: absolute;
     border: 3px solid #4c2a1e;
     width: 8vw;
