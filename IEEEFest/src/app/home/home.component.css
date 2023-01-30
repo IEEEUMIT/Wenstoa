@@ -1212,10 +1212,11 @@ html {
   align-items: center;
   /* margin-top: 10vh; */
   background-size: cover;
-  min-height: 11.25rem;
-  min-width: 100px;
+  justify-content: center;
+
+ 
 }
-/* 
+
 .heading-cont {
   width: fit-content;
   align-self: center;
@@ -1223,12 +1224,13 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-} */
+} 
 
 .heading {
-  margin-top:10px;
-  font-size: 8vh;
-  height: fit-content;
+  width:100%;
+  margin-top:1px;
+  font-size: 50px;
+  height: 100%;
   font-family: space;
   text-align: center;
   background: -webkit-linear-gradient(rgb(230, 42, 145), rgb(93, 14, 116));
@@ -1239,16 +1241,15 @@ html {
 }
 
 .section-content {
-  margin-left:160px;
+  margin-left:100px;
   width: 100vw;
   height: 100%;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   min-height: 11.25rem;
-  min-width: 100px;
-  justify-content:center;
-  overflow-wrap: break-word;
+  min-width: 100vw;
+
 }
 
 .faq {
@@ -1273,24 +1274,24 @@ html {
   height: fit-content;
   color: rgb(28, 2, 21);
   position: relative;
-  font-size: 23px;
+  font-size: 18px;
   padding: 14px 32px;
   overflow-x: hidden;
-  overflow-wrap: word-wrap;
+  /* overflow-wrap: word-wrap; */
   align-items: center;
   justify-content: center;
-  font-weight: bolder;
+  font-weight:bold;
   text-align: center;
   justify-content:center;
   overflow-wrap: break-word;
-  flex-wrap:wrap;
+  /* flex-wrap:wrap; */
 }
 
 .question-cont {
   position: relative;
   /* margin: 0; */
   /* width: 100%; */
-  height: 5vh;
+  height: 2vh;
   display: flex;
   align-items: center;
   background-color: transparent;
@@ -1304,13 +1305,14 @@ html {
   width: 100%;
   /* top:0vh; */
   /* margin-top: 15vh; */
-  height: 5vh;
+  height: 2vh;
   padding-left: -20vw;
   display: flex;
   align-items: center;
   animation: answer-in 0.2s ease-in-out forwards;
   position: relative;
   overflow-wrap: break-word;
+  font-size: 9px;
 }
 
 .a-popout {
@@ -1367,7 +1369,33 @@ html {
     transform: rotateZ(0deg);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 568px) {
+  .faq{
+    max-width: 100vw;
+    min-height: fit-content;
+  }
+  .faq-content{
+    overflow-wrap: break-word;
+  }
+  .heading{
+    justify-content: center;
+    align-items: center;
+    max-width: 550px;
+    font-size: 30px;
+    text-align: center;
+    /* margin-left: 40%; */
+    margin-right: -20%;
+
+  }
+  .section-content{
+    overflow-wrap: break-word;
+    margin-left:-20px;
+  }
+  .faq-content{
+    font-size: 11px;
+  }
+  
+  
 }
 
 /* TIMELINE CSS */
@@ -1376,7 +1404,7 @@ html {
   font-family: var(--font);
   display: flex;
   justify-content: center;
-  background-image: url(https://media.giphy.com/media/pc6ERNu8pzaTe/giphy.gif);
+  background-image: url(https://media.giphy.com/media/3o6vXWjti3IvIpTbbi/giphy.gif);
   background-image: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1391,20 +1419,20 @@ html {
 /* Timeline Container */
 .timeline {
   background: var(--primary-color);
-  margin-left: 50px;
+  margin-left: 250px;
   margin-top: 5px;
   margin-bottom: 5px;
-  align-items: center;
+  align-items:center;
 
   /*   margin: 1000px auto; */
   /*   padding: -100px; */
 }
 
 .text {
-  font-size: 60px;
-  margin-top: 20px;
+  font-size: 50px;
+  margin-top: 800px;
   position: relative;
-  text-align: center;
+  text-align:center;
 }
 /* Card container */
 .cardtl {
@@ -1413,26 +1441,26 @@ html {
 }
 
 .date {
-  font-size: 25px;
+  font-size: 30px;
   margin-left: 10px;
   position: relative;
 }
 
 .date2 {
-  font-size: 25px;
-  /* margin-left: 660px; */
+  font-size: 30px;
+  margin-left: 680px;
   position: relative;
   margin-left: 600px; 
 }
 
 .time {
-  font-size: 25px;
+  font-size: 30px;
   margin-left: 10px;
   position: relative;
 }
 .time2 {
-  font-size: 25px;
-  /* margin-left: 615px; */
+  font-size: 30px;
+  margin-left: 635px;
   position: relative;
   margin-left: 535px;
 }
@@ -1492,7 +1520,7 @@ html {
 .info {
   display: flex;
   flex-direction: column;
-  background: #957dad;
+  background: transparent;
   color: white;
   border-radius: 10px;
   width: 50vw;
@@ -1505,11 +1533,11 @@ html {
 .title {
   color: #000;
   position: relative;
-  font-size: 40px;
+  font-size: 55px;
 }
 .title2 {
   color: #000;
-  font-size: 40px;
+  font-size: 55px;
   position: relative;
 }
 
@@ -1520,7 +1548,7 @@ html {
   height: 10px;
   background: white;
   border-radius: 999px;
-  border: 8px solid orangered;
+  border: 3px solid orangered;
 }
 .cardtl:nth-child(even) > .info > .title2 {
   text-align: right;
@@ -1543,7 +1571,7 @@ html {
   height: 10px;
   background: white;
   border-radius: 999px;
-  border: 8px solid orangered;
+  border: 3px solid orangered;
 }
 
 /* text right if the card is even  */
@@ -1905,8 +1933,6 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-  width: 100%;
 }
 
 .event h1 {
@@ -2076,47 +2102,50 @@ section .card .box .contentBx div p {
 }
 
 /* timeline  */
-@media screen and (max-width: 700px) {
+@media screen and (max-width:700px){
+  
+  
   /* Timeline Container */
   .timeline {
     background: var(--primary-color);
-    margin-left: 20px;
+    margin-left:20px;
     /*margin-top:4px;
     margin-bottom: 4px;*/
     text-align: center;
-
-    /*   margin: 1000px auto; */
-    /*   padding: -100px; */
+   
+  /*   margin: 1000px auto; */
+  /*   padding: -100px; */
   }
-
-  .text {
-    font-size: 25px;
-    margin-top: 200px;
+  
+  .text{
+    font-size:25px;
+    margin-top:200px;
+    
   }
   /* Card container */
   .card {
     position: relative;
     max-width: 300vw;
   }
-
+  
   .date {
-    font-size: 20px;
+    font-size : 20px;
+     margin-left: 20px;   
+  }
+  .date2{
+    font-size:20px;
     margin-left: 20px;
   }
-  .date2 {
-    font-size: 20px;
-    margin-left: 20px;
+  
+  .time{
+    font-size:20px;
+    margin-left:20px;
   }
-
-  .time {
-    font-size: 20px;
-    margin-left: 20px;
+  .time2{
+    font-size:20px;
+    margin-left:20px;
   }
-  .time2 {
-    font-size: 20px;
-    margin-left: 20px;
-  }
-
+  
   /* setting padding based on even or odd */
   .card:nth-child(odd) {
     padding: 30px 0 30px 30px;
@@ -2125,45 +2154,45 @@ section .card .box .contentBx div p {
     padding: 30px 30px 30px 0;
   }
   /* Setting the border of top, bottom, left */
-  .card:nth-child(odd)::before {
-    left: 0px;
-    top: -4.5px;
-    bottom: -4.5px;
-    border-width: 4px 0 4px 4px;
-    border-radius: 40px 0 0 40px;
-  }
+.card:nth-child(odd)::before {
+  left: 0px;
+  top: -4.5px;
+  bottom: -4.5px;
+  border-width: 4px 0 4px 4px;
+  border-radius: 40px 0 0 40px;
+}
 
-  /* Setting the border of top, bottom, right */
-  .card:nth-child(even)::before {
-    right: 0;
-    top: 0;
-    bottom: 0;
-    border-width: 4px 4px 4px 0;
-    border-radius: 0 40px 40px 0;
-  }
-  /* Information about the timeline */
-  .info {
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    width: 60vw;
-    height: 100px;
-    padding: 5px;
-  }
+/* Setting the border of top, bottom, right */
+.card:nth-child(even)::before {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-width: 4px 4px 4px 0;
+  border-radius: 0 40px 40px 0;
+}
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 60vw;
+  height:100px;
+  padding: 5px;
+}
 
-  /* Title of the card */
-  .title {
-    position: relative;
-    font-size: 20px;
-  }
-  .title2 {
-    font-size: 20px;
-    position: relative;
-  }
-  .timelinepg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+/* Title of the card */
+.title {
+  position: relative;
+  font-size:20px;
+}
+.title2{
+  font-size:20px;
+  position:relative;
+}
+.timelinepg {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 }
